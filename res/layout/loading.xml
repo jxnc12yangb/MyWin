@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="fill_parent"
+android:id="@+id/loading"
+android:clickable="true"
+android:focusable="true"
+android:layout_height="fill_parent" android:background="@drawable/load_back">
+
+<com.yangbang.views.LoadingView
+        android:layout_gravity="center_horizontal" android:layout_height="wrap_content"
+        android:id="@+id/main_imageview" android:src="@drawable/loader_frame_1"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        ></com.yangbang.views.LoadingView>
+</RelativeLayout>

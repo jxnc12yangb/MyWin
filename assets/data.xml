@@ -1,0 +1,1184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+<p-property name="leng" value="冷笑话集" icon="iv_1" >
+ <property name='cold1'  value='冷笑话一' > <item name='1'  value='夫妻战,估计会离婚又笑煞旁人' /><item name='2'  value='糗死你!职场生活里的幽默花絮' /><item name='3'  value='生活里面那些超汗的巨冷笑话' /><item name='4'  value='爆笑坑爹,坑死人不偿命冷笑话' /><item name='5'  value='二的不轻,看冷笑话快成傻子了' /><item name='6'  value='巨搞笑,爆冷的二货学生和家长' /><item name='7'  value='其实有趣,婚恋时期的爆冷趣事' /><item name='8'  value='幽默调侃,笑到傻的超爆逗糗事' /><item name='9'  value='狂汗!特没正经西游三国冷笑话' /><item name='10'  value='酷热的夏天实在真是太苦逼了' /><item name='11'  value='“坑爹”起来,二货们可真有招' /><item name='12'  value='糗事连篇叫人受不了,笑趣无限' /><item name='13'  value='笑死,乐翻你的搞笑老师和同学' /><item name='14'  value='逗人孩子,幽默家长讲恐怖笑话' /><item name='15'  value='超级贱!不拿人开涮怎能开心呢' /><item name='16'  value='贴近生活又忽悠人的冷人笑话' /><item name='17'  value='同事的爆囧糗事,一想到就想笑' /><item name='18'  value='我的同学,你真是二的出类拔萃' /><item name='19'  value='崩溃,现在孩子说话跟大人似的' /><item name='20'  value='让你笑出泪花的彪悍二货爸妈' /><item name='21'  value='在生活里面的超搞笑的冷段子' /><item name='22'  value='上班族超糗的爆笑乐人小段子' /><item name='23'  value='居家过日子,常有冷冷幽默笑话' /><item name='24'  value='6则让人巨汗的超级冷幽默笑话' /><item name='25'  value='超逗的糗事,乐得你会笑容满面' /><item name='26'  value='校园爆笑,童鞋你这也太逗了吧' /><item name='27'  value='有趣生活,寒气逼人的超冷笑话' /><item name='28'  value='狂汗,超逗的内涵冷段子笑翻天' /><item name='29'  value='小心舌头打结,史上最难绕口令' /><item name='30'  value='快看,天冷赶紧看笑话不得耽误' /><item name='31'  value='生活乐趣,笑侃关系紧张的夫妻' /><item name='32'  value='雷人糗事,遇见一些很奇怪的事' /><item name='33'  value='太损了,男女爆笑的巨雷人笑话' /><item name='34'  value='交通爆笑奇闻,你会遇到的极品' /><item name='35'  value='爆笑情感,超级冷人的麻辣男女' /><item name='36'  value='冷也要冷的有水平,冷到呵呵笑' /><item name='37'  value='搞笑的夫妻吵架,吵到快要离婚' /><item name='38'  value='巨冷的笑料,经典搞笑的小讽刺' /><item name='39'  value='超冷笑话,抽的是烟其实是寂寞' /><item name='40'  value='幽默夫妻生活趣事,真是巨雷人' /><item name='41'  value='冷且糗的超级小段子,小心被雷' /><item name='42'  value='16则有点寒冷的冷料,要降温不' /><item name='43'  value='极品爸妈,看孩子忍不住的想笑' /><item name='44'  value='打冷颤,20则精选的幽默冷笑话' /><item name='45'  value='33则超短的冷笑话,降温还不错' /><item name='46'  value='超糗经历,10条雷人雷语连连看' /><item name='47'  value='如果你以为这是高潮,下面才是' /><item name='48'  value='爆笑又雷人,真的很佩服这些人' /><item name='49'  value='上班族有关的讽刺小小冷幽默' /><item name='50'  value='太可爱,小孩子的冷冷爆笑笑话' /></property><property name='cold2'  value='冷笑话二' > <item name='1'  value='校园冷笑话,二货同学雷人笑料' /><item name='2'  value='调侃生活的冷人段子,小心感冒' /><item name='3'  value='14则雷人又搞笑的经典冷幽默' /><item name='4'  value='生活里见到的冷笑话,冻死人了' /><item name='5'  value='有点小冷,年轻人生活里的困惑' /><item name='6'  value='冷冷的小讽刺,真是入木三分啊' /><item name='7'  value='中枪了没,年终奖就像个冷笑话' /><item name='8'  value='看完冻得直打哆嗦的幽默笑话' /><item name='9'  value='开心爆料,冷笑话逗你咯咯直笑' /><item name='10'  value='有意思,家庭生活中的搞笑夫妻' /><item name='11'  value='家有孩子笑声多,爆笑儿童幽默' /><item name='12'  value='生活里的笑人糗事,小心别感冒' /><item name='13'  value='好笑,雷人雷到傻的超级冷笑话' /><item name='14'  value='爆冷糗事,说出来也不怕你笑话' /><item name='15'  value='狂汗,令人啼笑皆非的校园趣事' /><item name='16'  value='绝对让人无语的男女雷人糗事' /><item name='17'  value='美好回忆,蜡笔小新的巨冷对白' /><item name='18'  value='巨暴汗,上班族的职场乐人段子' /><item name='19'  value='给力,极品爆笑冷笑话句句要命' /><item name='20'  value='绝不寂寞,萌萌的小孩子最搞笑' /><item name='21'  value='崩溃,工作生活里的雷人冷幽默' /><item name='22'  value='童真,小宝宝的答案可爱又可笑' /><item name='23'  value='看完狂汗的生活超级冷小幽默' /><item name='24'  value='15则笑到肚痛的超级冰冻笑话' /><item name='25'  value='巨冷,发生在上学那会儿的糗事' /><item name='26'  value='内涵爆笑的段子男女,冷得过分' /><item name='27'  value='很冷,遇到这些人能淡定了才怪' /><item name='28'  value='温度超低,谈情说爱的极品男女' /><item name='29'  value='生活总是给我们闹些冷冷笑话' /><item name='30'  value='别错过,新鲜给力的爆笑冷段子' /><item name='31'  value='受益,实习遇到高人出租车司机' /><item name='32'  value='多委婉的搞笑冷料,雷倒一大片' /><item name='33'  value='能把人冷出汗的超萌萌小孩子' /><item name='34'  value='13则冷笑话,让你开心一下好吗' /><item name='35'  value='生活常常弥漫这些超级冷笑话' /><item name='36'  value='12则职场爆冷笑话,小心被坑啊' /><item name='37'  value='爆笑,非正常男女关系巨冷笑话' /><item name='38'  value='寒气逼人的冷笑话,很冷很可乐' /><item name='39'  value='情侣和夫妻的超级爆笑冷幽默' /><item name='40'  value='巨冷,夫妻生活里的爆笑小笑话' /><item name='41'  value='令人啼笑皆非的超冷校园糗事' /><item name='42'  value='超级爆笑的男女,个个都不着调' /><item name='43'  value='雷人不着调的学生,把老师气坏' /><item name='44'  value='20条欠扁冷笑话,小心看完感冒' /><item name='45'  value='纠结郁闷,很是冷人的职场爆笑' /><item name='46'  value='无聊生活里面的爆笑冷冷笑话' /><item name='47'  value='再拿笑话开涮,小心笑话会怒了' /><item name='48'  value='笑死人的爸妈,真是服了他们了' /><item name='49'  value='其乐也融融的老少乐家庭幽默' /><item name='50'  value='10则寒死人不偿命的超级冷料' /></property><property name='cold3'  value='冷笑话三' > <item name='1'  value='太糗了吧,生活里的搞笑雷人事' /><item name='2'  value='一组耐人寻味发人深省的冷料' /><item name='3'  value='谈恋爱谈出来的超级巨冷笑话' /><item name='4'  value='灰常新鲜冷笑话,真是冷劲十足' /><item name='5'  value='注意防寒,动物们的恶搞冷笑话' /><item name='6'  value='超损人冷语,损得让人受不了啊' /><item name='7'  value='儿童笑话,孩子们的幽默与智慧' /><item name='8'  value='不着调的孩子能把人气个半死' /><item name='9'  value='爆笑家庭生活里的小笑话精选' /><item name='10'  value='极品爆笑的生活糗事一大箩筐' /><item name='11'  value='冷冷男女,谈情说爱的情感幽默' /><item name='12'  value='不错,搞笑学生的冷冷校园幽默' /><item name='13'  value='有点恐怖的冷笑话,那叫一个冷' /><item name='14'  value='开心一刻,想不到一块儿闹笑话' /><item name='15'  value='冷啊冷,20条狂滴汗的短信段子' /><item name='16'  value='赶紧学,男人做家务的搞笑理由' /><item name='17'  value='很会调侃,巨雷人的爆笑冷幽默' /><item name='18'  value='巨冷,食色男女的超雷人搞笑事' /><item name='19'  value='比天气还冷,总令人想歪的冷料' /><item name='20'  value='真好笑,好看又冷的幽默小笑话' /><item name='21'  value='高校BBS上40个睿智的冷笑话' /><item name='22'  value='降温的冷幽默,冷到零下无穷度' /><item name='23'  value='巨雷的逗人搞笑居家麻辣父母' /><item name='24'  value='年轻幽默搞笑小段子,温度超低' /><item name='25'  value='顶,温度骤降的超寒冷笑话18则' /><item name='26'  value='雷人的年轻男女让人笑到爆炸' /><item name='27'  value='家庭里父子兄弟间的雷人幽默' /><item name='28'  value='驱寒,18则让你爆冷的超级笑话' /><item name='29'  value='爆强,冷死人不偿命超强冷笑话' /><item name='30'  value='超级糗,好笑又雷人的冰冷段子' /><item name='31'  value='爆笑寒人,幽默感十足的冷幽默' /><item name='32'  value='职场必备,教你看懂招聘的广告' /><item name='33'  value='开学了,很不着调的室友和同学' /><item name='34'  value='超多暴笑冷笑话,不进来后悔啊' /><item name='35'  value='新鲜到货,冷到结成了冰的笑话' /><item name='36'  value='看完马上凉快,生活雷人冷幽默' /><item name='37'  value='偷笑还不错,秋分带来微冷幽默' /><item name='38'  value='爆笑的小孩子,每天都像过周末' /><item name='39'  value='很冷啊,给力的搞笑讽刺小笑话' /><item name='40'  value='真佩服,年轻人就是爱搞冷幽默' /><item name='41'  value='相亲谈恋爱,爆笑的动物冷笑话' /><item name='42'  value='巨汗,愚笨鲁莽的民间冷冷爆笑' /><item name='43'  value='急速降温,爆冷的恶搞笑果强大' /><item name='44'  value='调侃生活的冷人笑话,小心被寒' /><item name='45'  value='有点小寒的冷冻笑话,你看懂没' /><item name='46'  value='20则夸张不着调的冷人小笑话' /><item name='47'  value='搞笑夫妻糗事,欢乐日子笑料多' /><item name='48'  value='冷得天寒地冻的冰冻幽默笑话' /><item name='49'  value='超冷,情感道路上的爆笑年轻人' /><item name='50'  value='偷奸耍滑,鬼点子多的生活冷料' /></property><property name='cold4'  value='冷笑话四' > <item name='1'  value='10个挺有意思的超幽默冷笑话' /><item name='2'  value='27条很有冷感的幽默调侃笑话' /><item name='3'  value='相当冷!孙子和爷爷的爆笑对话' /><item name='4'  value='校园笑话:和室友一起的冷爆笑' /><item name='5'  value='9则幽默小笑话,冷到直打喷嚏' /><item name='6'  value='校园冷料,灰常幽默的雷人师生' /><item name='7'  value='巨寒,爆笑流行的10则超冷笑话' /><item name='8'  value='爆肚,让你笑弯了腰的开心糗事' /><item name='9'  value='气温有点低,爆笑就靠不着调了' /><item name='10'  value='新鲜搞笑雷人一句话,太冷场了' /><item name='11'  value='糗事爆笑,不把人笑翻绝不罢休' /><item name='12'  value='冷人的雷事,一句话爆笑冷幽默' /><item name='13'  value='学学,男孩用来哄女孩的冷笑话' /><item name='14'  value='12则巨雷人的开心冷幽默笑话' /><item name='15'  value='要注意,何止有点冷的幽默笑话' /><item name='16'  value='幸福啊,家庭生活里的超级爆笑' /><item name='17'  value='爆笑冷幽默,一不小心就着凉了' /><item name='18'  value='动物们,你们太在意外在形象了' /><item name='19'  value='雷死人,解释有关动物的歇后语' /><item name='20'  value='实在郁闷,估计是最欠揍的短信' /><item name='21'  value='乐死人的尴尬瞬间,糗到家了啊' /><item name='22'  value='爆笑生活里的雷事糗事一箩筐' /><item name='23'  value='冷的很低调,冷的很好笑的幽默' /><item name='24'  value='调皮可爱的孩子,时常温度骤降' /><item name='25'  value='狂汗,春节期间的逗人欢乐趣事' /><item name='26'  value='强,女生是这样暗示男生吻她的' /><item name='27'  value='具有颠覆性思维的超级冷笑话' /><item name='28'  value='糗到无语,同事之间的闲侃爆笑' /><item name='29'  value='零下无穷度,雷人的校园冷幽默' /><item name='30'  value='不正常不着调的冷人男女笑话' /><item name='31'  value='网友遭遇到的生活超杯具事件' /><item name='32'  value='金秋时节天天开心的冷冻笑话' /><item name='33'  value='不用开空调就能降温的冷笑话' /><item name='34'  value='工作职场,上班族们的超冷幽默' /><item name='35'  value='动物的经典冷幽默,温度降冰点' /><item name='36'  value='超崩溃,两口子吵架的雷人原因' /><item name='37'  value='很冷,七则动物们的超级冷笑话' /><item name='38'  value='撞板了,情人们之间的悲剧趣事' /><item name='39'  value='逗人孩子,有聪明也有傻乎乎的' /><item name='40'  value='冷知识:48个十分诡异的心理学' /><item name='41'  value='有点冷,幽默的植物参加招聘会' /><item name='42'  value='hold不住了吧,逗人的巨冷幽默' /><item name='43'  value='开心一刻,逗人冷笑话里欢乐多' /><item name='44'  value='挺郁闷,风情男女短信冷冷笑话' /><item name='45'  value='关于奥运会的11则冷冷小笑话' /><item name='46'  value='古往今来,被段子黑的人真不少' /><item name='47'  value='逗人的夫妻生活,冷得捏一把汗' /><item name='48'  value='生活需要调剂下的冷冷小幽默' /><item name='49'  value='10则超冷笑话,降温的最佳途径' /><item name='50'  value='天气闷热,看看冷笑话凉快一下' /></property><property name='cold5'  value='冷笑话五' > <item name='1'  value='7则趣味冷笑话,小心别着凉了' /><item name='2'  value='天气有点小冷,但笑话非常雷人' /><item name='3'  value='真够冷:叫人理解不了的小朋友' /><item name='4'  value='看似正常,爆笑里面藏极品冷料' /><item name='5'  value='冒冒失失,搞笑着就把日子过了' /><item name='6'  value='搞笑的愚人小笑话,别乐极生悲' /><item name='7'  value='不错,8则随机挑选的小冷笑话' /><item name='8'  value='要不要这么糗,爆笑囧人糗事录' /><item name='9'  value='爆笑冷人,幽默感十足的冷笑话' /><item name='10'  value='孩子越小越搞笑,意想不到冷料' /><item name='11'  value='别错过,超冷幽默天赋展现无遗' /><item name='12'  value='爆笑,生活工作中的超糗冷幽默' /><item name='13'  value='10则微冷的笑话,看完心情大好' /><item name='14'  value='非冷即雷的笑话,看看就凉快了' /><item name='15'  value='温度急降,滑稽荒诞的冷冷幽默' /><item name='16'  value='8则超短笑话,真的又冷又爆笑' /><item name='17'  value='没事逗逗小孩子,雷得爆笑不止' /><item name='18'  value='动物的烦恼俏皮话,真的太形象' /><item name='19'  value='要能惹得爆笑,也就心满意足了' /><item name='20'  value='有才,冷人的&quot;文字游戏&quot;小笑话' /><item name='21'  value='逗人的小孩,萌萌的巨冷巨可爱' /><item name='22'  value='把人冷晕的冷笑话,小心着凉哦' /><item name='23'  value='擦擦汗,经典歌曲里藏着冷笑话' /><item name='24'  value='别感冒了,办公室内的冷冷笑话' /><item name='25'  value='有孩子就会有笑料,想法很爆笑' /><item name='26'  value='乐趣多多,搞笑生活糗事乐死了' /><item name='27'  value='滴汗,小宝宝的答案又冷又可笑' /><item name='28'  value='爆笑的超冷糗事,小心别着凉啊' /><item name='29'  value='爆笑雷人,蠢蠢的经典超冷笑话' /><item name='30'  value='超级糗啊,尴尬丢人的爆笑时分' /><item name='31'  value='年轻的风情男女尴尬爆笑幽默' /><item name='32'  value='巨同情,生活中那些冷冷的遭遇' /><item name='33'  value='好冷的糗事,不着调的寒人爆笑' /><item name='34'  value='儿童冷笑话大全,虽冷但很有趣' /><item name='35'  value='真够坑爹,冷死人的超级小幽默' /><item name='36'  value='顶,9则灰常给力的超级冷笑话' /><item name='37'  value='超经典冷笑话,真是可遇不可求' /><item name='38'  value='悠着点,小心乐坏你的爆笑糗事' /><item name='39'  value='小心别着凉,14则爆笑的冷笑话' /><item name='40'  value='巨汗,10则还不错的幽默冷笑话' /><item name='41'  value='爆笑超冷糗人糗事,雷人无话说' /><item name='42'  value='冷汗,11则有点小冷的幽默段子' /><item name='43'  value='解解闷,杂七杂八的超级冷幽默' /><item name='44'  value='开心上班族,职场雷人爆笑糗事' /><item name='45'  value='爆笑男女,搞笑校园生活乐子多' /><item name='46'  value='好甜蜜,平淡夫妻的生活冷笑话' /><item name='47'  value='笨也笨得好笑,是幽默还是愚昧' /><item name='48'  value='还不错的脑筋急转,能拐过来吗' /><item name='49'  value='巨冷,超级雷人的糗事幽默笑话' /><item name='50'  value='爆笑,家长和子女间的搞笑糗事' /></property><property name='cold6'  value='冷笑话六' > <item name='1'  value='噗,好笑但又很冷的经典小笑话' /><item name='2'  value='还挺冷,幽默搞笑的儿童小笑话' /><item name='3'  value='学车也爆笑,驾校师傅的冷幽默' /><item name='4'  value='爆笑逗人,幽默聪明调皮小孩子' /><item name='5'  value='超爆笑,婚后的男人是弱势群体' /><item name='6'  value='超级糗,家长给的答案真够雷的' /><item name='7'  value='恋爱情侣的笑人糗事,充满喜乐' /><item name='8'  value='保证够冷够爆笑的巨冷小笑话' /><item name='9'  value='笑坏了,生活碰到的超尴尬糗事' /><item name='10'  value='短而精悍的9则经典生活冷幽默' /><item name='11'  value='工作趣事,雷人好笑老板和职员' /><item name='12'  value='爆笑校园里的学生间囧人爆笑' /><item name='13'  value='有点寒,办公室内外爆笑冷笑话' /><item name='14'  value='狂滴汗,各种球类之间互为偶像' /><item name='15'  value='没事偷着乐,幽默逗人的孩子们' /><item name='16'  value='很冷,谈情说爱的幽默男女语录' /><item name='17'  value='害羞,关于接吻的另类爱情笑话' /><item name='18'  value='搞笑职场生活上的超冷小段子' /><item name='19'  value='雷人糗事,全都是超好笑的事儿' /><item name='20'  value='幽默的孩子和家长,不只是好笑' /><item name='21'  value='20个冷笑话,雷的我外焦里酥了' /><item name='22'  value='经典冷笑话集合,会有你稀饭的' /><item name='23'  value='抹一把汗,男女爆笑冷幽默段子' /><item name='24'  value='巨寒,生活里冷且尴尬的小笑话' /><item name='25'  value='爆冷啊,很尴尬爆笑的校园笑话' /><item name='26'  value='爆笑损人,目测这里面要打架的' /><item name='27'  value='搞笑逗人的情恋男女,冷到冰点' /><item name='28'  value='自娱自乐,蠢蠢的经典超冷笑话' /><item name='29'  value='无语了,一不小心就犯傻的冷料' /><item name='30'  value='笑到女生休克的超冷笑话15则' /><item name='31'  value='搞笑糗事16条小段,真是丢脸啊' /><item name='32'  value='搞笑的冷料,多么悲催的人们啊' /><item name='33'  value='看着火大,年轻时侯那些好笑事' /><item name='34'  value='巨寒,很会损人挖苦的幽默男女' /><item name='35'  value='小崩溃,超级欠扁的脑筋急转弯' /><item name='36'  value='妥妥的被这些小孩子给逗笑了' /><item name='37'  value='笑话也可以把你冻得一直发抖' /><item name='38'  value='巨汗,15则动物儿的超级冷笑话' /><item name='39'  value='逗乐搞笑夫妻,笑的你腮帮子疼' /><item name='40'  value='儿童冷料,能把人冷出汗的小孩' /><item name='41'  value='雷人幽默,毁了经典毁了小清新' /><item name='42'  value='最给力糗事大集合,羞到不行了' /><item name='43'  value='雷翻孩子的家长爆笑冷冷幽默' /><item name='44'  value='恶整搞笑职场,温度实在有点低' /><item name='45'  value='认真点,很少人能看懂的冷笑话' /><item name='46'  value='狂滴汗,冷人的谈情说爱小幽默' /><item name='47'  value='职场笑料,工作求职时侯的爆笑' /><item name='48'  value='爆笑校园,笑死人的学生雷人事' /><item name='49'  value='有点甜蜜,超糗的雷人夫妻笑话' /><item name='50'  value='调皮,校园糗事逗得你捧腹大笑' /></property><property name='cold7'  value='冷笑话七' > <item name='1'  value='逗人搞笑的小朋友,爆笑指数高' /><item name='2'  value='hold不住,冷死人的医疗小幽默' /><item name='3'  value='20条风趣经典的搞笑冰冻段子' /><item name='4'  value='夏日炎炎,11条降温的超冷笑话' /><item name='5'  value='冬天快来了,冷笑话温度也急降' /><item name='6'  value='学生太顽皮,校园里的乐人糗事' /><item name='7'  value='职场超冷幽默,糗的直瞪眼珠子' /><item name='8'  value='很萌很可爱,稚嫩天真儿童爆笑' /><item name='9'  value='以冷翻为目标,这里有群闷捣蛋' /><item name='10'  value='做事的最高境界,总结得还不错' /><item name='11'  value='真应该搞笑的冷笑话,绝对解闷' /><item name='12'  value='炎炎夏日里依然感觉冷的笑话' /><item name='13'  value='注意防寒,平淡夫妻生活冷幽默' /><item name='14'  value='狂汗啊,糗的让人脸都没地儿搁' /><item name='15'  value='爆冷,非一般思维的小孩笑死你' /><item name='16'  value='新鲜短短冷笑话,一不小心被雷' /><item name='17'  value='温度超低,雷人男女很冷很受伤' /><item name='18'  value='寒!让老师直流冷汗的二货学生' /><item name='19'  value='巨冷笑话,雷到爆炸的极品爸妈' /><item name='20'  value='搞笑的家长,幽默家庭的小笑话' /><item name='21'  value='搞笑小朋友,欢度六一儿童节吧' /><item name='22'  value='蠢蠢经典冷笑话,送来阵阵凉风' /><item name='23'  value='九条冷料,虽冷但还挺有意思的' /><item name='24'  value='虽然有点冷,很逗的开心冷笑话' /><item name='25'  value='新鲜收集贡献九则巨寒冷笑话' /><item name='26'  value='好笑也讽刺,简短雷人风趣笑话' /><item name='27'  value='巨冷,身在职场遇到的雷人幽默' /><item name='28'  value='小年轻好冷的恋爱男女小笑话' /><item name='29'  value='生活中的笑话,逗你爆笑一整天' /><item name='30'  value='感觉良好,比较冷的俏皮短笑话' /><item name='31'  value='边看边笑,爆逗男女的超冷笑话' /><item name='32'  value='可爱,让你捧腹的极品小屁孩儿' /><item name='33'  value='寒,冷到极点的冰冻笑话大集合' /><item name='34'  value='开心男女冷料,逗的逗二的很二' /><item name='35'  value='温度超低的,幽默夫妻雷事儿多' /><item name='36'  value='爆汗,会笑不尽的尴尬冷人冷事' /><item name='37'  value='笑话串串烧,9则有讽刺味幽默' /><item name='38'  value='准备好胶袋,奇葩的男女雷翻你' /><item name='39'  value='总是能令人想歪的经典冷幽默' /><item name='40'  value='巨冷雷语糗事,都傻傻分不清楚' /><item name='41'  value='巨冷的笑话,带给你丝丝凉意啊' /><item name='42'  value='不能生气!淘气小孩闹出的笑话' /><item name='43'  value='当你年轻时,做过这样的糗事吗' /><item name='44'  value='爆笑的儿童冷笑话,家长添欢乐' /><item name='45'  value='冷料巨寒,搞笑雷人的小小幽默' /><item name='46'  value='小夫妻搞笑着就把日子给过了' /><item name='47'  value='让你忍不住想笑的家长冷幽默' /><item name='48'  value='乐抽了,爆笑校园里的老师学生' /><item name='49'  value='温度下降,新鲜到货的冷冷笑话' /><item name='50'  value='想不到,幽默逗人的脑筋急转弯' /></property><property name='cold8'  value='冷笑话八' > <item name='1'  value='不淡定,爆冷的夫妻生活小幽默' /><item name='2'  value='吐槽大雾和火车票的冷冷段子' /><item name='3'  value='冷是冷了点,效果还不错的笑话' /><item name='4'  value='很冷的校园小幽默,很寒很搞笑' /><item name='5'  value='风趣搞笑的夫妻幽默,有点儿冷' /><item name='6'  value='生活趣事好笑好玩的雷人段子' /><item name='7'  value='保暖吧,效果还不错幽默冷笑话' /><item name='8'  value='挺着点,够寒够爆笑的巨冷幽默' /><item name='9'  value='生活里一些糗糗经历冷到底了' /><item name='10'  value='雷死了,小朋友总能让你乐开怀' /><item name='11'  value='狂汗很爆冷内涵的新鲜冷段子' /><item name='12'  value='无语,脑残开心调侃的冰冻段子' /><item name='13'  value='工作欢乐多,搞笑乐人职场囧事' /><item name='14'  value='恋爱虽甜蜜但有时冷得不像话' /><item name='15'  value='乐死人了,糗的让人脸没地儿搁' /><item name='16'  value='10则巨冷的幽默笑话,瞬间结冰' /><item name='17'  value='9则超级冷笑话,给炎热降降温' /><item name='18'  value='超冷,耍贫嘴光吵架的幽默夫妻' /><item name='19'  value='反映夫妻关系的小笑话,巨雷人' /><item name='20'  value='有点冷,逗死人的超爆笑加恶搞' /><item name='21'  value='爆笑的家庭幽默笑话,绝对猛料' /><item name='22'  value='超寒,经典的冷笑话那叫一个冷' /><item name='23'  value='有点雷人,匪夷所思的幽默男女' /><item name='24'  value='绝对逗死人的爆笑加恶搞段子' /><item name='25'  value='给力,色男色女版的脑筋急转弯' /><item name='26'  value='八则冷笑话,超搞逗笑网络段子' /><item name='27'  value='原创冷笑话精品,看完快被冷死' /><item name='28'  value='巨雷,笑爆了的家长超糗雷事儿' /><item name='29'  value='冻结最新的幽默笑话,注意保暖' /><item name='30'  value='非常冷料,边看边爆笑超级幽默' /><item name='31'  value='抹一把汗,风趣的生活超冷笑话' /><item name='32'  value='很冷,小孩子们准能把你逗开心' /><item name='33'  value='狂滴汗,爆笑逗人的欢乐冷笑话' /><item name='34'  value='巨寒,身在职场遇到的雷人幽默' /><item name='35'  value='年轻人的超冷幽默很寒很讽刺' /><item name='36'  value='办公室里的糗糗经历,没脸见人' /><item name='37'  value='荒诞不经,离奇搞笑的超冷笑话' /><item name='38'  value='超汗的7则婚恋生活的冷冷笑话' /><item name='39'  value='理科的超级冷笑话,你能看懂么' /><item name='40'  value='家庭欢乐多,逗人家长搞笑子女' /><item name='41'  value='8则超冷笑话,看得人精神抖擞' /><item name='42'  value='生活里冷且灰常尴尬的小笑话' /><item name='43'  value='上班族的职场乐人超级冷幽默' /><item name='44'  value='孩纸们,你们学的是调皮专业吧' /><item name='45'  value='小孩子常爆冷,童言无忌闹笑话' /><item name='46'  value='让人会再度崩溃的冷幽默谜语' /><item name='47'  value='20则有点冷的笑话,你被寒了么' /><item name='48'  value='天真,小孩子萌萌的很冷很搞笑' /><item name='49'  value='狂飙汗,生活里面的糗事乐死人' /><item name='50'  value='超冷,让人乐不可支的糗事爆笑' /></property><property name='cold9'  value='冷笑话九' > <item name='1'  value='狂汗,调侃男女恋爱的巨冷笑话' /><item name='2'  value='幽默冷人的病人和医生,冷死你' /><item name='3'  value='作文的男女主角其实都是自己' /><item name='4'  value='降温啦,简短雷人的风趣小笑话' /><item name='5'  value='婚恋笑话,谈恋爱谈出来的冷料' /><item name='6'  value='快到新年,关于春节的爆笑段子' /><item name='7'  value='巨冷,逗人咯咯直笑的婚恋糗事' /><item name='8'  value='万恶的考试,到底误了多少人啊' /><item name='9'  value='雷人年轻男女恶搞,很冷很受伤' /><item name='10'  value='有点冷,新鲜幽默的糗人小笑话' /><item name='11'  value='狂滴汗,17则冷死人的超糗经历' /><item name='12'  value='人在职场,工作上的超搞笑花絮' /><item name='13'  value='糗事0208,这些糗事有遇到过吗' /><item name='14'  value='灰常幽默问答,恰似脑筋急转弯' /><item name='15'  value='超低温新鲜冷笑话,直接被冷倒' /><item name='16'  value='看完笑趴了,16个爆笑的冷笑话' /><item name='17'  value='别暴躁,生活里的冷冷爆笑点滴' /><item name='18'  value='有点汗,温暖小家庭里的冷笑话' /><item name='19'  value='寒死人,笑不尽的尴尬冷人事件' /><item name='20'  value='让人无法淡定的冷人爆笑幽默' /><item name='21'  value='让人笑到爆的短小精典冷笑话' /><item name='22'  value='超冷,动物王国的开心冷人事儿' /><item name='23'  value='有点冷,超不正经的超搞笑男女' /><item name='24'  value='崩溃,超欠揍的16条脑筋急转弯' /><item name='25'  value='极品糗事,生活里笑人的冷幽默' /><item name='26'  value='冷笑话:退休老干部的搞笑事迹' /><item name='27'  value='调侃生活,既糗又逗的超冷幽默' /><item name='28'  value='美女独自深夜回家遭遇的BT事' /><item name='29'  value='有爱,冷人小夫妻搞笑生活趣事' /><item name='30'  value='家庭生活里乐事多,超爆笑糗事' /><item name='31'  value='不错,12则笑死人的动物冷幽默' /><item name='32'  value='崩溃,脑残人士爆笑恶搞糗事多' /><item name='33'  value='雷死人不偿命,反正我是相信了' /><item name='34'  value='办公室内外超级冷的幽默笑话' /><item name='35'  value='噗,8则叫人不淡定的校园雷事' /><item name='36'  value='又雷又冷的小段子让你冷冷笑' /><item name='37'  value='生活爆笑,让人脸红的尴尬瞬间' /><item name='38'  value='生活爆笑冷段子,也太搞笑了吧' /><item name='39'  value='经典学校里课堂上的冷冻笑话' /><item name='40'  value='机灵可爱,课堂调皮学生冷幽默' /><item name='41'  value='女生绝对喜欢看的冷笑话合集' /><item name='42'  value='捏把汗,7则超级雷人的冷幽默' /><item name='43'  value='爆笑的师生,差点会让人笑疯掉' /><item name='44'  value='超级搞笑,巨雷的内涵型冷幽默' /><item name='45'  value='生活趣事,爆笑又雷人的糗事录' /><item name='46'  value='真悲催,让人捧腹的巨冷糗经历' /><item name='47'  value='超低温,18个狂滴汗的爆笑段子' /><item name='48'  value='挺有趣,小动物们的超冷小笑话' /><item name='49'  value='巨寒,大社会里面的冷冷小笑话' /><item name='50'  value='斗勇斗智,夫妻生活爆笑小笑话' /></property><property name='cold10'  value='冷笑话十' > <item name='1'  value='儿童想法好幽默,在一块很开心' /><item name='2'  value='可爱,宝宝的想法让人笑掉大牙' /><item name='3'  value='哭笑不得,冷翻人的经典小笑话' /><item name='4'  value='每天都有新滋味,还不错的冷料' /><item name='5'  value='13则风趣的生活超冷幽默笑话' /><item name='6'  value='狂滴汗,13条点击很高的冷笑话' /><item name='7'  value='戏侃学生,很冷的校园冷冷幽默' /><item name='8'  value='生活里的冷幽默,调侃生活爆笑' /><item name='9'  value='人小鬼大,现在的孩子真够雷人' /><item name='10'  value='职场的爆冷花絮,引来阵阵狂笑' /><item name='11'  value='挺生性的,13则颇冷的幽默笑话' /><item name='12'  value='贼牛贼冷笑,只溶在口不溶在手' /><item name='13'  value='还不错3则颇寒的超经典冷笑话' /><item name='14'  value='搞笑愚人幽默,逗得你乐不可支' /><item name='15'  value='动物们觅食恋爱的冷冷小笑话' /><item name='16'  value='巨冷:有人很窝火,有人哈哈笑' /><item name='17'  value='生活乐趣真多,好笑的雷人糗事' /><item name='18'  value='快看,天热避暑冷笑话不得耽误' /><item name='19'  value='股市喋喋不休,动物们都不淡定' /><item name='20'  value='小心笑趴,搞笑的职场生活糗事' /><item name='21'  value='上班族的13则冷冷小幽默笑话' /><item name='22'  value='超级糗,学校常能见到雷人事儿' /><item name='23'  value='巨汗,瞬间石化的超级冷冷幽默' /><item name='24'  value='巨冷人糗事,冷的让人无法淡定' /><item name='25'  value='好笑冷人的动物幽默,雷死人了' /><item name='26'  value='原来冬天这么寒冷是有原因的' /><item name='27'  value='温度有点低,小有难度的冷笑话' /><item name='28'  value='关于考前复习的超无厘头网文' /><item name='29'  value='4则冷笑话,冷不冷静就看它了' /><item name='30'  value='真心冷,家庭生活乐趣还真的多' /><item name='31'  value='元芳体爆红,有点冷你怎么看啊' /><item name='32'  value='生活爆笑,堪称奇葩的爆雷糗事' /><item name='33'  value='记着要保暖啊,冷人冷料逗的很' /><item name='34'  value='歪解成语,你也是这样理解的吗' /><item name='35'  value='疯狂飙汗,极品糗事保你乐开花' /><item name='36'  value='冷的有创意,冷到你爆笑的笑话' /><item name='37'  value='雷死人的老妈,爆笑雷人的家长' /><item name='38'  value='天气回暖?很有效果的巨冷笑话' /><item name='39'  value='巨冷,狗拿耗子绝对是有原因滴' /><item name='40'  value='社会生活笑果惊人的爆冷笑话' /><item name='41'  value='这些小夫妻,其实都很懂幽默啊' /><item name='42'  value='爆笑的蠢事和糗事,真是冷死人' /><item name='43'  value='绝对极品的9则冷笑话快冷抽了' /><item name='44'  value='上班族生活里的超级冷人爆笑' /><item name='45'  value='小心看完别打喷嚏的幽默冷料' /><item name='46'  value='10条经典到有点冷的幽默笑话' /><item name='47'  value='考验你想象力的恶搞爆冷笑话' /><item name='48'  value='会发笑的雷人囧事开心小段子' /><item name='49'  value='冷得神通广大,经典爆笑冷段子' /><item name='50'  value='超搞,干冷干冷的一组巨冷笑话' /></property><property name='cold11'  value='冷笑话十一' > <item name='1'  value='内涵冷人的父子,笑翻了的孩子' /><item name='2'  value='又冷又糗,让人狂汗的低温笑话' /><item name='3'  value='汗,雷人的室友和同学笑坏我了' /><item name='4'  value='恋爱爆笑,冷人的谈情说爱幽默' /><item name='5'  value='子女和父母之间的超搞笑趣事' /><item name='6'  value='冒冷汗,糗死人的家庭生活趣事' /><item name='7'  value='经典男人和女人闹的巨冷笑话' /><item name='8'  value='生活乐事糗事,爆笑的家庭笑话' /><item name='9'  value='那个雷啊,几则崩溃的糗人糗事' /><item name='10'  value='傻乎乎的冷幽默,让你见笑话了' /><item name='11'  value='生活中的雷人冷笑话,狂滴汗啊' /><item name='12'  value='巨冷,笑话冷得人满身鸡皮疙瘩' /><item name='13'  value='心不在焉,一不留神就办糗事了' /><item name='14'  value='有点小冷,但非常雷人生活趣事' /><item name='15'  value='打冷颤,冻翻人的一句话冷笑话' /><item name='16'  value='寒到开心处,冷劲十足巨冷笑话' /><item name='17'  value='超风趣幽默的校园搞笑小段子' /><item name='18'  value='风趣小笑话雷得大家外焦里嫩' /><item name='19'  value='有点寒,天气微凉正好欣赏冷料' /><item name='20'  value='防寒,升温的日子有冷冷的笑话' /><item name='21'  value='真心雷人,生活用具的幽默言语' /><item name='22'  value='雷人学生幽默老师的爆笑冷料' /><item name='23'  value='幽默逗人的夫妻小两口冷笑话' /><item name='24'  value='13则爆冷男女段子,有点碉堡了' /><item name='25'  value='天不变温暖,冷笑话持续降温啊' /><item name='26'  value='有点寒,看了就想笑的爆冷笑话' /><item name='27'  value='慎慎入!雷翻你的小白兔冷笑话' /><item name='28'  value='盖好被子,装傻充愣的超冷笑话' /><item name='29'  value='巨寒,男和女之间的冷幽默笑话' /><item name='30'  value='别样的冷,冷到心里的幽默笑话' /><item name='31'  value='自备保暖用具,冻死不管的笑话' /><item name='32'  value='笑看生活,就会发现的超级幽默' /><item name='33'  value='4则恋爱中男女的超级冰冻笑话' /><item name='34'  value='好笑又冷人的小动物开心幽默' /><item name='35'  value='巨汗,程序员超冷的爆笑笑话集' /><item name='36'  value='开心爆笑,老师和学生是对冤家' /><item name='37'  value='家庭日常生活里的超爆笑囧事' /><item name='38'  value='就只顾上冷的风趣内涵小段子' /><item name='39'  value='小心感冒,很是冷人的职场爆笑' /><item name='40'  value='大热天看冷笑话,像冲个凉水澡' /><item name='41'  value='超级冰冷,专业人士的愚人爆笑' /><item name='42'  value='有点小寒啊,贡献一些冷冷笑话' /><item name='43'  value='男人最帅的瞬间,遇到就嫁了吧' /><item name='44'  value='有意思的小动物们的冷冷幽默' /><item name='45'  value='切记,饭前后勿看小心恶心到吐' /><item name='46'  value='好笑的夫妻冷幽默,真让人汗颜' /><item name='47'  value='巨冷,要笑死人的爆逗夫妻冷料' /><item name='48'  value='狂滴汗,上班族身边的冷人爆笑' /><item name='49'  value='巨冷,夫妻之间的幽默雷人事儿' /><item name='50'  value='很天真,上学时发生的爆笑糗事' /></property><property name='cold12'  value='冷笑话十二' > <item name='1'  value='在生活中超级冷冷的幽默笑料' /><item name='2'  value='古代人比现代人过得更爽理由' /><item name='3'  value='外面很热,怕热就看极品冷笑话' /><item name='4'  value='小孩子真冷,有趣的家庭式幽默' /><item name='5'  value='轻松一刻,超级搞笑开心冷幽默' /><item name='6'  value='躺着也中枪,包大人很忙很黑啊' /><item name='7'  value='内涵爆笑,雷到爆的那些小孩们' /><item name='8'  value='冷笑话:心理医生被小孩弄崩溃' /><item name='9'  value='不着调的人真多,真是够损冷料' /><item name='10'  value='逗人的超冷幽默,越寒越有趣啊' /><item name='11'  value='有点凉,搞笑的吐嘈吹牛冷段子' /><item name='12'  value='老师非被这些学生气晕不可啊' /><item name='13'  value='够讽刺但更好笑的巨冷小笑话' /><item name='14'  value='红男绿女.开心逗人的爆冷笑话' /><item name='15'  value='个个爆笑条条冷人,不着调专场' /><item name='16'  value='开心一刻,年轻男女的生活爆笑' /><item name='17'  value='很雷很搞笑的给力冷冷小笑话' /><item name='18'  value='快祈祷,别遇上让人狂汗的糗事' /><item name='19'  value='童趣,孩子萌起来让你爆笑不止' /><item name='20'  value='经典又耐人寻味的拐弯冷笑话' /><item name='21'  value='hold不住,要被这些笑话雷翻了' /><item name='22'  value='家有儿女乐翻天,小孩子很搞笑' /><item name='23'  value='笑话小小,效果冷冷的超寒幽默' /><item name='24'  value='非常搞笑的雷语一句话,超崩溃' /><item name='25'  value='既尴尬又爆笑的超级巨冷笑话' /><item name='26'  value='超级滴汗的8则幽默超级冷笑话' /><item name='27'  value='14个让人笑抽筋的冷冻小幽默' /><item name='28'  value='炎炎夏日,看看名人的灭蚊绝活' /><item name='29'  value='最让人哭笑不得的冷笑话10个' /><item name='30'  value='每天笑笑远离这些崩溃的糗事' /><item name='31'  value='13则实在太能让人意外的经历' /><item name='32'  value='巨寒,上班族有关的讽刺冷幽默' /><item name='33'  value='公主征婚的故事,保证冷死你!' /><item name='34'  value='不错,温馨逗人的居家爆笑笑话' /><item name='35'  value='发生在孩子身边的经典冷幽默' /><item name='36'  value='雷人的脑筋急转弯,把你考倒没' /><item name='37'  value='最爱冷笑话,冷的叫人直打冷颤' /><item name='38'  value='家庭日常生活里的超爆笑糗事' /><item name='39'  value='寒流来袭,9则冰冷笑话解暑了' /><item name='40'  value='冷笑话真神通广大,无所不在啊' /><item name='41'  value='老了以后的QQ签名会写这样吗' /><item name='42'  value='好气又好笑,萌人的孩子冷倒你' /><item name='43'  value='年轻人爆笑,都是逗着你玩的吧' /><item name='44'  value='快开学了,很有搞笑天赋的学生' /><item name='45'  value='超级崩溃,网友白痴女友的糗事' /><item name='46'  value='得了健忘症,我的生活变成这样' /><item name='47'  value='16则搞笑的冷幽默,小心别感冒' /><item name='48'  value='降温了,11则爆笑的校园冷笑话' /><item name='49'  value='水平颇高调皮冷笑话,专治郁闷' /><item name='50'  value='乐人的内涵小笑话,有点不着调' /></property><property name='cold13'  value='冷笑话十三' > <item name='1'  value='苦逼了,太糗事情笑得直不起腰' /><item name='2'  value='爆笑的家庭欢乐多,二货特别多' /><item name='3'  value='一开口就有冷笑话,真的很冷哟' /><item name='4'  value='小老鼠等动物的笑话实在很冷' /><item name='5'  value='9则含蓄爆笑的冷冷男女小笑话' /><item name='6'  value='生活里几件荒唐的爆笑糗事儿' /><item name='7'  value='温度超低的居家笑话,幸福满泻' /><item name='8'  value='动物同学上学迟到的各种理由' /><item name='9'  value='工作中,一些让人超无语的爆笑' /><item name='10'  value='年轻男女雷人糗事,越看越快乐' /><item name='11'  value='和孩子在一起总能让你乐呵呵' /><item name='12'  value='爆冷的一些小笑话,小心别着凉' /><item name='13'  value='13则还不错的超冷笑话,冻死你' /><item name='14'  value='甜蜜又崩溃,情侣间的幽默逗笑' /><item name='15'  value='可爱又淘气,让人笑喷的小孩子' /><item name='16'  value='狂滴汗,这些动物笑话够冷的了' /><item name='17'  value='爆笑糗事,冷幽默真是冷的可以' /><item name='18'  value='冷到开心处,笑声自然来的笑话' /><item name='19'  value='4则经典巨汗的国外超冷小笑话' /><item name='20'  value='超级汗颜,快雷翻人的冷冷笑话' /><item name='21'  value='甜蜜又温馨,搞笑夫妻幽默笑话' /><item name='22'  value='绝对雷死人的8则精品冷笑话' /><item name='23'  value='幽默还是愚昧,好笑的愚人糗事' /><item name='24'  value='冷笑话5则,看完别冻到脸红了' /><item name='25'  value='10则十分巨汗的超级幽默冷料' /><item name='26'  value='用心看,一组耐人寻味的冷笑话' /><item name='27'  value='开心一刻,做老师也可以很爆笑' /><item name='28'  value='二货界里的奇葩,都在争奇斗艳' /><item name='29'  value='愚人的小幽默,逗得你乐不可支' /><item name='30'  value='幽默夫妻的冷人笑料,小心着凉' /><item name='31'  value='天气太热,看完后小心别冻着了' /><item name='32'  value='不知会不会冻到你心里发毛呀' /><item name='33'  value='强,一个极品小愤青的生活实录' /><item name='34'  value='结婚和恋爱冷幽默,碰到真郁闷' /><item name='35'  value='生活里没钱闹出来的爆冷笑话' /><item name='36'  value='有点小疯狂,笑破肚子的亲爸妈' /><item name='37'  value='笑死人了,有关足球的搞笑段子' /><item name='38'  value='说完MM向你怀里猛扑的冷笑话' /><item name='39'  value='遇到狂汗的冰冻冷笑话,僵硬了' /><item name='40'  value='擦擦汗,总有那么些雷人冷幽默' /><item name='41'  value='巨雷好笑的冷笑话,小心别感冒' /><item name='42'  value='巨寒.9则温度很低幽默冷笑话' /><item name='43'  value='有点冷的笑话段子,看完擦擦汗' /><item name='44'  value='有趣,需要急转弯的考智商笑话' /><item name='45'  value='最怕老婆,冷冷夫妻生活小幽默' /><item name='46'  value='颇坑爹,生活里乐人的老爸老妈' /><item name='47'  value='超级爆笑:叫人抓狂的二货糗事' /><item name='48'  value='回味让人不自觉想笑的冷笑话' /><item name='49'  value='有点小热,来点冷料来降降温吧' /><item name='50'  value='冷笑话达人推荐的9则超冷笑话' /></property><property name='cold14'  value='冷笑话十四' > <item name='1'  value='幽默搞笑冷人,冷得快一塌糊涂' /><item name='2'  value='超雷人!校园雷事笑得合不上嘴' /><item name='3'  value='爆笑!绝对冷死你的囧事大集锦' /><item name='4'  value='糗,家庭生活里幽默雷人的父母' /><item name='5'  value='看看冷笑话,冲个凉水澡真爽快' /><item name='6'  value='别错过,很有喜感的七夕冷段子' /><item name='7'  value='降温,生活和校园里面的小幽默' /><item name='8'  value='暴汗,让人发冷发寒的超冷笑话' /><item name='9'  value='爆冷,让父母目瞪口呆的孩子们' /><item name='10'  value='自娱自乐的糗事,被女友给涮了' /><item name='11'  value='萌人孩子,鬼机灵的冷倒笑死人' /><item name='12'  value='超有意思,挺逗雷人的巨冷幽默' /><item name='13'  value='糗死了,雷人的搞笑生活小片段' /><item name='14'  value='校园和生活中的爆笑开心糗事' /><item name='15'  value='无敌BT老师的精彩冷笑话12则' /><item name='16'  value='超糗生活冷笑话,看完别着凉了' /><item name='17'  value='哄哄逗逗,爆逗男女搞笑功力深' /><item name='18'  value='11则会冷死人的超级冰冻笑话' /><item name='19'  value='开怀一笑,会马上石化冷冷幽默' /><item name='20'  value='佛门超冷爆笑,这个师傅很雷人' /><item name='21'  value='别以为,体育运动的笑话也挺冷' /><item name='22'  value='笑翻你的搞笑儿童和童年趣事' /><item name='23'  value='很雷人冷幽默,一不小心就中招' /><item name='24'  value='崩溃渣男疯女,逗得你一脸坏笑' /><item name='25'  value='网络冷冷笑话,无聊时可以看看' /><item name='26'  value='有意思,惊出一身冷汗爆冷趣闻' /><item name='27'  value='不错,红男绿女的爆笑冷冷段子' /><item name='28'  value='爆笑,神马也阻止不了他们搞笑' /><item name='29'  value='10则爆笑冷死人的小幽默笑话' /><item name='30'  value='经典冷笑话特加评论外快暴汗' /><item name='31'  value='爆笑糗事的出现总是防不胜防' /><item name='32'  value='苦笑恋爱男女,婚恋雷人小段子' /><item name='33'  value='对付妻子得有一套,冷冷的爆笑' /><item name='34'  value='爆笑来袭:那些身边的囧人囧事' /><item name='35'  value='温度巨寒,条条冷人的爆笑冷料' /><item name='36'  value='幽默可爱学生,超萌儿童冷幽默' /><item name='37'  value='生活万象,灰常搞笑的小小讽刺' /><item name='38'  value='牛逼,泡妹子的一些温馨小伎俩' /><item name='39'  value='让人直冒汗的爆笑糗事小幽默' /><item name='40'  value='网络流行让温度骤降的冷笑话' /><item name='41'  value='给力爆笑的娱人愚己的冷幽默' /><item name='42'  value='冷死,巨冷的幽默糗事搞笑大全' /><item name='43'  value='现实让人超级尴尬的乐人糗事' /><item name='44'  value='巨搞的穿越版冷笑话,小心雷倒' /><item name='45'  value='爆笑夫妻,婚姻里面的搞笑事儿' /><item name='46'  value='不冷不热,但绝对雷人搞笑段子' /><item name='47'  value='笑料真多,笑抽了的居家小夫妻' /><item name='48'  value='别憋着不笑的校园喷饭冷笑话' /><item name='49'  value='比上不足,超经典趣味冷冷段子' /><item name='50'  value='年轻男女捣鼓出来的雷人爆笑' /></property><property name='cold15'  value='冷笑话十五' > <item name='1'  value='风情男女小笑话,温度超级低的' /><item name='2'  value='开心搞笑的校园生活,真的太糗' /><item name='3'  value='崩溃,叫人又爱又恨的极品老师' /><item name='4'  value='六则趣事冷笑话,网友新鲜送到' /><item name='5'  value='网友犀利网聊记录,看完狂滴汗' /><item name='6'  value='囧人爆笑的生活雷事,糗死人了' /><item name='7'  value='冷得冒汗,不经意间就闹出笑话' /><item name='8'  value='眉开颜笑,小幽默真是冷的可以' /><item name='9'  value='真不靠谱,爆冷愚人糗事笑死人' /><item name='10'  value='有点冷的家庭糗事,温度超低的' /><item name='11'  value='超冷的恋爱男女,超解闷就对了' /><item name='12'  value='我家那个超级自恋老婆的语录' /><item name='13'  value='笑死人冷幽默,悄悄的把人冷倒' /><item name='14'  value='校园考试冷人爆笑,寒到直咧嘴' /><item name='15'  value='很冷很雷,朋友同事的爆雷笑料' /><item name='16'  value='真心话,我被爆寒小笑话冷到了' /><item name='17'  value='生活里的小讽刺,温度超低的啊' /><item name='18'  value='巨寒,让人感觉冷嗖嗖的冷笑话' /><item name='19'  value='经典冷幽默,你说能看懂多少呢' /><item name='20'  value='超开心搞笑,校园里的乐人糗事' /><item name='21'  value='非傻即呆的超冷幽默逗你开心' /><item name='22'  value='6则超经典冷笑话,看完汗狂滴' /><item name='23'  value='17条调皮可爱的孩子超冷笑话' /><item name='24'  value='狂汗啊,夫妻之间的冷幽默笑话' /><item name='25'  value='6个小笑话:都是谐音惹的&quot;祸&quot;' /><item name='26'  value='家长和机灵可爱孩子都很雷人' /><item name='27'  value='看完滴汗,好笑冷人的动物幽默' /><item name='28'  value='冬天也不能错过的超级冷笑话' /><item name='29'  value='9则冷冷的笑话,看完别冷着啊' /><item name='30'  value='生活里面随时都充满巨雷爆笑' /><item name='31'  value='新鲜搜集带点冷冷的幽默段子' /><item name='32'  value='超级冷,寻常日子里的雷人爆笑' /><item name='33'  value='居家生活冷幽默,虽冷但很好笑' /><item name='34'  value='超幼稚可爱搞笑小孩子的糗事' /><item name='35'  value='看看动物们最近在忙活些什么' /><item name='36'  value='汗,各行各业人士的超级冷笑话' /><item name='37'  value='不看后悔,史上最雷的一篇文章' /><item name='38'  value='再看还是超经典的脑筋急转弯' /><item name='39'  value='飙汗,20条冷冷的短信幽默段子' /><item name='40'  value='婚恋生活里面的超糗冰冷幽默' /><item name='41'  value='新鲜冷笑话来袭,做好保暖准备' /><item name='42'  value='最新开学必讲的超级冷笑话' /><item name='43'  value='九个让人无语的离婚理由,爆囧' /><item name='44'  value='这样的搞笑,爆笑不着调冷段子' /><item name='45'  value='13则冷冷的讽刺幽默,汗死了人' /><item name='46'  value='爆笑2010世界杯看球笔记第4夜' /><item name='47'  value='冷哟,动物趣侃职业和搞笑雷语' /><item name='48'  value='狂汗的小动物总是弄冷冷笑话' /><item name='49'  value='全球多数人不知道10件冷知识' /><item name='50'  value='爆寒,可笑又可气的超雷人笑话' /></property><property name='cold16'  value='冷笑话十六' > <item name='1'  value='小寒,工作生活里的雷人冷幽默' /><item name='2'  value='超有才滴汗古文,罗玉凤的列传' /><item name='3'  value='周末巨汗冷料来袭,小心着凉哦' /><item name='4'  value='大热天看冷笑话:雷人歌词误解' /><item name='5'  value='包你喜欢,很逗很开心的冷笑话' /><item name='6'  value='一个俘虏和他的战马,爆笑!' /><item name='7'  value='有趣动物的6则太可爱超冷笑料' /><item name='8'  value='防寒,短小精悍5条冰冻冷笑话' /><item name='9'  value='冷的hold不住了,经典的冷笑话' /><item name='10'  value='萌萌又可爱的孩童,快把人雷死' /><item name='11'  value='爆笑的经典冷料,囧事雷事笑话' /><item name='12'  value='狂抹汗,13则冷不丁的幽默笑话' /><item name='13'  value='雷人的脑筋急转弯,有的冷死人' /><item name='14'  value='飙汗总结:游戏CS跟CF的区别' /><item name='15'  value='杯具:一个男人一天的撒谎记录' /><item name='16'  value='7则是有点冷的民间小幽默笑话' /><item name='17'  value='青蛙蚊子蜜蜂等动物的冷笑话' /><item name='18'  value='糗事时常有,让人捧腹的冷幽默' /><item name='19'  value='比上不足比下有余的超冷笑话' /><item name='20'  value='巨给力,笑到滚地的幽默冷笑话' /><item name='21'  value='精选几则冰冷笑话,小心别着凉' /><item name='22'  value='小心笑趴,非一般冷人幽默段子' /><item name='23'  value='学校里面的超恶搞冷笑话10则' /><item name='24'  value='婚恋男女的雷人糗事超冷笑话' /><item name='25'  value='写给偷偷老去的80后(精编版)' /><item name='26'  value='冷笑话:消防队长的拒爱对白' /><item name='27'  value='如果不逃课:不逃课的十大罪状' /><item name='28'  value='又雷又冷巨好笑的9则幽默笑话' /><item name='29'  value='4则关于小动物们的超级冷笑话' /><item name='30'  value='2012开始内侧,亚洲区提前开服' /><item name='31'  value='超雷人,职场里面的爆笑冷笑话' /><item name='32'  value='冷空气来袭,爆寒的15则冷笑话' /><item name='33'  value='小孩的问题可要小心回答啊!' /><item name='34'  value='坐飞机曹操摔不死的延续故事' /><item name='35'  value='7则冷到爆炸的超低温夫妻笑话' /><item name='36'  value='别着凉,16条雷死人的超冷幽默' /><item name='37'  value='快入秋了,冷飕飕的调侃降温啦' /><item name='38'  value='冷哟,全世界最白痴的8大案例' /><item name='39'  value='小动物们就是冷料多,真有意思' /><item name='40'  value='由&quot;这鸡蛋真难吃&quot;引发的讨论' /><item name='41'  value='不错,超雷人的搞笑幽默冷笑话' /><item name='42'  value='多版本,段誉王语嫣井底表白秀' /><item name='43'  value='吴宗宪20个扯淡的脑筋急转弯' /><item name='44'  value='爆汗,课堂上那些不靠谱的学生' /><item name='45'  value='巨寒,职场经典的冷冷幽默10则' /><item name='46'  value='趣致冷调侃,逗人好笑的小孩子' /><item name='47'  value='村长,计生工作的难度很大啊' /><item name='48'  value='学开车等不着调的搞笑冷幽默' /><item name='49'  value='无厘头:告诉你人为什么这么累' /><item name='50'  value='老板与职工工作中的幽默爆笑' /></property><property name='cold17'  value='冷笑话十七' > <item name='1'  value='全国各大院校的绝版幽默校训' /><item name='2'  value='恋爱中男女的超爆笑的冷笑话' /><item name='3'  value='幽默动物搞笑言语,很冷但有趣' /><item name='4'  value='小动物们的爱情,冷冷又有新意' /><item name='5'  value='3则生活里面短短的冷幽默笑话' /><item name='6'  value='4则十分有趣的超级冰冻小笑话' /><item name='7'  value='一开口就有冷笑话,赶紧背下来' /><item name='8'  value='10条极品冷料逗得MM直叫爽啊' /><item name='9'  value='冷,网友调侃爱疯的超级小段子' /><item name='10'  value='8则经典冷人的超好笑生活段子' /><item name='11'  value='907FML,让你每天都囧囧有神' /><item name='12'  value='笑趴,幽默的动物结婚冰冻笑话' /><item name='13'  value='快到年底,要求加薪的搞笑方法' /><item name='14'  value='正常的傻瓜,很冷很雷人的幽默' /><item name='15'  value='爆寒,17个超级冰冻的冷冷笑话' /><item name='16'  value='最经典的冷笑话,别说你没汗颜' /><item name='17'  value='爆笑在校园,宿舍教室冷人爆笑' /><item name='18'  value='很俏皮一句话,让人超囧的冷料' /><item name='19'  value='看完狂汗的11则超经典冷笑话' /><item name='20'  value='三个人和一个油灯的故事' /><item name='21'  value='我把网吧厕所弄堵了,该怎么办' /><item name='22'  value='9则意想不到的开心冷笑话降温' /><item name='23'  value='你不知道的生孩子的那些事儿' /><item name='24'  value='别说太冰冻,动物的开心冷笑话' /><item name='25'  value='暴汗!蚂蚁斗大象,可笑不自量' /><item name='26'  value='汗死,医院里面冷冷的搞笑幽默' /><item name='27'  value='爆笑雷人事时常有,关键碰着没' /><item name='28'  value='有点冷,很搞笑的夫妻生活趣事' /><item name='29'  value='902FML,让你每天都囧囧有神' /><item name='30'  value='俏皮一句话,冷人的超级囧笑话' /><item name='31'  value='还不错,13条巨冷的小幽默笑话' /><item name='32'  value='5则男女冷幽默,看完了偷偷笑' /><item name='33'  value='办公室里面的冷冷笑话,狂飙汗' /><item name='34'  value='吝啬鬼的超级冷笑话,冻死人了' /><item name='35'  value='好乐子发不完,有些很冷很雷人' /><item name='36'  value='新鲜冰冻幽默,加量而不减搞笑' /><item name='37'  value='老婆怀孕之后,是洗具还是杯具' /><item name='38'  value='冷冷深秋,带来点冷冷的小幽默' /><item name='39'  value='有如冬天的火锅一样火的幽默' /><item name='40'  value='开心一刻,巨雷好笑的冷冷笑话' /><item name='41'  value='冷笑话:不可不看的减肥&quot;秘方&quot;' /><item name='42'  value='15则冷飕飕的笑话送给女友吧' /><item name='43'  value='冷冷的生活幽默笑话,别着凉啦' /><item name='44'  value='灰常冷和超级搞笑的动物趣侃' /><item name='45'  value='908FML,让你每天都囧囧有神' /><item name='46'  value='调皮有趣的小孩子冷幽默笑话' /><item name='47'  value='巨搞,幽默的年轻人就爱闹笑话' /><item name='48'  value='超冷的居家夫妻之间的小幽默' /><item name='49'  value='13则笑死人的超雷家庭冷笑话' /><item name='50'  value='呼,地球人都不知道答案的问题' /></property><property name='cold18'  value='冷笑话十八' > <item name='1'  value='冷笑话集,矿泉水会让它很干净' /><item name='2'  value='蓝翔技校被怀疑黑谷歌的原因' /><item name='3'  value='买房的16种死法,你是哪一种呢' /><item name='4'  value='有点冷,12则古人的爆笑小笑话' /><item name='5'  value='脑子无故短路的瞬间!笑死我了' /><item name='6'  value='狂汗.几则寒到骨子里的冷笑话' /><item name='7'  value='小孩子和恋爱男女的超级冷料' /><item name='8'  value='经典,俏皮话都成了脑筋急转弯' /><item name='9'  value='有点小冷,狐狸和兔子间的笑话' /><item name='10'  value='爆笑雷死人风趣有才的冷幽默' /><item name='11'  value='12则超好笑的学生家长的幽默' /><item name='12'  value='冷死人的大人与小孩,抹一把汗' /><item name='13'  value='冷冷的风趣脑筋急转和顺口溜' /><item name='14'  value='超糗,乘公交和住酒店的雷事儿' /><item name='15'  value='山寨英文版的&quot;说句心里话&quot;' /><item name='16'  value='笑看生活,皮笑肉不笑的冷笑话' /><item name='17'  value='教你如何轻轻松松地搞定老板' /><item name='18'  value='来看看,大灰狼与小猪的冷笑话' /><item name='19'  value='16则超级冷笑话,小心别感冒哦' /><item name='20'  value='是不是也要冷一冷的超寒笑话' /><item name='21'  value='补充冷阅读:历史上萌点逐个数' /><item name='22'  value='笑死,12则超爆笑的职场冷笑话' /><item name='23'  value='13则脑筋急转弯的超级冷笑话' /><item name='24'  value='狗和狼与人的超级经典冷笑话' /><item name='25'  value='比较有现实意义的10则冷笑话' /><item name='26'  value='很是有笑果的上班雷人糗事录' /><item name='27'  value='男女冷段子,鸡皮疙瘩掉了一地' /><item name='28'  value='别冷着,经典的职场幽默冷笑话' /><item name='29'  value='逗人搞笑,不着调的男女冷笑话' /><item name='30'  value='爱情很冷,非常不着调的冷段子' /><item name='31'  value='最新的超级冷冻幽默笑话段子' /><item name='32'  value='巨寒,20则狂滴汗的幽默冷笑话' /><item name='33'  value='经典的歇后语,看完别不淡定了' /><item name='34'  value='网友身边发生的囧囧有神遭遇' /><item name='35'  value='慎发:效果强大的整人手机信息' /><item name='36'  value='注意防寒:简短精悍的超冷笑话' /><item name='37'  value='超冷,小动物们的幽默爱情15则' /><item name='38'  value='20则冰冻幽默笑话,小心别感冒' /><item name='39'  value='天冷笑话也冷,15则超冷的笑话' /><item name='40'  value='别着凉,15则温度挺低的冷笑话' /><item name='41'  value='牛,大脸师太笑谈金庸笔下人物' /><item name='42'  value='哎哟,小明终于去祸害外国人了' /><item name='43'  value='超冷,各科老师对车的爆笑要求' /><item name='44'  value='生活的冷料,雷事囧事超好笑事' /><item name='45'  value='15则小孩子们的超级冷冷幽默' /><item name='46'  value='7则有点冷的职场笑话,超滴汗' /><item name='47'  value='挺有趣,夫妻之间的搞笑冷幽默' /><item name='48'  value='山里人看病,冷到想打人的笑话' /><item name='49'  value='抹一把汗,诙谐逗人的超冷段子' /><item name='50'  value='校园流行的顺口溜,好学生勿进' /></property><property name='cold19'  value='冷笑话十九' > <item name='1'  value='疯狂传阅的超幽默冷笑话短信' /><item name='2'  value='气温超低,爆笑的一句话冷幽默' /><item name='3'  value='20条巨冷的幽默笑话,小心感冒' /><item name='4'  value='伤自尊的尴尬时分,别太伤心啊' /><item name='5'  value='汗,火速围观降温的7则冷笑话' /><item name='6'  value='超全冷料,一个帅哥和一只蟑螂' /><item name='7'  value='雷!彪悍婚恋交友者的内心独白' /><item name='8'  value='11则不正常的思维很冷很爆笑' /><item name='9'  value='经典又耐人寻味的一组冷笑话' /><item name='10'  value='网上流行的冷笑话,不是普通冷' /><item name='11'  value='超级内涵的冷段子,看懂不要说' /><item name='12'  value='冷!七个男人和一个女人的故事' /><item name='13'  value='冷爆,生活里的超级爆笑雷糗事' /><item name='14'  value='绕口令的大全,小心难倒你的嘴' /><item name='15'  value='生活总是给我们闹些超冷笑话' /><item name='16'  value='超级巨汗,爆笑冷人糗事小笑话' /><item name='17'  value='寒死人哟,记性不好的超冷笑话' /><item name='18'  value='生活总是给我们添些冷冷笑话' /><item name='19'  value='女生买裤子杀价的暴强过程!' /><item name='20'  value='超冷哟,夫妻的对话很是搞笑的' /><item name='21'  value='17则温度挺低的校园超尴尬事' /><item name='22'  value='每天发生超冷笑话,快笑到不行' /><item name='23'  value='雷倒一片的巨冷人爆笑小幽默' /><item name='24'  value='真有情趣,男女之间的超冷笑话' /><item name='25'  value='巨汗,13则校园经典的冷冷笑话' /><item name='26'  value='很冷哟,夫妻过日子常有小幽默' /><item name='27'  value='狂滴汗,平淡夫妻生活冷冷幽默' /><item name='28'  value='爆笑的老师和学生的超冷笑话' /><item name='29'  value='超级冰冻,男女间冷人爆笑幽默' /><item name='30'  value='犀利大学生做的暴强人生规划' /><item name='31'  value='绝对冷的笑话,就不信看完不笑' /><item name='32'  value='冯氏的冷幽默段子,你学会了吗' /><item name='33'  value='需要一点脑筋急转弯的小幽默' /><item name='34'  value='很黄很暴力的冷知识,赶快看看' /><item name='35'  value='6则超级冷笑话,快要被冷死了' /><item name='36'  value='绝对有趣的超可爱冷笑话15则' /><item name='37'  value='雷人的糗事冷笑话,太丢人了啊' /><item name='38'  value='你肯定不知道的新鲜的冷知识' /><item name='39'  value='10则新鲜雷人的生活冷冷笑话' /><item name='40'  value='开心一刻,10则有点寒的冷笑话' /><item name='41'  value='10则看来有点儿冷的幽默笑话' /><item name='42'  value='超冷笑话十则,让你爆笑10分钟' /><item name='43'  value='糗,国外媒体评选的最雷大事记' /><item name='44'  value='天气太热,来几个冷笑话降降温' /><item name='45'  value='小年轻超雷的俏皮男女冷笑话' /><item name='46'  value='关于夏天的冷料段子,凉风阵阵' /><item name='47'  value='超冷,经典雷人的生活冷笑话' /><item name='48'  value='杨少华VS杨义的脑筋急转弯' /><item name='49'  value='气温骤降,9则温度挺低的笑话' /><item name='50'  value='巨冷,10则生活里的爆笑冷幽默' /></property><property name='cold20'  value='冷笑话二十' > <item name='1'  value='爸妈很惆怅,有趣的家庭冷幽默' /><item name='2'  value='校园里的超级冷料,小心别雷倒' /><item name='3'  value='&quot;冷&quot;死人不偿命,幽默笑话三则' /><item name='4'  value='小心啊,差点要被这些笑话冷死' /><item name='5'  value='冷幽默:让人吐血的脑筋急转弯' /><item name='6'  value='冷笑话鼻祖:小明和爸爸的幽默' /><item name='7'  value='面对寒风,怀揣搞笑的幽默冷料' /><item name='8'  value='11条超给力冷幽默,看了很想笑' /><item name='9'  value='雷得人外焦里嫩的超冷小笑话' /><item name='10'  value='收集到的9则超级爆冷幽默笑话' /><item name='11'  value='巨汗,动物界的超级经典冷笑话' /><item name='12'  value='幼儿园采访实录,小孩子的冷料' /><item name='13'  value='很蛋疼的冷段子,最后一个亮了' /><item name='14'  value='忍不住,几则还不错的儿童笑话' /><item name='15'  value='夏日绝不无聊,玩IT看冷笑话' /><item name='16'  value='狂汗,25则值得收藏的小冷笑话' /><item name='17'  value='幼儿园雷人试题,你能回答几个' /><item name='18'  value='元旦过后的精彩冷笑话,狂汗啊' /><item name='19'  value='夏日里的一阵寒流,16则冷笑话' /><item name='20'  value='十一条令人喷饭的恶毒冷笑话' /><item name='21'  value='气温骤降,千万别着凉的冷笑话' /><item name='22'  value='818,夫妻俩生活中的趣味调情' /><item name='23'  value='学习的用具自卖自夸,冷死人啦' /><item name='24'  value='狂汗啊,八大最残忍的超冷笑话' /><item name='25'  value='职场经典冷幽默,发生在身边啊' /><item name='26'  value='无地自容,5则好冷的幽默糗事' /><item name='27'  value='立冬了,让寒流来得更爽一点吧' /><item name='28'  value='冰冻,情侣和夫妻的超级冷幽默' /><item name='29'  value='7则让你寒到彻底的超级冷笑话' /><item name='30'  value='别冷着,20条冷死人的幽默笑话' /><item name='31'  value='让你们笑一笑,精神病系列笑话' /><item name='32'  value='10条巨冷小段子,小心别着凉了' /><item name='33'  value='狂汗,是生活改变馒头的冷笑话' /><item name='34'  value='6则可笑又可气的小幽默冷笑话' /><item name='35'  value='别着凉,经典超糗的生活冷笑话' /><item name='36'  value='无厘头网文,人生其实真的SB' /><item name='37'  value='9则有点小崩溃的对白幽默笑话' /><item name='38'  value='关于减肥妙方的冷料,真的很寒' /><item name='39'  value='小心别感冒,8则挺寒的小笑话' /><item name='40'  value='冷死人,绝对新鲜的超冷小笑话' /><item name='41'  value='冷笑话:路人甲一词的真实来历' /><item name='42'  value='气温超低,愚人的6则冰冷笑话' /><item name='43'  value='嬉笑怒骂间产生的超级冷笑话' /><item name='44'  value='用来调侃生活的超级冷人笑话' /><item name='45'  value='小朋友们太欢乐的超糗冷笑话' /><item name='46'  value='千万别错过,冷笑话才是好笑话' /><item name='47'  value='自作多情和搭讪的幽默俏皮话' /><item name='48'  value='校园里面的超级冰冻小小笑话' /><item name='49'  value='很火的冷笑话,看完记得擦擦汗' /><item name='50'  value='动物的职场现状,冷死人不偿命' /></property><property name='cold21'  value='冷笑话二十一' > <item name='1'  value='那些名人的冷笑话,真是太汗了' /><item name='2'  value='施主,需要来点新的笑话幽默么' /><item name='3'  value='生活里搞笑冷段子,狂抹一把汗' /><item name='4'  value='13则脑筋急转的幽默冷冷笑话' /><item name='5'  value='别笑,比较有技术含量的冷笑话' /><item name='6'  value='很冷,再冷一点也无所谓的笑话' /><item name='7'  value='这样用歇后语骂人,真的超狠啊' /><item name='8'  value='看一次笑一次,经典冷笑话集合' /><item name='9'  value='竟然有如此高贵冷艳的小幽默' /><item name='10'  value='生活和上学时侯的爆笑雷糗事' /><item name='11'  value='圣诞刚过,引发爆笑短信冷段子' /><item name='12'  value='爆料,八条极品的笑话快冷死哟' /><item name='13'  value='5则夏日解暑段子,阵阵凉风啊' /><item name='14'  value='气温急降,家庭生活的超冷幽默' /><item name='15'  value='生活里的爆笑,冷笑话就是开心' /><item name='16'  value='冷笑话:当老师遇到九零后学生' /><item name='17'  value='有点冷,生活里面的种种糗事录' /><item name='18'  value='7则超爆笑的巨冷人糗事小笑话' /><item name='19'  value='雷人爆笑,年轻人的超级小幽默' /><item name='20'  value='爆笑恶搞:章鱼保罗不幸去世' /><item name='21'  value='校园幽默笑话,真有点冷爆笑啊' /><item name='22'  value='超冷的笑话,搞笑雷人的年轻人' /><item name='23'  value='雷人,脑筋急转弯不全是智慧题' /><item name='24'  value='这让人崩溃的糗事,真没脸见人' /><item name='25'  value='一天,班上来了个漂亮插班女生' /><item name='26'  value='这么冷,考试带来了痛快与欢笑' /><item name='27'  value='冷笑话一枚:声音传播的局限性' /><item name='28'  value='给力,意想不到的超冷幽默笑话' /><item name='29'  value='看完湿透的家长很冷短小笑话' /><item name='30'  value='1025FML让你每天都囧囧有神' /><item name='31'  value='有点凉,风趣新鲜的搞笑冷段子' /><item name='32'  value='27条冷到冰点的极品巨冷笑话' /><item name='33'  value='还不错,冷死人的夫妻幽默笑话' /><item name='34'  value='别愣着,超级新鲜的超级冷笑话' /><item name='35'  value='15条笑果不错的超级冰冻笑话' /><item name='36'  value='921FML,让你每天都囧囧有神' /><item name='37'  value='糗事1017,这些糗事有遇到过吗' /><item name='38'  value='1017FML让你每天都囧囧有神' /><item name='39'  value='很寒,职场上的小小幽默冷笑话' /><item name='40'  value='916FML,让你每天都囧囧有神' /><item name='41'  value='狂汗啊,快笑死人的灰常冷笑话' /><item name='42'  value='12则来自生活的超冷幽默笑话' /><item name='43'  value='经典15则超冷笑话,看完打哆嗦' /><item name='44'  value='让你忍不住想笑的家庭冷幽默' /><item name='45'  value='917FML,让你每天都囧囧有神' /><item name='46'  value='夏日午后的数则解暑清凉笑话' /><item name='47'  value='超无厘头,不是处女的十种解释' /><item name='48'  value='别把老师整哭,校园的雷人事儿' /><item name='49'  value='别怀疑哦,绝对给力的超冷笑话' /><item name='50'  value='快冷死了,极寒的小动物冷笑话' /></property><property name='cold22'  value='冷笑话二十二' > <item name='1'  value='一哥们刚进大学时的悲剧事迹' /><item name='2'  value='笑爆嘴,时令流行的爆笑冷段子' /><item name='3'  value='20则零下无极限的超冰冻笑话' /><item name='4'  value='手术室里最令人惊吓的20句话' /><item name='5'  value='有点冷!生活中这事不仅是幽默' /><item name='6'  value='超级无敌爆笑的夫妻冷冷幽默' /><item name='7'  value='有多无聊,就有多爆笑的冷笑话' /><item name='8'  value='超冷超囧,人在囧途之情侣版' /><item name='9'  value='学生们满脑子歪才的校园幽默' /><item name='10'  value='巨寒,皮笑肉不笑的超冰冻笑料' /><item name='11'  value='超级冷,爆笑的一不小心就犯傻' /><item name='12'  value='笑死,不着调的年轻才俊冷幽默' /><item name='13'  value='网友语录:3.8节致最爱的女人' /><item name='14'  value='哥,不要嘛!被爸妈知道了就…' /><item name='15'  value='给力,笑话冷的让人hold不住了' /><item name='16'  value='922FML,让你每天都囧囧有神' /><item name='17'  value='笑爆嘴的搞笑居家糗事小笑话' /><item name='18'  value='80个证书里面看你拿了多少个' /><item name='19'  value='糗事922,这些糗事有遇到过吗' /><item name='20'  value='汗,竟然会有这么经典的冷笑话' /><item name='21'  value='超经典,寒冷到打颤的幽默笑话' /><item name='22'  value='这些超级冷幽默不能视而不见' /><item name='23'  value='搞笑夫妻的超级甜蜜冷冷笑话' /><item name='24'  value='年末幽默放量上涨,囧囧糗事录' /><item name='25'  value='糗人糗事大全:偷看可别偷笑哦' /><item name='26'  value='爆笑雷人的生活片段,雷倒一片' /><item name='27'  value='校园雷人爆笑,最易懂的冷段子' /><item name='28'  value='1013FML让你每天都囧囧有神' /><item name='29'  value='一不小心变成了顺口溜的笑话' /><item name='30'  value='经典冷笑话一则:最感人的故事' /><item name='31'  value='雷死人,医生与病人的经典笑话' /><item name='32'  value='超级无奈,爆笑冷人的生活调侃' /><item name='33'  value='冷笑话精选,包你冷到直打哆嗦' /><item name='34'  value='糗事1018,这些糗事有遇到过吗' /><item name='35'  value='101FML,让你每天都囧囧有神' /><item name='36'  value='不着调的孩子冷笑话就是特多' /><item name='37'  value='9则搞笑夫妻巨汗的冷冷小笑话' /><item name='38'  value='差点笑趴12则短小精典冷笑话' /><item name='39'  value='证明:父母是孩子的第一任老师' /><item name='40'  value='冷不丁幽你一默的巨寒冷笑话' /><item name='41'  value='气温骤降,效果还不错的冷笑话' /><item name='42'  value='医疗那些的超冷人的小小笑话' /><item name='43'  value='超冷,精短逗人的生活中小幽默' /><item name='44'  value='弯弯绕圈,巨雷人的超级冷笑话' /><item name='45'  value='赶紧看,别错过的巨寒笑话料子' /><item name='46'  value='超冷的10条小段子集锦,超冰冻' /><item name='47'  value='924FML,让你每天都囧囧有神' /><item name='48'  value='囧死你!牛车被浸四天竟无大碍' /><item name='49'  value='羞,男人冷知识裸睡的另类好处' /><item name='50'  value='1931年那时是这样征婚对象的' /></property><property name='cold23'  value='冷笑话二十三' > <item name='1'  value='秋天到了,开始冷了小心别着凉' /><item name='2'  value='无语!千万别让小孩看新闻联播' /><item name='3'  value='冷笑话杀到,网友新鲜创作笑话' /><item name='4'  value='糗事919,这些糗事有遇到过吗' /><item name='5'  value='爱的表白短信也可这么有意思' /><item name='6'  value='糗事1012,这些糗事有遇到过吗' /><item name='7'  value='929FML,让你每天都囧囧有神' /><item name='8'  value='狂汗,年轻男女的小小爆冷笑话' /><item name='9'  value='105FML,让你每天都囧囧有神' /><item name='10'  value='冷飕飕,背后轻轻渗寒意的笑话' /><item name='11'  value='能做到就无敌!超牛的泡妞合同' /><item name='12'  value='打哆嗦,让人出冷汗的超冷笑话' /><item name='13'  value='无可挑剔,史上最强的自我介绍' /><item name='14'  value='有意思,生活小讽刺名人冷幽默' /><item name='15'  value='睿智的冷笑话,很是雷人又好笑' /><item name='16'  value='让人哈哈笑却天寒地冻的笑话' /><item name='17'  value='强冷空气降临,看完小心别感冒' /><item name='18'  value='真是欢乐,搞笑冷人的夫妻趣事' /><item name='19'  value='巨汗,家庭生活里的愚人冷幽默' /><item name='20'  value='糗事105,这些糗事有遇到过吗' /><item name='21'  value='汗,动物的满腹牢骚的冷冻笑话' /><item name='22'  value='14个降温效果不错的超级冷料' /><item name='23'  value='劫匪每个月都来抢一回就好了' /><item name='24'  value='冷笑话:交友要慎重智商很重要' /><item name='25'  value='超级雷人,搞笑的植物妙言趣语' /><item name='26'  value='超爆笑的家长儿童的生活冷料' /><item name='27'  value='一道语文造句题N种高超解法' /><item name='28'  value='超无厘头网文,莫大的一番理由' /><item name='29'  value='笑岔气了!结婚用什么车最cool' /><item name='30'  value='有那么点儿寒冷的小笑话八则' /><item name='31'  value='堪比小月月的猛女糗事大杂烩' /><item name='32'  value='三则笑果超级强悍的误会段子' /><item name='33'  value='糗事逗人,很有趣的脑筋急转弯' /><item name='34'  value='爆寒,生活里见到的超级冷笑话' /><item name='35'  value='搞笑的问答20条,看完爽歪歪了' /><item name='36'  value='冷笑话:智商低,连作弊都不会!' /><item name='37'  value='恋爱男女雷人,天天有人办雷事' /><item name='38'  value='极冷又风趣,搞笑的动物谈房子' /><item name='39'  value='职场上的超极寒的爆笑冷笑话' /><item name='40'  value='糗事928,这些糗事有遇到过吗' /><item name='41'  value='冷死我了!寡妇和他小叔的故事' /><item name='42'  value='冷幽默一则:寡妇和小叔' /><item name='43'  value='经典爆笑的看病,包拯和公孙策' /><item name='44'  value='经典口误,当时听到就傻眼了啊' /><item name='45'  value='15则精简又强悍的幽默冷笑话' /><item name='46'  value='让人抹把汗,逗人爆笑的冷段子' /><item name='47'  value='淘气爆笑的孩子人把乐得翻天' /><item name='48'  value='14则男女间关系的冷冷小笑话' /><item name='49'  value='最新开学必讲的超冷幽默笑话' /><item name='50'  value='1020FML让你每天都囧囧有神' /></property><property name='cold24'  value='冷笑话二十四' > <item name='1'  value='别错过,雷到爆的经典笑话四则' /><item name='2'  value='928FML,让你每天都囧囧有神' /><item name='3'  value='狂擦汗,好笑的夫妻超级冷笑话' /><item name='4'  value='比冰窟还冷的小小幽默冷笑话' /><item name='5'  value='小心雷倒,年轻男女的冷人爆笑' /><item name='6'  value='大家使用自动提款机时的区别' /><item name='7'  value='狂抹汗小幽默让人冷冷的笑吧' /><item name='8'  value='除夕这年夜饭吃得似乎有点糟' /><item name='9'  value='20则超有趣的冷笑话,太过瘾了' /><item name='10'  value='让人沉思,小强和小明的一辈子' /><item name='11'  value='生活中的冷料轻轻松松雷倒你' /><item name='12'  value='盘点白领出差时遭遇十大囧事' /><item name='13'  value='最近网上盛传的极品冰冷段子' /><item name='14'  value='排一排,十大搞笑糗事的排行榜' /><item name='15'  value='冷哟,周杰伦与蔡依林聊天记录' /><item name='16'  value='知识强帖:女人罩杯的英文详解' /><item name='17'  value='糗事912,这些糗事有遇到过吗' /><item name='18'  value='国庆长假里,动物的那点小心思' /><item name='19'  value='小明故事,每一个平凡人的故事' /><item name='20'  value='汗,动物更新了自己的个性签名' /><item name='21'  value='亲爱慢飞小心前面带刺的玫瑰' /><item name='22'  value='老师和学生,雷人的校园冷幽默' /><item name='23'  value='白雪公主等5则爆笑雷人冷笑话' /><item name='24'  value='9则经典的冷笑话,小心别冷着' /><item name='25'  value='超牛司机面对交警的爆笑回答' /><item name='26'  value='冷翻人的经典小笑话,帮你降温' /><item name='27'  value='两个城市娇MM到乡下放羊' /><item name='28'  value='小孩好笑又雷人,总有条冷倒你' /><item name='29'  value='大热天来个寒的,生活开心冷料' /><item name='30'  value='超强总结!&quot;杯具&quot;的完整发展史' /><item name='31'  value='做女人真累!看完彻底都无语了' /><item name='32'  value='一句话就能让你笑到嘴角抽搐' /><item name='33'  value='糗事927,这些糗事有遇到过吗' /><item name='34'  value='用&quot;床上功夫&quot;解决你愚笨营销' /><item name='35'  value='926FML,让你每天都囧囧有神' /><item name='36'  value='秋高气爽,国庆节冷幽默不落后' /><item name='37'  value='几个经典冷笑话,你看过了吗' /><item name='38'  value='10则好冷的幽默糗事,别着凉了' /><item name='39'  value='给力冷幽默很爽,看完还想看啊' /><item name='40'  value='11则冷冷幽默笑话,开心过周末' /><item name='41'  value='很给力,高校里面的睿智冷笑话' /><item name='42'  value='真的好冷哟,5则超级巨寒笑话' /><item name='43'  value='别着凉,动物寓言的巨寒冷笑话' /><item name='44'  value='生活里面的超级搞笑冷段子5则' /><item name='45'  value='韩日的电视剧就那点事,很乏味' /><item name='46'  value='注意小人,商场与职场超冷笑话' /><item name='47'  value='爆笑!拖拉机高速狂超奔驰宝马' /><item name='48'  value='1021FML让你每天都囧囧有神' /><item name='49'  value='一个女教师与学生的暴寒对答' /><item name='50'  value='读研与蹲监狱的联系和区别' /></property><property name='cold25'  value='冷笑话二十五' > <item name='1'  value='冷人又好笑,生活里面的小讽刺' /><item name='2'  value='动物们做起了生意打起了广告' /><item name='3'  value='冷知识!男人裸睡的另类好处' /><item name='4'  value='913FML,让你每天都囧囧有神' /><item name='5'  value='怎样才让淘宝卖家不叫我&quot;亲&quot;' /><item name='6'  value='超趣味俏皮语录:动物们的烦恼' /><item name='7'  value='一老大爷和奥迪Q7车主的对话' /><item name='8'  value='捡到一个鼠标垫想开一个网吧' /><item name='9'  value='冷笑话来袭,小心不被冻成冰棍' /><item name='10'  value='冷笑话:这手表防水防尘还防震' /><item name='11'  value='巨汗,爆笑冷死人的小幽默笑话' /><item name='12'  value='公厕和银行6个相同点和不同点' /><item name='13'  value='汗,熟悉的名词还有更俗的翻译' /><item name='14'  value='暴汗!一个无耻人的骚扰电话' /><item name='15'  value='糗事926,这些糗事有遇到过吗' /><item name='16'  value='超级恶搞,动物们表示鸭梨很大' /><item name='17'  value='超寒冷笑话:鸡蛋公主的故事' /><item name='18'  value='有趣,小动物们的笑话可幽默了' /><item name='19'  value='绝对搞笑冷笑话:1+1=王八蛋?' /><item name='20'  value='噗,蔬菜的生存心得的风言趣语' /><item name='21'  value='狂滴汗,太阳给小草的通话内容' /><item name='22'  value='职场生活雷人冷笑话,笑死人了' /><item name='23'  value='全球唯一绝对是不能惹的国家' /><item name='24'  value='盘点余秋雨的40个经典冷笑话' /><item name='25'  value='909FML,让你每天都囧囧有神' /><item name='26'  value='糗事914:这些糗事有遇到过吗' /><item name='27'  value='日常忌语,小心别乱喊人的名字' /><item name='28'  value='糗事1016,这些糗事有遇到过吗' /><item name='29'  value='13则巨冷的幽默笑话,捏一把汗' /><item name='30'  value='1016FML让你每天都囧囧有神' /><item name='31'  value='汪涵教你如何进入女人的心里' /><item name='32'  value='9则小故事,你是在笑还是感动' /><item name='33'  value='40度高温时西安人民的呼声' /><item name='34'  value='仔细看看,超级强悍的冰冻笑话' /><item name='35'  value='看完答案会狂汗的冷笑话谜语' /><item name='36'  value='暴寒,婚恋的妙喻超级冰冷笑话' /><item name='37'  value='电脑公司令人汗颜的招聘要求' /><item name='38'  value='老妈叫我翻译,小心把你给冷死' /><item name='39'  value='异想天开的超级吹牛,雷死人了' /><item name='40'  value='大学同学超强的蚊帐里的故事' /><item name='41'  value='狂滴汗,关于城管的超级冷笑话' /><item name='42'  value='来,过来挑战一下超雷的绕口令' /><item name='43'  value='没事在麦当劳装逼的后果,爆冷' /><item name='44'  value='有些人很会巧对付的超冷笑话' /><item name='45'  value='笑话:老经理对电脑公司的投诉' /><item name='46'  value='气温骤降,17条爆冷的脑筋急转' /><item name='47'  value='MM必看,非常有效的减肥方法' /><item name='48'  value='抹汗,冷人不着调的时令小段子' /><item name='49'  value='寒!杯具人生最寂寞的47件事情' /><item name='50'  value='巨汗,猫和老鼠的幽默超冷寓言' /></property><property name='cold26'  value='冷笑话二十六' > <item name='1'  value='925FML,让你每天都囧囧有神' /><item name='2'  value='家有趣致孩童,冷人好笑的孩子' /><item name='3'  value='7条夫妻间的超级有趣冷冷笑话' /><item name='4'  value='糗事910,这些糗事有遇到过吗' /><item name='5'  value='糗事1015,这些糗事有遇到过吗' /><item name='6'  value='最尴尬又乐趣多多的一堆糗事' /><item name='7'  value='小幽默:关于一组数字的冷笑话' /><item name='8'  value='910FML,让你每天都囧囧有神' /><item name='9'  value='831FML,让你每天都囧囧有神' /><item name='10'  value='一身冷汗,网络上流行的冷幽默' /><item name='11'  value='炎热烈日下,整蛊诙谐超冷幽默' /><item name='12'  value='如果你去山木,我就去富士康' /><item name='13'  value='请解释你们车上怎么会有酒味?' /><item name='14'  value='韩国棒子们的新发现,被雷翻了' /><item name='15'  value='结婚十周年纪念日想要的礼物' /><item name='16'  value='冷冷恶搞,爆笑的汉字调侃对话' /><item name='17'  value='超有趣,军营里面的冷冷小笑话' /><item name='18'  value='冷啊冷,保证比你看过的都雷人' /><item name='19'  value='冷笑话之鼻祖,雷人的小明童鞋' /><item name='20'  value='汗:它们在路上走着走着突然说' /><item name='21'  value='5则还不错的冷料速速来降温了' /><item name='22'  value='今天我终于上了骗钱广告的当' /><item name='23'  value='让你出冷汗的爆寒幽默冷笑话' /><item name='24'  value='搞笑小学生日记,老师经典点评' /><item name='25'  value='六则爆笑冷幽默,吹来阵阵凉风' /><item name='26'  value='快乐随处见,7个经典校园笑话' /><item name='27'  value='玩过没?灰常搞笑的脑筋急转弯' /><item name='28'  value='今早收到张请假条让我直吐血' /><item name='29'  value='不冷倒不算冷笑话,抹抹一额汗' /><item name='30'  value='13则效果还不错的冷冷小段子' /><item name='31'  value='军营里有点分量的爆寒冷笑话' /><item name='32'  value='10则巨低温的超级冷笑话幽默' /><item name='33'  value='巨寒,超级好笑的冷人笑话幽默' /><item name='34'  value='经典冷笑话8则,小心别着凉啦' /><item name='35'  value='秋高气爽,5则狂汗冷笑话精选' /><item name='36'  value='生活就像个冷笑话,搞笑糗事录' /><item name='37'  value='校园冷笑话:我就是语文课代表' /><item name='38'  value='地铁听到的冷笑话:她们都老了' /><item name='39'  value='狂汗冷笑话!谁坑谁还不一定呢' /><item name='40'  value='糗到满脸惊讶的爆笑冷冷幽默' /><item name='41'  value='大家都很会玩,爆笑经典冷笑话' /><item name='42'  value='太棒了,小心笑翻的极品冷笑话' /><item name='43'  value='爆笑,有个二货的日子绝不寂寞' /><item name='44'  value='得罪谁都行,也千万别得罪老婆' /><item name='45'  value='差点冷死,12个精彩的偷情趣事' /><item name='46'  value='笑迎六一儿童节,小朋友雷翻你' /><item name='47'  value='狂喷,有时候就连家长也挺二的' /><item name='48'  value='世界最难对付的人,绝对是老婆' /><item name='49'  value='20则冰冻冷笑话,让你寒上加寒' /><item name='50'  value='整蛊爆笑,曾经出现的最强昵称' /></property><property name='cold27'  value='冷笑话二十七' > <item name='1'  value='别错过,20则巨寒的超级冷笑话' /><item name='2'  value='逗笑夫妻,小日子的开心事13则' /><item name='3'  value='超丢脸,爆笑二货逗你笑口常开' /><item name='4'  value='发生在校园里最雷人的糗故事' /><item name='5'  value='很好笑很欠扁的27个幽默冷料' /><item name='6'  value='狂汗,乐人的幽默糗事儿笑翻天' /><item name='7'  value='精神病院永久不衰的冷笑话儿' /><item name='8'  value='19条超级短的冷笑话,别冻着了' /><item name='9'  value='20个冷笑话,制造冷料最佳途径' /><item name='10'  value='牛,狂滴汗的5则巨寒的冷笑话' /><item name='11'  value='狂滴汗,经典讽刺的冷冷小笑话' /><item name='12'  value='经典冷笑话,那叫逗人一个冷啊' /><item name='13'  value='万能的小明,脑筋急转弯必手技' /><item name='14'  value='超级冷,当下最应景的冰冻笑话' /><item name='15'  value='巨寒的超级冷笑话,穿好防寒衣' /><item name='16'  value='很冷很幽默,19则综合生活笑话' /><item name='17'  value='不错,居家生活开心冷冷小笑话' /><item name='18'  value='超酷!冷笑话的典故你知道多少' /><item name='19'  value='无敌冷!怀念那首&quot;加州招待所&quot;' /><item name='20'  value='天气回暖,冷笑话依旧零下无穷' /><item name='21'  value='牛,富翁经理和精神病的冷笑话' /><item name='22'  value='速冻无极限,温度超低的冷笑话' /><item name='23'  value='给力,23则冷到打颤的幽默笑话' /><item name='24'  value='巨冷,20条十分欠扁的搞笑短信' /><item name='25'  value='暴汗,实在很杯具结实的冷笑话' /><item name='26'  value='真是天真,巨逗的小孩子乐死人' /><item name='27'  value='超级冷料,爆笑的包拯与公孙策' /><item name='28'  value='雷人超糗,愚人做的蠢事很可笑' /><item name='29'  value='超经典,有质素的冷笑话大集合' /><item name='30'  value='20则最近灰常新鲜的超冷句子' /><item name='31'  value='幽默搞笑的动物,太冷太有趣了' /><item name='32'  value='那个冷啊,超级经典的一句雷语' /><item name='33'  value='20条降温还不错的超级冷笑话' /><item name='34'  value='经典冷笑话,看完绝对就鸡冻了' /><item name='35'  value='脑壳冒汗:大雪过后的暴寒冷料' /><item name='36'  value='小两口的甜蜜爆笑的恶搞生活' /><item name='37'  value='23则有点意思的超级冰冻冷料' /><item name='38'  value='超冷,怎么验证患者的病治好了' /><item name='39'  value='太雷人,夫妻生活里的爆笑糗事' /><item name='40'  value='温馨啊,家庭生活的搞笑冷幽默' /><item name='41'  value='很经典,有些讽刺味道的冷笑话' /><item name='42'  value='3秒后你才会笑出来的精悍笑话' /><item name='43'  value='笑得不醒人事的46个超冷对话' /><item name='44'  value='爆笑,小孩的冷幽默确实很有趣' /><item name='45'  value='很冷,有屎以来最牛的推理故事' /><item name='46'  value='萌萌的,又傻又聪明的爆笑儿童' /><item name='47'  value='经典爆笑的冷段子,被寒到了吗' /><item name='48'  value='冷笑话才是笑话中的超级极品' /><item name='49'  value='风趣经典的超级搞笑冰冻笑话' /><item name='50'  value='超级逗人,总有雷人的巨冷幽默' /></property><property name='cold28'  value='冷笑话二十八' > <item name='1'  value='家庭糗事事小笑话,小心雷倒你' /><item name='2'  value='冷到一塌糊涂,生活中爆笑段子' /><item name='3'  value='经典,17则爆笑冷人的雷人雷事' /><item name='4'  value='小孩都能看懂的超级爆笑冷料' /><item name='5'  value='搞笑的家庭笑话,真是幸福生活' /><item name='6'  value='看过没,20条还不错的冰冻笑话' /><item name='7'  value='爆笑民间冷幽默,小心别冷着了' /><item name='8'  value='家庭欢乐多,雷人的家长与小孩' /><item name='9'  value='职场中的巨寒人冷冷幽默笑话' /><item name='10'  value='爆笑雷人事件,这些人真的会玩' /><item name='11'  value='堪称&quot;萌&quot;主,机灵可爱的小孩子' /><item name='12'  value='小动物们的冷笑话,巨雷又搞笑' /><item name='13'  value='28则冷到爆炸的超级冰冻笑话' /><item name='14'  value='10则辛苦收集冷死人的小笑话' /><item name='15'  value='飙冷汗,超搞笑开心冷幽默15则' /><item name='16'  value='开心一刻,生活中的搞笑冷幽默' /><item name='17'  value='零下10度的冷笑话,看你抗寒力' /><item name='18'  value='天真无邪,校园生活很雷很搞笑' /><item name='19'  value='6则绝对是高智商的超级冷笑话' /><item name='20'  value='经典啊,越看越让人寒的冷笑话' /><item name='21'  value='很黄很暴力冷笑话,越往后越冷' /><item name='22'  value='真俏皮,很搞不暴力的生活趣事' /><item name='23'  value='必须穿上羽绒服再欣赏冷笑话' /><item name='24'  value='超牛,经典到叫你喷饭的冷笑话' /><item name='25'  value='挺好笑,不过就是冻得直打哆嗦' /><item name='26'  value='冷笑话,有趣到寒到心里面去了' /><item name='27'  value='猜到没?十分欠扁的脑经急转弯' /><item name='28'  value='成人版脑筋急转弯,你还纯洁吗' /><item name='29'  value='绝对寒的超级冷笑话,小心汗颜' /><item name='30'  value='11个超好玩小笑话,不信你不笑' /><item name='31'  value='有点冷的13则超经典巨汗笑话' /><item name='32'  value='工作沉闷还是冷笑话来得及时' /><item name='33'  value='冷就加张被,动物笑话都比较汗' /><item name='34'  value='开心一刻,生活里面的超冷幽默' /><item name='35'  value='极品冰冷笑话,小心看完别着凉' /><item name='36'  value='搞笑脑筋急转弯系列大集合二' /><item name='37'  value='今年1月红红火火的好笑短信儿' /><item name='38'  value='极品冷笑话,看完小心双腿打颤' /><item name='39'  value='温度骤降,新鲜收集的爆冷笑话' /><item name='40'  value='超级雷人,14条极寒的幽默段子' /><item name='41'  value='狂汗笑爆嘴,学识渊博的小孩子' /><item name='42'  value='糗事913:这些糗事有遇到过吗' /><item name='43'  value='零下无穷度,快被雷倒的冷笑话' /><item name='44'  value='搞笑脑筋急转弯系列大集合一' /><item name='45'  value='超尴尬糗事,很冷的校园小幽默' /><item name='46'  value='上班族生活工作中的爆冷幽默' /><item name='47'  value='一开口就有冷笑话,赶快带回家' /><item name='48'  value='爆笑冷死人的小幽默,温度骤降' /><item name='49'  value='巨冷,爆笑的一对夫妻趣事18则' /><item name='50'  value='风情男女,情侣之间的爆笑雷事' /></property><property name='cold29'  value='冷笑话二十九' > <item name='1'  value='家庭欢乐,孩子把大人逗的直乐' /><item name='2'  value='小心冷死,爆笑雷翻人的小夫妻' /><item name='3'  value=' 上班族身边的21则冷冷小幽默' /><item name='4'  value='崩溃,让人无法淡定的雷人雷事' /><item name='5'  value='开心一刻,一不小心空气又降温' /><item name='6'  value='超级个性,雷人糗事冷冷小幽默' /><item name='7'  value='18则精选冷幽默,看完别着凉啊' /><item name='8'  value='一分钟包你笑趴的超级冷笑话' /><item name='9'  value='读的时候不要笑,读完了也别哭' /><item name='10'  value='新搜集到超级冷料,被寒到了么' /><item name='11'  value='冰冻系数颇高的寒冷笑话来袭' /><item name='12'  value='脑壳冒汗,最新发布的暴寒冷料' /><item name='13'  value='校园里雷事不断的爆笑冷笑话' /><item name='14'  value='爆笑冷幽默11则,逗得你笑呵呵' /><item name='15'  value='各种&quot;卡&quot;的幽默自白,直接被雷' /><item name='16'  value='小心笑趴了,好笑的夫妻冷幽默' /><item name='17'  value='17个经典的冷笑话,小心着凉哦' /><item name='18'  value='狂滴汗啊,搞笑婚恋生活冷笑话' /><item name='19'  value='冷到骨子里,爆笑笑经典冷笑话' /><item name='20'  value='经典讽刺小笑话,精明到不要脸' /><item name='21'  value='笑爆嘴,超级恶搞的蠢事和糗事' /><item name='22'  value='装傻充愣,经典愚人冷幽默8则' /><item name='23'  value='10则有点汗的冷笑话,小心着凉' /><item name='24'  value='哭笑不得,孩子都是搞笑的活宝' /><item name='25'  value='年轻的生活爆笑,雷死人不偿命' /><item name='26'  value='超雷人,司法领域冷冷的小笑话' /><item name='27'  value='狂擦汗,14则生活里面的冷笑话' /><item name='28'  value='冷且雷,搞笑雷人的经典小讽刺' /><item name='29'  value='有点技术含量的超冷幽默笑话' /><item name='30'  value='理解很幽默,萌翻人爆冷小朋友' /><item name='31'  value='零下无穷度,夫妻爆笑的雷事多' /><item name='32'  value='冷到掉渣的幽默笑话,别着凉了' /><item name='33'  value='不错啊,给力冷幽默看了很想笑' /><item name='34'  value='学校二货同学办的超搞笑事儿' /><item name='35'  value='爆笑愚人,一蠢到底闹爆冷笑话' /><item name='36'  value='随便就冷翻人的一句话冷笑话' /><item name='37'  value='爆笑上班族,苦逼日子的爆笑事' /><item name='38'  value='婚后的女人真厉害,巨冷巨抽筋' /><item name='39'  value='冷笑话强力制冷,小心别着凉了' /><item name='40'  value='要小心,经典但很强大的冷笑话' /><item name='41'  value='8条经典的冷笑话幽默,超寒哟' /><item name='42'  value='既冷又雷,又想不到一块的笑话' /><item name='43'  value='寒,冷死人不偿命的超强冷笑话' /><item name='44'  value='巨冷爆笑:恶搞乱搭出笑果幽默' /><item name='45'  value='夫妻界的搞笑奇葩,笑到肚子痛' /><item name='46'  value='看到你抓狂的超真实应聘经历' /><item name='47'  value='哈啾,小盆友最能制造巨冷笑话' /><item name='48'  value='13则愚人爆笑,笑掉大牙的笑话' /><item name='49'  value='绝对够你跟女友讲的超冷笑话' /><item name='50'  value='超级寒冷的水果个性风趣语录' /></property><property name='cold30'  value='冷笑话三十' > <item name='1'  value='网络最近盛行冷笑话,看懂了吗' /><item name='2'  value='网友糗事,到底是杯具还是洗具' /><item name='3'  value='34个暴强冷笑话,为你急速降温' /><item name='4'  value='看似有道理,幽默哲理的小故事' /><item name='5'  value='有点冷,幽默的夫妻生活小笑话' /><item name='6'  value='34个暴强冷笑话,为你消暑降温' /><item name='7'  value='听说这冷料看完会笑大半夜哦' /><item name='8'  value='天寒地冻,幽默冷人的风趣男女' /><item name='9'  value='八则你一定没看过的超冷笑话' /><item name='10'  value='8则小动物们狂汗的幽默冷笑话' /><item name='11'  value='瀑布汗!听歌能闹出这样的笑话' /><item name='12'  value='超级经典,笑死人的糗事冷笑话' /><item name='13'  value='爆笑,很好笑的雷人冷笑话8则' /><item name='14'  value='搞笑事件,让人狂晕的爆笑糗事' /><item name='15'  value='弯弯绕,超雷人冷笑话来降温了' /><item name='16'  value='听说是很少人看懂的超冷笑话' /><item name='17'  value='巨汗,11则暴寒的超级冰冻笑话' /><item name='18'  value='30条经典冷笑话大全,太好笑了' /><item name='19'  value='冷是冷了点,但笑果还不错冷料' /><item name='20'  value='小心感冒,笑话让春季乍暖还寒' /><item name='21'  value='最新最强的冷段子,小心别冻着' /><item name='22'  value='11条超冷笑话很冷但却很搞笑' /><item name='23'  value='上学开心,搞笑学生的雷人笑料' /><item name='24'  value='超糗的爆笑夫妻生活幽默趣事' /><item name='25'  value='逗人的宝宝们,六一儿童节快乐' /><item name='26'  value='无聊,超冷的小孩子让人笑弯腰' /><item name='27'  value='三八节,苦逼男人巨悲催的一天' /><item name='28'  value='赞!40则包你说过瘾的冷冷幽默' /><item name='29'  value='寒流来了,搜集到经典的冷笑话' /><item name='30'  value='小朋友最爱不一般的动物乐趣' /><item name='31'  value='巨给力,爆笑家长给生活添乐趣' /><item name='32'  value='真欢乐,经典好笑的夫妻小趣事' /><item name='33'  value='这是我看过最冷的笑话,爆汗!' /><item name='34'  value='9则让人狂滴汗的超冷幽默笑话' /><item name='35'  value='狂汗,逗得人咯咯直笑的冷幽默' /><item name='36'  value='16则相当内涵的爆笑巨冷笑话' /><item name='37'  value='冷空气到,给力好笑的爆笑笑话' /><item name='38'  value='笑话真的很冷,加件衣服再看哦' /><item name='39'  value='笑摊大家,亮瞎双眼的爆冷雷事' /><item name='40'  value='萌萌更健康,欢乐和孩子在一起' /><item name='41'  value='看各行各业是怎么过愚人节的' /><item name='42'  value='老师会崩溃,冷翻人的调皮学生' /><item name='43'  value='让人再度崩溃的冷幽默谜语' /><item name='44'  value='17条生活里面幽默的爆笑糗事' /><item name='45'  value='狂冒冷汗,超级淡定的巨寒冷料' /><item name='46'  value='小心着凉,七则冷冷的幽默笑话' /><item name='47'  value='20条超级冷笑话,很旧但很好笑' /><item name='48'  value='儿童笑话:反问年终奖哑口无言' /><item name='49'  value='能和你女朋友说的超级冷笑话' /><item name='50'  value='巨汗的冷笑话,冷的感觉好啊好' /></property><property name='cold31'  value='冷笑话三十一' > <item name='1'  value='小心,看完狂飚汗的超级冷笑话' /><item name='2'  value='真的雷,2011超级爆笑糗事大全' /><item name='3'  value='超级隐晦冷笑话,未成年人禁进' /><item name='4'  value='超急冻的冷笑话谜语,赶快猜猜' /><item name='5'  value='9则巨冷幽默爆笑大全,要添衣' /><item name='6'  value='足够和女朋友笑一天的冷笑话' /><item name='7'  value='超级经典冷笑话,看一次笑一次' /><item name='8'  value='冷笑话:一次悲剧性的相亲经历' /><item name='9'  value='冰冻指数五颗星的暴汗新口误' /><item name='10'  value='真佩服,想不笑都难的家庭笑话' /><item name='11'  value='经典超寒的冷笑话,有你喜欢的' /><item name='12'  value='超糗,新鲜雷人生活幽默小段子' /><item name='13'  value='超萌的啊,家长孩子真的都很雷' /><item name='14'  value='17则爆笑男女的恋爱冷冷笑话' /><item name='15'  value='狂汗,生活爆笑冷人的雷人雷事' /><item name='16'  value='萌萌的小孩子就是这么可爱呢' /><item name='17'  value='20则巨极品冷笑话,差点冷抽了' /><item name='18'  value='12条超强冷笑话,注意添衣服哦' /><item name='19'  value='丢人啊,收集到超多的尴尬事儿' /><item name='20'  value='生活糗事,每一次都让人超崩溃' /><item name='21'  value='接近崩溃点的冰冻冷笑话8则' /><item name='22'  value='经典冷笑话,年轻人就是冷幽默' /><item name='23'  value='雷得人外焦里嫩的爆笑冷幽默' /><item name='24'  value='进阶级脑筋急转弯杀到,快来玩' /><item name='25'  value='巨冷勿入!小明传奇性的一生' /><item name='26'  value='内涵爆笑的男女段子,有点害羞' /><item name='27'  value='挑战一下,超欠扁的脑筋急转弯' /><item name='28'  value='职场和生活里爆笑糗事,糗大了' /><item name='29'  value='超级温馨,居家生活的冷冷幽默' /><item name='30'  value='连吃饭都闹笑话,真是冷到家了' /><item name='31'  value='大人很无语,幼稚好笑的小朋友' /><item name='32'  value='零下无穷度,21则爆笑校园冷料' /><item name='33'  value='天凉了这笑话还可以看吗?很冷' /><item name='34'  value='巨汗!无节操无底线的爆冷段子' /><item name='35'  value='不错,小孩子的纯真萌话逗的很' /><item name='36'  value='皮笑肉不笑,离奇古怪的冷笑话' /><item name='37'  value='你说这冷料适合在大冷天看吗' /><item name='38'  value='绝对很带喜感的8则冷幽默笑话' /><item name='39'  value='别样的雷人小夫妻,冷得很坑爹' /><item name='40'  value='很冷,身在职场遇到的雷人幽默' /><item name='41'  value='冻死人笑话,坚持到最后要膜拜' /><item name='42'  value='经典,每次看都觉得冷飕飕笑话' /><item name='43'  value='搞笑有趣的造句,你也要来玩玩' /><item name='44'  value='冷死人,短小精干蠢得无可救药' /><item name='45'  value='话说是2010年最变态的冷笑话' /><item name='46'  value='巨寒,笑话冷得让我hold不住了' /><item name='47'  value='温度超低,6则校园巨寒冷笑话' /><item name='48'  value='冷人的笑话,现实总会幽你一默' /><item name='49'  value='轻松一刻,搞笑的职场生活笑话' /><item name='50'  value='巨冷好笑的师生冷人爆笑趣事' /></property><property name='cold32'  value='冷笑话三十二' > <item name='1'  value='生活遇到的那些雷人冷冷笑话' /><item name='2'  value='突然间让你萌翻的短小冷笑话' /><item name='3'  value='超欠扁脑筋急转弯能转过来吗' /><item name='4'  value='笑的乐开花,爆笑夫妻婚恋笑话' /><item name='5'  value='巨寒,10则鬼机灵的孩子笑死人' /><item name='6'  value='给力,水平很高的爆笑冷人笑料' /><item name='7'  value='两口子超爆笑的生活巨冷笑话' /><item name='8'  value='似懂非懂的小孩子最会闹笑话' /><item name='9'  value='冷笑话来袭,感冒就得吃白加黑' /><item name='10'  value='夫妻搞笑,居家生活的超级趣事' /><item name='11'  value='爆笑职场幽默,让工作不再枯燥' /><item name='12'  value='不用开空调,帮你降温的冷笑话' /><item name='13'  value='抹汗,笑死人的四大名著冷笑话' /><item name='14'  value='考考你猜对么,超冷IQ题30则' /><item name='15'  value='小两口冷笑话,夫妻爆笑雷事多' /><item name='16'  value='看完没脾气,笑死人的冷冷笑话' /><item name='17'  value='逗人咯咯直笑的13则巨冷笑话' /><item name='18'  value='突然间让你萌翻的10则冷笑话' /><item name='19'  value='和同事在一块的幽默开心事儿' /><item name='20'  value='17条很俏皮捣蛋的超级冷幽默' /><item name='21'  value='晕倒,被网友的雷人精神折服了' /><item name='22'  value='爆笑师生,开心搞笑的校园生活' /><item name='23'  value='爆笑,令人喷饭超冷笑话精选集' /><item name='24'  value='超有水平,爆逗夫妻这事不赖谁' /><item name='25'  value='注意保暖哦,10条爆笑的冷笑话' /><item name='26'  value='夏天要看冷笑话,17则超级冷料' /><item name='27'  value='网友讲成语时候遇到的尴尬事' /><item name='28'  value='职业天天冷笑话,注意防寒工作' /><item name='29'  value='糗人糗事,生活的意外无处不在' /><item name='30'  value='清凉上阵,大热天怎能没冷笑话' /><item name='31'  value='超级冷,让天气热不起来的笑话' /><item name='32'  value='生活大爆炸,总有些人不太靠谱' /><item name='33'  value='笑翻了,幽默雷人的老师和学生' /><item name='34'  value='超低温,爆笑夫妻婚恋冷冷笑话' /><item name='35'  value='最新的又雷又冷巨好笑的话语' /><item name='36'  value='估计是史上最难猜脑筋急转弯' /><item name='37'  value='经典冷料,每次看都起鸡皮疙瘩' /><item name='38'  value='暴强冷笑话,你看到绝对会僵掉' /><item name='39'  value='最新的冷笑话大全,寒倒一大片' /><item name='40'  value='大声笑,雷死人的爆笑二货夫妻' /><item name='41'  value='8则巨冷的新春笑话,看傻了眼' /><item name='42'  value='狂滴汗,风趣冷幽默生活小段子' /><item name='43'  value='调侃早晨懒床的8种超纠结版本' /><item name='44'  value='快乐随处见,23则冷笑话小集合' /><item name='45'  value='12则会笑不拢嘴的超级冷幽默' /><item name='46'  value='超级雷人冷料,看完开心一整天' /><item name='47'  value='温度有够低了,冷笑话挥毫洒墨' /><item name='48'  value='开学就像坐牢,校园风趣雷糗事' /><item name='49'  value='这保鲜车为什么这么贵这么冷' /><item name='50'  value='年轻人爱搞冷幽默,你也会喜欢' /></property>
+</p-property>
+
+
+<p-property name="quwei" value="趣味语录" icon="iv_2" > 
+  <property name="cui1"  value="第一部分" > 
+ 
+     <item name="1" value="1.蔡澜说男人,不戳到痛处不罢休 " />
+        
+     <item name="2" value="2.疯言疯语录:囧人囧事囧死你!" />      
+     <item name="3" value="3.还挺精辟,好笑风趣的疯言疯语" />
+     <item name="4" value="4.一个闷骚男人用过的搞笑签名"/>     
+     <item name="5" value="5.快被笑死的超级爆笑网络语录" />     
+     <item name="6" value="6.加菲猫的人生歪理,看完很开心" />   
+     <item name="7" value="7.语录:天堂里的笑声也不是传说" />    
+     <item name="8" value="8.据说是灰常IN的网络潮流语录" />  
+     <item name="9" value="9.不错,相当给力的一句俏皮语录" />    
+     <item name="10" value="10.有情人终成家属,20条精辟语录" />        
+     <item name="11" value="11.网络广为流传的爆强经典状态" />    
+     <item name="12" value="12.让你又好笑又心酸的毕业语录" />     
+     <item name="13" value="13.背下来,一句话就可以轻松搞笑" />    
+     <item name="14" value="14.伤心时最好读的50句经典语录" />       
+     <item name="15" value="15.爆雷扣扣个性签名,千万别乱用" />    
+     <item name="16" value="16.快看,常挂嘴边的精辟俏皮语录" />    
+     <item name="17" value="17.精辟,可用来做签名的网络语录" />    
+     <item name="18" value="18.真的么,经典幽默爱情婚恋妙语" />   
+     <item name="19" value="19.无敌搞笑!绝对有趣的个性签名" />    
+     <item name="20" value="20.14条搞笑一句话,让你贱笑了" />
+</property>
+
+
+ 
+<property name="cui2"  value="第二部分" > 
+     <item name="1" value="1.超级郁闷,雷语恶搞浪漫情人节" />
+     <item name="2" value="2.网络流传的50条精辟好玩语录" />
+     <item name="3" value="3.超爆笑的爱情签名,百分百经典" />
+     <item name="4" value="4.笑中感悟,绝对甜蜜的爱情语录" />
+     <item name="5" value="5.巨甜蜜,情人节招人羡慕的语录" />
+     <item name="6" value="6.调情吧,超幽默不伤感情的语录" />
+     <item name="7" value="7.让你笑后深思的经典网络名言" />
+     <item name="8" value="8.灰常搞笑的学生超级雷人语录" />
+     <item name="9" value="9.给力,新版西游记爆笑雷人台词" />
+     <item name="10" value="10.精辟好笑,很有意思的俏皮语录" />
+     <item name="11" value="11.精辟的无以伦比!网络最红语录" />
+     <item name="12" value="12.精辟到宇宙爆炸的五十条金句" />
+     <item name="13" value="13.贼棒!随便一句都可以让你消魂" />
+     <item name="14" value="14.纲哥新语录,句句箴言字字珠玑" />
+     <item name="15" value="15.上大号若忘了带纸,你要肿么办" />
+     <item name="16" value="16.看谁都不顺眼:牢骚先生的语录" />
+     <item name="17" value="17.11条懒人语录,你是这样的吗?" />
+     <item name="18" value="18.甜蜜蜜,情侣间的另类幽默称呼" />
+     <item name="19" value="19.搞笑个性口头禅,来挑选一个吧" />
+     <item name="20" value="20.情人节将至,一句话的牛气表白" />
+
+</property>
+
+
+<property name="cui3"  value="第三部分" > 
+  
+     <item name="1" value="1.牛人自有牛人语,句句都超爆笑" />
+        
+     <item name="2" value="2.真给力,好玩又有个性的俏皮话 " />      
+     <item name="3" value="3.山寨无敌啊!山寨版的至理名言" />
+     <item name="4" value="4.小心笑歪的俏皮网络调侃段子" />     
+     <item name="5" value="5.那些个超脱彪悍不淡定的语录" />     
+     <item name="6" value="6.一句话把人弄的又好气又好笑" />   
+     <item name="7" value="7.笑中感悟!很完整的爱情网语录" />    
+     <item name="8" value="8.一句话笑翻你的人生搞笑语录" />  
+     <item name="9" value="9.人见人爱的27条可爱葵花宝典" />    
+     <item name="10" value="10.超级精辟短句:哪一句击中了你" />        
+     <item name="11" value="11.开学了,有才学生的俏皮网语录" />    
+     <item name="12" value="12.一句话笑死人的俏皮网络语录" />     
+     <item name="13" value="13.女生最爱听的超级霸气的话语 " />    
+     <item name="14" value="14.能让人气吐血的扣扣离线消息" />       
+     <item name="15" value="15.爸爸妈妈的彪悍幽默俏皮语录" />    
+     <item name="16" value="16.爆笑男女,好玩的新鲜俏皮雷语" />    
+     <item name="17" value="17.超级雷人,经典搞笑的农村标语 " />    
+     <item name="18" value="18.让千万人能瞬间高兴的30件事" />   
+     <item name="19" value="19.网友总结很有意思的网络语录" />    
+     <item name="20" value="20.能看完算你狠的一句网络语录" /> 
+</property>
+
+   <property name="cui4"  value="第四部分" > 
+     <item name="1" value="1.网络版的歇后语,你们肯定懂的" />
+     <item name="2" value="2.喜欢么,20条还不错的俏皮语录" />
+     <item name="3" value="3.俏皮,恋爱中的男女可不一样啊" />
+     <item name="4" value="4.开心个性IN语短信俏皮话签名" />
+     <item name="5" value="5.非主流空间必有装逼恶心句子" />
+     <item name="6" value="6.大魔术师经典台词搞笑对白" />
+     <item name="7" value="7.网友的个性签名,真雷了个正着" />
+     <item name="8" value="8.30条精辟的暴强签名,不得不服" />
+     <item name="9" value="9.崔永元2011年的语录,句句精辟" />
+     <item name="10" value="10.大侦探福尔摩斯2的超经典台词" />
+     <item name="11" value="11.你喜欢的,越看越经典网络语录" />
+     <item name="12" value="12.晕死,笑侃大学生活的搞笑雷语" />
+     <item name="13" value="13.十分经典的14条婚恋绝妙语录" />
+     <item name="14" value="14.经典,风趣实用的生活防骗语录" />
+     <item name="15" value="15.郁闷时急需要救命的爆笑神句" />
+     <item name="16" value="16.经典的网络魔鬼词句超全收集" />
+     <item name="17" value="17.不错,幽默搞笑的40个词语解释" />
+     <item name="18" value="18.30条超给力语录.不经典不发啊" />
+     <item name="19" value="19.精辟,网络牛人超水平有趣语录" />
+    <item name="20" value="20.内涵人必备很俏皮的网络语录" />
+</property>
+
+  
+<property name="cui5"  value="第五部分" > 
+  
+     <item name="1" value="1.2012年春节联欢晚会经典台词" />
+     <item name="2" value="2.被问了,过年见面10大毒舌问题" />      
+     <item name="3" value="3.龙腾虎跃,超级过瘾的网络语句" />
+     <item name="4" value="4.2012新春搞笑俏皮网语第一发" />     
+     <item name="5" value="5.恭喜啊,春节返岗快乐短信段子" />     
+     <item name="6" value="6.新年新开始,新春彪悍语录18条" />   
+     <item name="7" value="7.超级经典,网友们的趣语奇言录" />    
+     <item name="8" value="8.14则给力趣味语录,别说不精辟" />  
+     <item name="9" value="9.雷人雷语的宅男同事经典语录" />    
+     <item name="10" value="10.牛逼和装逼和傻逼之间的区别" />        
+     <item name="11" value="11.小心掉下巴,新鲜语录超级雷人" />    
+     <item name="12" value="12.20句写进心坎的精辟幽默语录" />     
+     <item name="13" value="13.这些语录经典得会让人很蛋疼" />    
+     <item name="14" value="14.很强悍很经典的幽默名言语录" />       
+     <item name="15" value="15.20条有趣语录,精辟到五体投地" />    
+     <item name="16" value="16.有才,是谁把心情写得如此透彻" />    
+     <item name="17" value="17.不知你看过没有,还不错的语录" />    
+     <item name="18" value="18.精彩雷语乐在新年的13条语录" />   
+     <item name="19" value="19.爆笑,一句把人逗乐的经典语录" />    
+     <item name="20" value="20.小心会笑到抽筋儿的暴强语录" />
+</property>
+
+
+
+<property name="cui6"  value="第六部分" > 
+     <item name="1" value="1.精辟,一句话超级经典语录整理" />
+     <item name="2" value="2.不得不服,网络上超级经典语录" />
+     <item name="3" value="3.60个经典的网络搞笑个性签名" />
+     <item name="4" value="4.笑死不偿命的巨给力幽默语录" />
+     <item name="5" value="5.实在太有才了,简明经济学教程" />
+     <item name="6" value="6.精辟,绝对过瘾的20条俏皮语录" />
+     <item name="7" value="7.闷骚男人用过的原创搞笑签名" />
+     <item name="8" value="8.很华丽且给力的24条幽默语录" />
+     <item name="9" value="9.不一样的人生智慧的IN语集锦" />
+     <item name="10" value="10.20条挺过瘾的经典俏皮网语录" />
+     <item name="11" value="11.很好笑有趣的一些俏皮话语录" />
+     <item name="12" value="12.20句给力有意思的俏皮网语录" />
+     <item name="13" value="13.让人流泪的古典诗句,句句痛心" />
+     <item name="14" value="14.关于杯具的19条有才俏皮语录" />
+     <item name="15" value="15.爆料,精辟过瘾语录大全笑趴了" />
+     <item name="16" value="16.巨雷人,但绝对过瘾的30条网语" />
+     <item name="17" value="17.唯美,亦舒说过的这些那些语录" />
+     <item name="18" value="18.有才,灰常风趣的10条给力网语" />
+     <item name="19" value="19.如此精辟的经典网络俏皮语录" />
+     <item name="20" value="20.兔子看到这些语录,估计要自杀" />
+</property>
+
+
+
+<property name="cui7"  value="第七部分" > 
+  
+     <item name="1" value="1.包你喜欢的有趣俏皮网络语录" />
+     <item name="2" value="2.超级经典的绝对好玩网络语录" />      
+     <item name="3" value="3.男女情感幽默一句话,差点笑趴" />
+     <item name="4" value="4.春运买票的俏皮网语,绝对同感" />     
+     <item name="5" value="5.有道理,感悟生活阅世趣语11条" />     
+     <item name="6" value="6.学生太有才了,爆强的作文雷句" />   
+     <item name="7" value="7.龙年的超快乐短信,你发送了么" />    
+     <item name="8" value="8.俏皮网络语录,买火车票这么难" />  
+     <item name="9" value="9.7.龙年的拜年短信,赶紧背下来吧" />    
+     <item name="10" value="10.超经典春联集锦,肯定有喜欢的" />        
+     <item name="11" value="11.21条超级经典语录,越看越精辟" />    
+     <item name="12" value="12.雷人雷语的宅男同事经典语录" />     
+     <item name="13" value="13.超强经典,一句话笑喷你的语录" />    
+     <item name="14" value="14.超级给力,最牛的网络流行语言" />       
+     <item name="15" value="15.经典给力语录,看得人头皮发麻" />    
+     <item name="16" value="16.看完后有同感的经典牛人语录" />    
+     <item name="17" value="17.超新鲜,最给力流行的网络语录" />    
+     <item name="18" value="18.9则精辟到极点的俏皮网络语录" />   
+     <item name="19" value="19.24条最新搜集的经典网络语录" />    
+     <item name="20" value="20.经典,20条这般给力的网络语录" /> 
+</property>
+
+<property name="cui8"  value="第八部分" > 
+  
+     <item name="1" value="1.给力,超级经典的幽默语录30条" />
+     <item name="2" value="2.小心别笑翻,离线消息经典语录" />      
+     <item name="3" value="3.有趣,关于考试的爆笑幽默段子" />
+     <item name="4" value="4.中英对照,艾薇儿的超经典语录" />     
+     <item name="5" value="5.俗话说经典就是一句,灰常给力" />     
+     <item name="6" value="6.小沈阳的经典语句,快要笑趴了" />   
+     <item name="7" value="7.巨给力,超新鲜的网络经典语录" />    
+     <item name="8" value="8.经典趣味俏皮语录,有你喜欢的" />  
+     <item name="9" value="9.绝对富有哲理的29条经典语录" />    
+     <item name="10" value="10.台词,那年我们一起追过的女孩" />        
+     <item name="11" value="11.超幽默感,俏皮好笑的雷人语录" />    
+     <item name="12" value="12.太精辟啦,犀利风趣的生活语录" />     
+     <item name="13" value="13.经典生活感情趣解,灰常有趣哦" />    
+     <item name="14" value="14.犀利风趣的潮流语录俏皮话语" />       
+     <item name="15" value="15.22条超级爆笑的网络经典语录" />    
+     <item name="16" value="16.这么给力的个性语录,赶紧马克" />    
+     <item name="17" value="17.20条爆笑签名,雷死人不负责哦" />    
+     <item name="18" value="18.闷骚男人用过的原创搞笑签名" />   
+     <item name="19" value="19.还算有趣,11条俏皮幽默一句话" />    
+     <item name="20" value="20.爷们必看的男人语录,女生勿入" />
+</property>
+
+
+
+<property name="cui9"  value="第九部分" > 
+        
+     <item name="1" value="1.搞笑,或许能成为经典的一句话" />
+     <item name="2" value="2.超级精辟经典回骂,练口才必备" />
+     <item name="3" value="3.不黄不暴力语录,不知你笑了没" />
+     <item name="4" value="4.给力,网上流传的经典趣味语录" />
+ 
+     <item name="5" value="5.15条爆笑经典的爱情趣味语录" />
+    
+     <item name="6" value="6.给力啊,50句超经典的人性总结" />
+    
+     <item name="7" value="7.真是好玩,20条幽默的笑话语录" />
+    
+     <item name="8" value="8.有点伤感,关于爱情的那些语录" />
+    
+     <item name="9" value="9.17条网络流行经典语句挺过瘾" />
+    
+     <item name="10" value="10.超级欢乐学日语,精彩翻译笑死" />
+    
+     <item name="11" value="11.不错,精彩就在华丽的俏皮网语" />
+    
+     <item name="12" value="12.还真不错,内涵有趣的热辣签名" />
+    
+     <item name="13" value="13.最恶心笑话大便词条,小心喷饭" />
+    
+     <item name="14" value="14.超给力,冯巩的155句经典语录" />
+    
+     <item name="15" value="15.超过瘾,可爱的懒羊羊经典语录" />
+    
+     <item name="16" value="16.给力个性语录,总有一句贱到你" />
+    
+     <item name="17" value="17.超显摆口才的语录,你学会了吗" />
+    
+     <item name="18" value="18.精辟,这么经典的女大学生语录" />
+    
+     <item name="19" value="19.26种超级土的习惯,你有几种?" />
+    
+     <item name="20" value="20.超暴力,史上最色老婆经典语录" />
+</property>
+
+
+
+<property name="cui10"  value="第十部分" > 
+  
+     <item name="1" value="1.这么牛,28条超级霸气的的语录" />
+        
+     <item name="2" value="2.绝:看看他们的失恋后的妙语录" />      
+     <item name="3" value="3.29条有意思的趣味俏皮短语录" />
+     <item name="4" value="4.麻辣点评史上最肉麻的100句话" />     
+     <item name="5" value="5.语不惊人誓不罢休,非经典语录" />     
+     <item name="6" value="6.男人女人一些超经典搞笑语录" />   
+     <item name="7" value="7.30条绝对经典的语录,快笑死了" />    
+     <item name="8" value="8.不一样的人生智慧的IN语集锦" />  
+     <item name="9" value="9.据说是当下正流行的俏皮网语" />    
+     <item name="10" value="10.精辟,挺过瘾的经典网络流行语" />        
+     <item name="11" value="11.笑到滚地,经典搞笑语录大集合" />    
+     <item name="12" value="12.一句话能笑喷的俏皮网络语录" />     
+     <item name="13" value="13.给力,这么精辟的16条网络话语" />    
+     <item name="14" value="14.经典俏皮语录,生活太有情趣了" />       
+     <item name="15" value="15.别怀疑,灰常给力的网络囧语录" />    
+     <item name="16" value="16.矮油,这么精辟有才的俏皮网语" />    
+     <item name="17" value="17.哟,麦兜童鞋响当当的经典语录" />    
+     <item name="18" value="18.巨雷,40则精辟的俏皮网络语录" />   
+     <item name="19" value="19.超级雷人经典语录,很黄很暴力" />    
+     <item name="20" value="20.NB的签名状态,考个试容易么" /> 
+ </property>
+</p-property>
+
+
+<p-property name="queweiji" value="搞笑语录集" icon="iv_1" >
+<property name="cuiwei1"  value="搞笑语录系列一" > 
+     <item name="1" value="1.数字短,教师节给老师最真问候" />
+     <item name="2" value="2.俏皮恶搞语录,人生就像是大便" />      
+     <item name="3" value="3.马上行动,幽默搞笑教师节短信" />
+     <item name="4" value="4.快来笑笑,吐血经典的网络语录"/>     
+     <item name="5" value="5.30条让人笑到喷饭的幽默句子" />     
+     <item name="6" value="6.超级拽的个性签名,请小心使用" />   
+     <item name="7" value="7.顶,郭德纲超级经典的俏皮语录" />    
+     <item name="8" value="8.一层秋雨一层凉温馨关怀贴士" />  
+     <item name="9" value="9.有趣,爆笑的生活和校园俏皮话" />    
+     <item name="10" value="10.15条你肯定会喜欢的俏皮网语" />        
+     <item name="11" value="11.12条超级极品语录,看完爽歪歪" />    
+     <item name="12" value="12.文艺小趣味,风趣搞笑怪味词典" />     
+     <item name="13" value="13.还不错,10条趣味俏皮网络语录" />    
+     <item name="14" value="14.赶紧背,最霸道幸福的25句情话" />       
+     <item name="15" value="15.顶,20条经典到喷饭的俏皮语录" />    
+     <item name="16" value="16.注意!一定会胖的50种日常想法" />    
+     <item name="17" value="17.晒一晒,最风趣的20条签名语录" />    
+     <item name="18" value="18.还不错,搞笑的一句话俏皮雷语" />   
+     <item name="19" value="19.看完爽歪,九条过瘾的俏皮网语" />    
+     <item name="20" value="20.慎入,12条灰常重口味恶心语录" />
+
+</property>
+
+ 
+<property name="cuiwei2"  value="搞笑语录系列二 " > 
+        
+     <item name="1" value="1.真不是俺好色,而是人类好色啊" />
+     <item name="2" value="2.赶快学,比较有道理的俏皮语录" />
+     <item name="3" value="3.创作歌手陈绮贞的超经典语录" />
+     <item name="4" value="4.噗,身材让人羡慕体香令人陶醉" />
+     <item name="5" value="5.20条趣味俏皮语录,看完灰常爽" />
+     <item name="6" value="6.精辟,泡面比泡mm好的种种原因" />
+     <item name="7" value="7.谈恋爱的前后,习惯了独守空房" />
+     <item name="8" value="8.有趣网文,每个女孩都乱舞春秋" />
+     <item name="9" value="9.男人女人的违心话,话中有话哦" />
+     <item name="10" value="10.超有趣,灰常好玩的签名俏皮话" />
+     <item name="11" value="11.赶快看,24则很给力的幽默语录" />
+     <item name="12" value="12.最近网络上搜到的还不错语录" />
+     <item name="13" value="13.偷偷看,失足妇女们的精辟口号" />
+     <item name="14" value="14.泡MM应该懂得的29条有用语录" />
+     <item name="15" value="15.14条灰常有性格的超级囧语录" />
+     <item name="16" value="16.29条关于男人女人的经典语录" />
+     <item name="17" value="17.小声传阅,名人嘴里的俏皮语录" />
+     <item name="18" value="18.学学,27条感动到热泪盈眶语录" />
+     <item name="19" value="19.30条给力语录,总有一条到心坎" />
+     <item name="20" value="20.总有一条你认同的俏皮网语录" />
+</property>
+
+
+<property name="cuiwei3"  value="搞笑语录系列三" > 
+  
+     <item name="1" value="1.别害羞,32条有内涵的色色语录" />
+     <item name="2" value="2.充一下电,给力爱情短信俏皮话" />      
+     <item name="3" value="3.语录:看下身边是御姐还是萝莉" />
+     <item name="4" value="4.26条网络最近流行的俏皮网语" />     
+     <item name="5" value="5.30条超爆笑给力网络俏皮语录" />     
+     <item name="6" value="6.武侠片爆笑定律,你一定有看过" />   
+     <item name="7" value="7.有点害羞,给力爱情短信俏皮话" />    
+     <item name="8" value="8.对爱情要求不要高,仅十句就好" />  
+     <item name="9" value="9.真牛啊,现在的女人们都太猛了" />    
+     <item name="10" value="10.唐僧的超级精辟语录,太经典了" />        
+     <item name="11" value="11.记一记,40个灰常犀利个性签名" />    
+     <item name="12" value="12.17条让你忍不住笑出声的网语" />     
+     <item name="13" value="13.娱乐大家,40则给力的网络语录 " />    
+     <item name="14" value="14.绝对爆笑的语录,绝对会笑翻了" />       
+     <item name="15" value="15.精辟,苏岑眼中的爱情真实男女" />    
+     <item name="16" value="16.立秋后超经典搞笑的网络语录" />    
+     <item name="17" value="17.30条超级无奈的网络俏皮语录 " />    
+     <item name="18" value="18.8条最近疯传的幽默短信小段子" />   
+     <item name="19" value="19.男人最致命的15大秘密,认同么" />    
+     <item name="20" value="20.偷偷捂着嘴笑的学生俏皮语录" /> 
+</property>
+
+   <property name="cuiwei4"  value="搞笑语录系列四" > 
+        
+     <item name="1" value="1.灰常有趣,44条精辟的俏皮网语" />
+     <item name="2" value="2.16条那些雷人语录,很囧很强大" />
+     <item name="3" value="3.能够活着就是幸福,知足常乐啊" />
+    <item name="4" value="4.牛,无聊网友乱侃社会新鲜事儿" />
+    <item name="5" value="5.婚恋,校园和生活等个性俏皮话" />
+     <item name="6" value="6.网友调侃的一流大学,搞笑精辟" />
+     <item name="7" value="7.少而精,7条过瘾俏皮网络语录" />
+     <item name="8" value="8.进来看一下,究竟到底是谁变了" />
+     <item name="9" value="9.大部分男人的真实想法,同意麽" />
+     <item name="10" value="10.50条记录,牛人26岁时都在干嘛" />
+     <item name="11" value="11.回到童年时,各版本蓝精灵之歌" />
+     <item name="12" value="12.风趣个性的16条俏皮网络语录" />
+     <item name="13" value="13.让你无限感动的22条趣味语录" />
+     <item name="14" value="14.看看吧,30条挺有用的趣味网语" />
+     <item name="15" value="15.捧腹,搞笑仿冒名牌的产品大全" />
+     <item name="16" value="16.很有意思,20种女性身材的联想" />
+     <item name="17" value="17.受用,女生十大快乐和十大遗憾" />
+     <item name="18" value="18.男士们学学,感动她只需一句话" />
+     <item name="19" value="19.超级经典,最牛超搞笑的签名录" />
+     <item name="20" value="20.16条俏皮网络语录,让大家笑了" />
+</property>
+
+  
+<property name="cuiwei5"  value="搞笑语录系列五" > 
+  
+     <item name="1" value="1.太有才了,灰常过瘾的个性签名" />
+      <item name="2" value="2.韩寒语录,一个就不装逼的男人" />      
+     <item name="3" value="3.充满睿智的文字,令人满心欢喜" />
+     <item name="4" value="4.爱睡懒觉的人是很容易被感动" />     
+     <item name="5" value="5.精辟,30条还不错的崩溃的语录" />     
+     <item name="6" value="6.十分风趣的俏皮话,有些挺精辟" />   
+     <item name="7" value="7.好朋友语录,有关朋友经典语录" />    
+     <item name="8" value="8.还记得吗?大学时期的趣味成就" />  
+     <item name="9" value="9.有意思,杂志名之间的幽默调侃" />    
+     <item name="10" value="10.闲言碎语俏皮语录,网友太有才" />        
+     <item name="11" value="11.还不错,有内涵的搞笑短信段子" />    
+     <item name="12" value="12.新鲜俏皮网语,不要天真的以为" />     
+     <item name="13" value="13.最新发现,现在流行的'高铁体'" />    
+     <item name="14" value="14.精辟,世界上最没有用的一句话" />       
+     <item name="15" value="15.留心看看,30句当今超现实的话" />    
+     <item name="16" value="16.狂汗,明星们撸管儿的趣味语录" />    
+     <item name="17" value="17.27条给力精辟语录,记住了没有" />    
+     <item name="18" value="18.细节识人的方法,绝对值得一读" />   
+     <item name="19" value="19.普通90后想对80后说的心里话" />    
+     <item name="20" value="20.精辟又到位,30条网络经典名句" />
+</property>
+
+
+
+<property name="cuiwei6"  value="搞笑语录系列六" > 
+        
+     <item name="1" value="1.精辟又到位,30条网络经典名句" />
+     <item name="2" value="2.开心一刻,18条超精辟俏皮网友" />
+     <item name="3" value="3.绝对爆笑的10条超级精辟语录" />
+     <item name="4" value="4.爆笑,现在网络流行的俏皮语录" />
+     <item name="5" value="5.让你笑到喷饭的超有趣签名" />
+     <item name="6" value="6.十分欢快,颇有意思的俏皮网语" />
+     <item name="7" value="7.网络版歇后语,看完小心笑趴了" />
+     <item name="8" value="8.超经典的婚恋宝典,结婚前必读" />
+    <item name="9" value="9.甜蜜蜜,七夕恩爱情侣幽默情话" />
+     <item name="10" value="10.搞笑的顶贴理由大全,笑趴了啊" />
+     <item name="11" value="11.喜欢不?非主流的经典语句大全" />
+     <item name="12" value="12.还真不错,奇妙风趣的经典语录" />
+     <item name="13" value="13.29条劲爆给力精辟的俏皮网语" />
+     <item name="14" value="14.天天都有人制造着风趣的语录" />
+     <item name="15" value="15.真理,43条十分精辟的俏皮语录" />
+     <item name="16" value="16.学着点,25条人生经典词语语录" />
+     <item name="17" value="17.影视语录:世上最犀利的拜金女" />
+     <item name="18" value="18.肉麻数学情书,高水平才能看懂" />
+     <item name="19" value="19.当动车遭遇上当各种人各种体" />
+     <item name="20" value="20.听说是海员的生活,你看懂了吗" />
+
+</property>
+
+
+<property name="cuiwei7"  value="搞笑语录系列七" > 
+  
+     <item name="1" value="1.当动车遭遇上当各种人各种体" />
+      <item name="2" value="2.听说是海员的生活,你看懂了吗" />      
+     <item name="3" value="3.群星微语录:关于动车重大事故" />
+     <item name="4" value="4.超经典网络上的幽默箴言语录" />     
+     <item name="5" value="5.牛,不只是幽默的网络俏皮语录" />     
+     <item name="6" value="6.搞笑网络流行的词语,记住了吗" />   
+     <item name="7" value="7.讽刺,风趣另类的调皮雷语语录" />    
+     <item name="8" value="8.8则精辟俏皮网语,每句都给力" />  
+     <item name="9" value="9.全新的超给力俏皮雷语签名档" />    
+     <item name="10" value="10.把少女关在房里,会发生神马事" />        
+     <item name="11" value="11.喝酒和恋爱吹牛的幽默囧语录" />    
+     <item name="12" value="12.给力,最新网络流行的爱情语录" />     
+     <item name="13" value="13.装进脑子,幽默而又智慧的语录" />    
+     <item name="14" value="14.武林外传最搞笑台词英文翻译" />       
+     <item name="15" value="15.近期在网上常看到的经典语录" />    
+     <item name="16" value="16.食品和日常工具都是个哲学家" />    
+     <item name="17" value="17.经典趣味给力的39条网络语录" />    
+     <item name="18" value="18.39条经典到让人无语的网语录" />   
+     <item name="19" value="19.强悍女的惊异语录,实在太给力" />    
+     <item name="20" value="20.亲爱的太幽默,抱着别人说爱我" /> 
+</property>
+
+<property name="cuiwei8"  value="搞笑语录系列八" > 
+  
+     <item name="1" value="1.关于爱爱的俏皮语录,好害羞呢" />
+     <item name="2" value="2.学学,一个聪明女人必须做到的" />      
+     <item name="3" value="3.20条上班白领必须明白的语录" />
+     <item name="4" value="4.10条开心俏皮一句话,精辟极了" />     
+     <item name="5" value="5.精辟,13条新鲜搜集的极品语录" />     
+     <item name="6" value="6.11条一句话的超雷人幽默语录" />   
+     <item name="7" value="7.上班族生态的经典总结,中了没" />    
+     <item name="8" value="8.巨给力,搞笑又雷人的个人签名" />  
+     <item name="9" value="9.开心一刻,超级爆笑的签名语录" />    
+     <item name="10" value="10.另类个性的俏皮雷语,笑死人了" />        
+     <item name="11" value="11.最新网络经典语录35条大集合" />    
+     <item name="12" value="12.36条搞笑的经典语录,太给力了" />     
+     <item name="13" value="13.伤感啊,最新爱情网络经典语录" />    
+     <item name="14" value="14.有趣,7则十分搞笑的网络语录" />       
+     <item name="15" value="15.十分有趣,追求美女的俏皮网语" />    
+     <item name="16" value="16.12条有趣的俏皮雷人网络语录" />    
+     <item name="17" value="17.吐槽新还珠格格,对白挺内涵" />    
+     <item name="18" value="18.给力,24条极富哲理的人生语录" />   
+     <item name="19" value="19.网上流传超级风趣的俏皮语录" />    
+     <item name="20" value="20.经典,7条很绝的俏皮网络语录" />
+</property>
+
+
+
+<property name="cuiwei9"  value="搞笑语录系列九" > 
+        
+     <item name="1" value="1.17条颇有意思的俏皮幽默语录" />
+     <item name="2" value="2.很创意,30条给力个性签名整理" />
+     <item name="3" value="3.7则超过瘾的经典幽默俏皮语录" />
+     <item name="4" value="4.10条笑不笑由你精辟俏皮网语" />
+     <item name="5" value="5.精辟,8则经典给力的幽默语录" />
+     <item name="6" value="6.11条会雷死人的俏皮短信段子" />
+     <item name="7" value="7.超级爆笑,新鲜恶搞雷人一句话" />
+     <item name="8" value="8.调侃细说月光族,分析太到位了" />
+     <item name="9" value="9.好玩,13条风趣个性的俏皮语录" />
+     <item name="10" value="10.流行的幽默语录当然是很搞笑" />
+     <item name="11" value="11.请反省,我们到底把什么给丢了" />
+     <item name="12" value="12.超有用,男女人生路上的必修课" />
+     <item name="13" value="13.超精辟语录,最新男女关系新说" />
+     <item name="14" value="14.注意!世界上最经典的37句假话" />
+     <item name="15" value="15.经典语录,玩微博的童鞋伤不起" />
+     <item name="16" value="16.有点邪恶的男女语录,儿童不宜" />
+     <item name="17" value="17.超经典,经典语录来论道谈恋爱" />
+     <item name="18" value="18.会令你发狂的无厘头幽默语录" />
+     <item name="19" value="19.精辟到不行,俏皮风趣麻辣雷语" />
+      <item name="20" value="20.坑爹的网络语,快崩溃了有木有" />
+</property>
+
+<!--  http://pc.3g.cn/joke/List_30_29 -->
+
+<property name="cuiwei10"  value="搞笑语录系列十" > 
+     <item name="1" value="1.12条精辟语录,有趣的话说不停" />
+     <item name="2" value="2.牛人总结微博的给力精辟语录" />      
+     <item name="3" value="3.关于机遇的名言警句,终身受益" />
+     <item name="4" value="4.超有感悟,引发共鸣的爱情语录" />     
+     <item name="5" value="5.经典风趣的俏皮话,也可做签名" />     
+     <item name="6" value="6.新搜集23条网络搞笑经典语录" />   
+     <item name="7" value="7.幽默语录解读在恋爱中的男女" />    
+     <item name="8" value="8.精辟,小S火爆给力的减肥语录" />  
+     <item name="9" value="9.崩溃选择,到底要女人怎么办嘛" />    
+     <item name="10" value="10.受用,于丹教你该学会的16件事" />        
+     <item name="11" value="11.男女关系的通俗描述,绝对直白" />    
+     <item name="12" value="12.网络惊现大概体,咁快来学造句" />     
+     <item name="13" value="13.精辟,语不惊人死不休的网络语" />    
+     <item name="14" value="14.真有才,博大而精深的搞笑信息" />       
+     <item name="15" value="15.太给力,最新鲜最让人喷饭句子" />    
+     <item name="16" value="16.时下最流行的超经典生活感悟" />    
+     <item name="17" value="17.纯情请绕道,广受欢迎精辟语录" />    
+     <item name="18" value="18.语句道出精辟语录,别凹凸曼了" />   
+     <item name="19" value="19.年轻人会喜欢的爆笑雷语语录" />    
+     <item name="20" value="20.嘘,你肯定听到过的潜台词语录" /> 
+  </property>
+  
+  
+  
+ <property name="cuiwei11"  value="搞笑语录系列十一" > 
+ 
+     <item name="1" value="1.12条精辟语录,有趣的话说不停" />
+     <item name="2" value="2.牛人总结微博的给力精辟语录" />      
+     <item name="3" value="3.关于机遇的名言警句,终身受益" />
+     <item name="4" value="4.超有感悟,引发共鸣的爱情语录"/>     
+     <item name="5" value="5.经典风趣的俏皮话,也可做签名" />     
+     <item name="6" value="6.新搜集23条网络搞笑经典语录" />   
+     <item name="7" value="7.幽默语录解读在恋爱中的男女" />    
+     <item name="8" value="8.精辟,小S火爆给力的减肥语录" />  
+     <item name="9" value="9.崩溃选择,到底要女人怎么办嘛" />    
+     <item name="10" value="10.受用,于丹教你该学会的16件事" />        
+     <item name="11" value="11.男女关系的通俗描述,绝对直白" />    
+     <item name="12" value="12.网络惊现大概体,咁快来学造句" />     
+     <item name="13" value="13.精辟,语不惊人死不休的网络语" />    
+     <item name="14" value="14.真有才,博大而精深的搞笑信息" />       
+     <item name="15" value="15.太给力,最新鲜最让人喷饭句子" />    
+     <item name="16" value="16.时下最流行的超经典生活感悟" />    
+     <item name="17" value="17.纯情请绕道,广受欢迎精辟语录" />    
+     <item name="18" value="18.语句道出精辟语录,别凹凸曼了" />   
+     <item name="19" value="19.年轻人会喜欢的爆笑雷语语录" />    
+     <item name="20" value="20.嘘,你肯定听到过的潜台词语录" />
+  </property>
+
+
+ 
+<property name="cuiwei12"  value="搞笑语录系列十二" > 
+        
+     <item name="1" value="1.纯情请绕道,广受欢迎精辟语录" />
+     <item name="2" value="2.语句道出精辟语录,别凹凸曼了" />
+     <item name="3" value="3.年轻人会喜欢的爆笑雷语语录" />
+     <item name="4" value="4.嘘,你肯定听到过的潜台词语录" />
+     <item name="5" value="5.过瘾,20条有趣的俏皮网络语录" />
+     <item name="6" value="6.开心雷语录,喜欢可以做签名用" />
+     <item name="7" value="7.关于微博出现过的超经典语录" />
+     <item name="8" value="8.最新搜集的超级经典搞笑语句" />
+     <item name="9" value="9.最新鲜的20条经典网络语录集" />
+     <item name="10" value="10.24条关于女流氓的经典语录集" />
+     <item name="11" value="11.精彩,康熙来了中最经典的语录" />
+     <item name="12" value="12.当梦想照进现实中的经典语录" />
+     <item name="13" value="13.读书的理由,最后一条太给力了" />
+     <item name="14" value="14.超级经典,女人常说的32句谎话" />
+     <item name="15" value="15.裸婚时代火了,也火了这段台词" />
+     <item name="16" value="16.看完'裸婚时代'后明白的道理" />
+     <item name="17" value="17.上班一族生态的经典总结语录" />
+     <item name="18" value="18.29条让人内牛满面的网络语录" />
+     <item name="19" value="19.大不同,10条男女看法精准剖析" />
+     <item name="20" value="20.精辟到心坎里,俏皮语录说不停" />
+  </property>
+
+
+
+<property name="cuiwei13"  value="搞笑语录系列十三" > 
+  
+     <item name="1" value="1.电视剧裸婚时代的超经典语录" />
+     <item name="2" value="2.74条感觉很来电的超经典语录" />      
+     <item name="3" value="3.20条新鲜到货的俏皮语录,精辟" />
+     <item name="4" value="4.调侃,北京今年夏天最浪漫的事" />     
+     <item name="5" value="5.高考爆笑妙语录,学生太有才了" />     
+     <item name="6" value="6.30条俏皮网语录,看完爽歪歪吧" />   
+     <item name="7" value="7.20条是有点重口味的俏皮语录" />    
+     <item name="8" value="8.太经典,形容人丑的超含蓄说法" />  
+     <item name="9" value="9.帝都成一片汪洋,网友自创句子" />    
+     <item name="10" value="10.永远年轻永远热泪盈眶的语录" />        
+     <item name="11" value="11.经典幽默语录,爱请不是笑话吧" />    
+     <item name="12" value="12.很精辟,经典男女幽默语录30则" />     
+     <item name="13" value="13.来学学文艺青年装逼用词语录 " />    
+     <item name="14" value="14.犀利,武汉人民的有才签名状态" />       
+     <item name="15" value="15.举世无双欠扁的幽默俏皮语录" />    
+     <item name="16" value="16.姐那霸气的语句,怎么都学不会" />    
+     <item name="17" value="17.又到狂欢时,毕业季的感伤随感 " />    
+     <item name="18" value="18.十分给力,34条超精辟网络语录" />   
+     <item name="19" value="19.网络流行的经典雷人俏皮语录" />    
+     <item name="20" value="20.裸婚时代,告诉你们那些硬道理" /> 
+  </property>
+
+   <property name="cuiwei14"  value="搞笑语录系列十四" > 
+     <item name="1" value="1.精辟,26条有趣的俏皮网络语录" />
+     <item name="2" value="2.30条精辟语录,不看小心后悔哦" />
+     <item name="3" value="3.最新一季让人心疼的微博语录" />
+     <item name="4" value="4.网络新新给力术语,你是肿么了" />
+     <item name="5" value="5.有趣,超有个性的经典语录19则" />
+     <item name="6" value="6.精辟,网上流行的搞笑短句语录" />
+     <item name="7" value="7.幽默开心俏皮话,非常管用签名" />
+     <item name="8" value="8.遇到过么?30条超级无奈的语录" />
+     <item name="9" value="9.校园和生活中的雷语俏皮语录" />
+     <item name="10" value="10.'家N次方'的经典语录和台词" />
+     <item name="11" value="11.给力,看过后考试会变轻松点吧" />
+     <item name="12" value="12.24条犀利幽默语录,精辟到不行" />
+     <item name="13" value="13.最新收集到的8则超级幽默语录" />
+     <item name="14" value="14.超精辟,考试和人生的搞笑雷语" />
+     <item name="15" value="15.高水平的经典语句,愈看愈有味" />
+     <item name="16" value="16.各种品牌车车的那些语录玩意" />
+     <item name="17" value="17.各方神人对幸福是神马的见解" />
+     <item name="18" value="18.2012来临前,请努力做到这12条" />
+     <item name="19" value="19.超准,透视恋爱中的男人和女人" />
+      <item name="20" value="20.重口味慎入整蛊恶搞生活常识" />
+  </property>
+
+  
+<property name="cuiwei15"  value="搞笑语录系列十五" > 
+  
+     <item name="1" value="1.24条看完会鼓掌的超精辟语录" />
+     <item name="2" value="2.微博上不错有趣经典语录20条" />      
+     <item name="3" value="3.8条新鲜搜集到的给力语录句子" />
+     <item name="4" value="4.23则精辟的有才语录,太厉害了" />     
+     <item name="5" value="5.20条网络经典爆笑语言大搜集" />     
+     <item name="6" value="6.经典,怎样的男人才可叫老公" />   
+     <item name="7" value="7.顶,男生25岁前必须明白的道理" />    
+     <item name="8" value="8.偷偷看别吱声的幽默笑话10则" />  
+     <item name="9" value="9.我老婆大人的经典语录,超好笑" />    
+     <item name="10" value="10.爆笑,不可不看夫妻间经典定律" />        
+     <item name="11" value="11.21条人生语录,看完就会醒悟了" />    
+     <item name="12" value="12.很精辟,有关犀利哥的超级语录" />     
+     <item name="13" value="13.幽默俏皮话,讽刺的像个冷笑话" />    
+     <item name="14" value="14.十分精辟个性签名的语录分享" />       
+     <item name="15" value="15.有点矫情,现在孩子的好听句子" />    
+     <item name="16" value="16.经典笑话语录:肉麻的情话宝典" />    
+     <item name="17" value="17.有才网友戏言高考,有的很精辟" />    
+     <item name="18" value="18.经典世事新语,语录也超级爆笑" />   
+     <item name="19" value="19.女流氓语录,小新的已经过时了" />    
+     <item name="20" value="20.描写一些心情不好的句子语录" />
+  </property>
+
+<property name="cuiwei16"  value="搞笑语录系列十六" > 
+        
+     <item name="1" value="1.醉后决定爱上你中的经典台词" />
+     <item name="2" value="2.非常精辟,这话说得可真有意思" />
+     <item name="3" value="3.加勒比海盗4里的经典幽默台词" />
+     <item name="4" value="4.25条会让人内牛满脸的签名档" />
+     <item name="5" value="5.v比较劲爆流行的IN语句子语录" />
+     <item name="6" value="6.现实就是这么赤裸裸语录10条" />
+     <item name="7" value="7.纯爷儿们必看的语录,女生勿入" />
+     <item name="8" value="8.超牛,女大学生的搞笑幽默语录" />
+     <item name="9" value="9.灰常有才的20条经典幽默语录" />
+     <item name="10" value="10.20条经典精辟语录,肯定气炸人" />
+     <item name="11" value="11.经典21条磨嘴皮子的俏皮语录" />
+     <item name="12" value="12.20条很爆强很精辟的幽默语录" />
+     <item name="13" value="13.超爆笑,功夫熊猫2的经典台词" />
+     <item name="14" value="14.凤姐语录,挑战超不要脸的极限" />
+     <item name="15" value="15.学生语录和在生活里的俏皮话" />
+     <item name="16" value="16.爆笑雷语签名档,喜欢就拿去用" />
+     <item name="17" value="17.最给力语言流行风,奥特曼了么" />
+     <item name="18" value="18.很风趣有点小个性的幽默in语" />
+     <item name="19" value="19.新鲜语录,说了就是为了逗你笑" />
+     <item name="20" value="20.说离就离吧,再也不相信爱情了" />
+  </property>
+
+
+
+<property name="cuiwei17"  value="搞笑语录系列十七" > 
+  
+     <item name="1" value="1.认同么,男人常说的十一句屁话" />
+     <item name="2" value="2.看着有点崩溃的20条新鲜语录" />      
+     <item name="3" value="3.精辟,20则很有人生意义的语录录" />
+     <item name="4" value="4.毕业了有这么给同学留言的吗" />     
+     <item name="5" value="5.26精辟人生语录,可以当签名用" />     
+     <item name="6" value="6.资深的俏皮话,超级搞笑到经典" />   
+     <item name="7" value="7.53条精辟语录大总结火热精选" />    
+     <item name="8" value="8.出来冒个泡,很风趣的幽默语录" />  
+     <item name="9" value="9.19条经典语录,真的精辟到不行" />    
+     <item name="10" value="10.精辟网语:婚姻和车的超级关系" />        
+     <item name="11" value="11.超级搞笑的疯言雷语,小心笑倒" />    
+     <item name="12" value="12.有才,超有个性的经典语录22条" />     
+     <item name="13" value="13.又雷人又精辟的郭德纲的语录" />    
+     <item name="14" value="14.网友尴尬,不知不觉又到而立年" />       
+     <item name="15" value="15.生活百味的搞笑雷语,还挺崩溃" />    
+     <item name="16" value="16.乡村爱情交响曲经典搞笑台词" />    
+     <item name="17" value="17.十分有趣,搞笑非常的俏皮短语" />    
+     <item name="18" value="18.最新高考勉励短信,快给孩子看" />   
+     <item name="19" value="19.千万别信啊,史上最假的34句话" />    
+     <item name="20" value="20.晕了,女人都希望这样被折磨死" /> 
+  </property>
+
+<property name="cuiwei18"  value="搞笑语录系列十八" > 
+  
+     <item name="1" value="1.很精辟很有才,一句话经典语录" />
+        
+     <item name="2" value="2.20条点到即止的俏皮语录,懂吗" />      
+     <item name="3" value="3.太精辟了,网络疯传的搞笑语录" />
+     <item name="4" value="4.超拽的个性签名语录,小心使用" />     
+     <item name="5" value="5.太牛逼语录,客官谨记淡定使用" />     
+     <item name="6" value="6.网友戏说各种版本的手机系统" />   
+     <item name="7" value="7.天大的幽默,屁股比脸蛋更漂亮" />    
+     <item name="8" value="8.男生必看,追求成功率高的短信" />  
+     <item name="9" value="9.顶,最近微博上的经典爆笑句子" />    
+     <item name="10" value="10.有趣,来跟人民币说些俏皮话语" />        
+     <item name="11" value="11.超经典,效果不错的语录和签名" />    
+     <item name="12" value="12.看完这些雷人签名后,直接栽地" />     
+     <item name="13" value="13.小心空间暴露了你的这些信息" />    
+     <item name="14" value="14.10年间最火热网络语录大合辑" />       
+     <item name="15" value="15.21条疯言疯语,看着十分欢乐啊" />    
+     <item name="16" value="16.很是精辟,个性俏皮的签名网语" />    
+     <item name="17" value="17.经典非主流语录,真是语出惊人" />    
+     <item name="18" value="18.有用收藏,太有意思的经典语录" />   
+     <item name="19" value="19.2011年落落超级经典语录合集" />    
+     <item name="20" value="20.22条关于现实的超级经典语录" />
+  </property>
+
+
+
+<property name="cuiwei19"  value="搞笑语录系列十九" > 
+        
+     <item name="1" value="1.1哄女友不错,经典英文爱情语录" />
+     <item name="2" value="2.世界上最温暖的两个字是晚安" />
+     <item name="3" value="3.贱言贱语,酱紫的话语伤不起啊" />
+     <item name="4" value="4.雷死人,笑翻你的杯具语录12句" />
+     <item name="5" value="5.经典的开心冷语录,可以做签名" />
+     <item name="6" value="6.胖是幽默常用词,十分诙谐有趣" />
+     <item name="7" value="7.拍案叫绝,古文中特惊艳的句子" />
+     <item name="8" value="8.非主流的爱情语录,还是挺给力" />
+     <item name="9" value="9.合适拿去用,网络经典语录20条" />
+     <item name="10" value="10.15条有趣网络IN语短信俏皮话" />
+     <item name="11" value="11.都坑爹啊,那些骗人的个性签名" />
+     <item name="12" value="12.胡言乱语却不失风趣的俏语录" />
+     <item name="13" value="13.新倩女幽魂的搞笑经典台词" />
+     <item name="14" value="14.44条俏皮网语,经典到很难忘记" />
+     <item name="15" value="15.不经典不发的超趣味俏皮语录" />
+     <item name="16" value="16.超经典30条网话,肯定有喜欢的" />
+     <item name="17" value="17.失恋无罪单身万岁的经典理由" />
+     <item name="18" value="18.20条超级经典的超强妙文妙语" />
+     <item name="19" value="19.超强猛料,美女光棍的经典语录" />
+     <item name="20" value="20.社会百味,超级风趣的雷人雷语" />
+  </property>
+
+
+<property name="cuiwei20"  value="搞笑语录系列二十" > 
+  
+     <item name="1" value="1.十分童真,懒羊羊超级搞笑语录" />
+      <item name="2" value="2.30条包含各种哲理的俏皮网语" />      
+     <item name="3" value="3.被侃了,关于睡觉的超级糗语录" />
+     <item name="4" value="4.55条超级经典语录,越看越佩服" />     
+     <item name="5" value="5.精心收藏超经典搞笑个性签名" />     
+     <item name="6" value="6.很经典很精辟的个性签名语录" />   
+     <item name="7" value="7.有趣,收集到的超经典俏皮网语" />    
+     <item name="8" value="8.20条精辟且会笑掉大牙的语录" />  
+     <item name="9" value="9.超级经典语录,数钱数到手抽筋" />    
+     <item name="10" value="10.电影关云长里的超经典台词" />        
+     <item name="11" value="11.十分劲爆,精辟妙语连珠雷死人" />    
+     <item name="12" value="12.小偷公司的台词,小心笑爆嘴了" />     
+     <item name="13" value="13.27条让人看完心碎的伤感语录" />    
+     <item name="14" value="14.生活里常出现的雷人俏皮语录" />       
+     <item name="15" value="15.很有感觉,有点意思的30句语录" />    
+     <item name="16" value="16.有才啊,羡慕嫉妒恨的超级语录" />    
+     <item name="17" value="17.男人们看过来,超强的彪悍语录" />    
+     <item name="18" value="18.损人不利己语录,实在太崩溃了" />   
+     <item name="19" value="19.犀利语录13句,绝对瞬间秒杀你" />    
+     <item name="20" value="20.极精辟,短小但又很经典的语录" /> 
+  </property>
+  
+  
+<property name="cuiwei21"  value="搞笑语录系列二十一" > 
+	<item name="1" value="1.40条给力的幽默俏皮网络语录" />
+	<item name="2" value="2.经典:风趣幽默的8条个性签名" />
+	<item name="3" value="3.14则超经典的个性搞笑囧语录" />
+	<item name="4" value="4.幽默风趣,超好玩的俏皮雷语录" />
+	<item name="5" value="5.8则超犀利够绝的俏皮网络语录" />
+	<item name="6" value="6.这么精辟,话都说绝了的网语录" />
+	<item name="7" value="7.还不错,网上流传的13条歇后语" />
+	<item name="8" value="8.超精辟的幽默语录,网友真有才" />
+	<item name="9" value="9.16则相当给力的个人签名语录" />
+	<item name="10" value="10.有点小贱,还算精辟的俏皮语录" />
+	
+	<item name="11" value="11.20条超级经典语录,愈看愈开心" />
+	<item name="12" value="12.30条新鲜雷人的幽默俏皮语录" />
+	<item name="13" value="13.22条关于秋裤的网络流行语录" />
+	<item name="14" value="14.爆笑,11条有趣的生活调侃语录" />
+	<item name="15" value="15.十大最讨厌的词句,你说同意不"/>
+	<item name="16" value="16.给力,你绝对觉得经典幽默台词" />
+	<item name="17" value="17.真有趣,30条无厘头的俏皮语录" />
+	<item name="18" value="18.笑死了,遇见这些人你要这么说" />
+	<item name="19" value="19.20条俏皮网络语录,笑死不偿命" />
+	<item name="20" value="20.狂汗,令人无语的扣扣签名语录" />
+
+</property>
+
+
+<property name="cuiwei22"  value="搞笑语录系列二十二" > 
+	<item name="1" value="1.超极品的一句话,差点笑到喷饭" />
+	<item name="2" value="2.20条俏皮的网语,又精辟又好玩" />
+	<item name="3" value="3.还不错的20条网络语录,巨给力" />
+	<item name="4" value="4.好玩,快笑惨了的幽默精辟语录" />
+	<item name="5" value="5.爆强的语录集合,总有你佩服的" />
+	<item name="6" value="6.某网友自定义的强悍网恋规则" />
+	<item name="7" value="7.你遇到过雷人的QQ好友印象吗" />
+	<item name="8" value="8.什么叫人才,清华学子超强告白" />
+	<item name="9" value="9.超智商的极品语录,俏皮没话说" />
+	<item name="10" value="10.年度最离奇最搞笑事件排行榜" />
+	
+	<item name="11" value="11.真正的经典,只需一句话的语录" />
+	<item name="12" value="12.超精辟的,20条拍案叫绝的语录" />
+	<item name="13" value="13.个人的搞笑语录,很雷却很俏皮" />
+	<item name="14" value="14.太精彩,爆笑经典的俏皮In语录" />
+	<item name="15" value="15.11条幽默风趣的俏皮网络语录"/>
+	<item name="16" value="16.看完佩服,经典的25条极品语录" />
+	<item name="17" value="17.32条极品的语录,网络太多淫才" />
+	<item name="18" value="18.别错过的经典语录,有得很精辟" />
+	<item name="19" value="19.不错,极品公子的超级经典语录" />
+	<item name="20" value="20.26条大喊过瘾的俏皮网络语录" />
+	
+	<item name="21" value="21.经典,令人喷饭的汽车窗后标语" />
+	<item name="22" value="22.给力又精辟,50条经典俏皮网语" />
+	<item name="23" value="23.精辟语录,看完后精神爽利50条" />
+	<item name="24" value="24.超难过,估计是最强的伤人语录" />
+	<item name="25" value="25.99个让单身男女超不爽的理由" />
+	<item name="26" value="26.12条开心风趣的超IN俏皮网语" />
+	<item name="27" value="27.顶起,还挺过瘾的雷人疯言疯语" />
+	<item name="28" value="28.40条俏皮的网语,看完爽歪歪了" />
+	<item name="29" value="29.灰常有趣,30条十分俏皮的网语" />
+	<item name="30" value="30.40则还算精辟有意思的网语录" />
+	 
+</property>
+
+ 
+ 
+<property name="cuiwei23"  value="搞笑语录系列二十三" > 
+		<item name="1" value="1.透析二奶小姐还有老婆的区别" />
+		<item name="2" value="2.郭德刚经典骂人不带脏字大全" />
+		<item name="3" value="3.能娶到这样的媳妇,谁都满足了" />
+		<item name="4" value="4.最新毒舌语录:毒你毒到你想死" />
+		<item name="5" value="5.准爸爸们的迷糊爆笑语录集锦" />
+		<item name="6" value="6.笑断肠,谐星吴宗宪的色色语录" />
+		<item name="7" value="7.值得收藏,无比经典的个性签名" />
+		<item name="8" value="8.看谁都不顺眼:牢骚先生的语录" />
+		<item name="9" value="9.爆雷QQ个性签名,千万别乱用" />
+		<item name="10" value="10.中国武侠片的五十条爆笑定律" />
+		
+		<item name="11" value="11.赵本删与宋蛋蛋那段爆笑网恋" />
+		<item name="12" value="12.网络最牛的狂人语录,太精辟了" />
+		<item name="13" value="13.一瓶普通白醋无怨无悔的自白" />
+		<item name="14" value="14.有趣好玩的对联,看了以后学学" />
+		<item name="15" value="15.新一波超炫爆笑的名词巧解释"/>
+		<item name="16" value="16.超隐晦语录,老实说你看懂几个" />
+		<item name="17" value="17.太有才了,20则精辟到不行语录" />
+		<item name="18" value="18.爆笑,经典就是一句话把人笑倒" />
+		<item name="19" value="19.有点搞笑有点心酸,十年的变化" />
+		<item name="20" value="20.快笑死人的迷糊爆笑语录集锦" />
+		
+		<item name="21" value="21.强悍:俺不能戒烟的华丽理由" />
+		<item name="22" value="22.新鲜出炉最近流行的超拽句子" />
+		<item name="23" value="23.爆笑,让人拍烂手掌的搞笑语录" />
+		<item name="24" value="24.无敌经典周星弛泡妞经典对白" />
+		<item name="25" value="25.听了别太难过,50句心痛的话" />
+		<item name="26" value="26.心灵鸡汤:节奏越快越要淡定" />
+		<item name="27" value="27.新一波:12月最新超级爆笑语录" />
+		<item name="28" value="28.只想优雅转身,不料华丽撞墙" />
+		<item name="29" value="29.20条超级有才的幽默网络语录" />
+		<item name="30" value="30.女人们能做:男人却不能做的事" />
+
+</property>
+  
+ </p-property>
+ 
+<p-property name="yihui" value="隐晦笑话" icon="iv_3" >
+	  
+	 <property name="yihui1"  value="爆笑男女笑话" >
+		<item name="1" value="怎么都变的这么不着调" />
+		<item name="2" value="幽默风趣,好玩的俏皮雷语" />
+		<item name="3" value="不着调的年轻才俊冷幽默" />
+		<item name="4" value="雷人好笑的生活糗事" />
+		<item name="5" value=" 男人在一块不聊女人,就打牌" />
+		<item name="6" value="年轻男女的冷人爆笑" />
+		<item name="7" value="生活趣侃,爆笑俏皮话" />
+		<item name="8" value="俏皮雷语,犀利惊人" />
+		<item name="9" value="恋爱路上的雷人爆笑" />
+		<item name="10" value="俏皮搞笑、雷人潮语" />
+		<item name="11" value="年轻男女的爆笑冷幽默" />
+		<item name="12" value="不着调的男女雷人冷笑话" />
+		<item name="13" value="年轻人的雷人爆笑" />
+	</property>  
+	
+	
+	<property name="yihui2"  value="隐晦笑话系列一" > 
+		<item name="1" value="1.笑话" />
+		<item name="2" value="2.笑话 " />
+		<item name="3" value="3.笑话 " />
+		<item name="4" value="4.笑话" />
+		<item name="5" value="5.笑话" />
+		<item name="6" value="6.笑话" />
+		<item name="7" value="7.笑话" />
+		<item name="8" value="8.笑话" />
+		<item name="9" value="9.笑话" />
+		<item name="10" value="10.笑话" />
+		
+		<item name="11" value="11.笑话" />
+		<item name="12" value="12.笑话" />
+		<item name="13" value="13.笑话" />
+		<item name="14" value="14.笑话" />
+		<item name="15" value="15.笑话"/>
+	
+	</property>
+	
+	<property name="yihui3"  value="隐晦笑话系列二" > 
+	<item name="1" value="1.笑话" />
+	<item name="2" value="2.笑话 " />
+	<item name="3" value="3.笑话 " />
+	<item name="4" value="4.笑话" />
+	<item name="5" value="5.笑话" />
+	<item name="6" value="6.笑话" />
+	<item name="7" value="7.笑话" />
+	<item name="8" value="8.笑话" />
+	<item name="9" value="9.笑话" />
+	<item name="10" value="10.笑话" />
+	
+	<item name="11" value="11.笑话" />
+	<item name="12" value="12.笑话" />
+	<item name="13" value="13.笑话" />
+	<item name="14" value="14.笑话" />
+	<item name="15" value="15.笑话"/>
+	</property>
+	
+	
+	<property name="yihui4"  value="隐晦笑话系列三" > 
+	<item name="1" value="1.笑话" />
+	<item name="2" value="2.笑话 " />
+	<item name="3" value="3.笑话 " />
+	<item name="4" value="4.笑话" />
+	<item name="5" value="5.笑话" />
+	<item name="6" value="6.笑话" />
+	<item name="7" value="7.笑话" />
+	<item name="8" value="8.笑话" />
+	<item name="9" value="9.笑话" />
+	<item name="10" value="10.笑话" />
+	 
+	</property>
+	 
+
+</p-property>
+
+<p-property name="fuqi" value="夫妻笑话集" icon="iv_4" >
+
+<property name="fuqi1"  value="夫妻笑话" >
+	<item name="1" value="爆冷好笑的妻子" ></item>
+	<item name="2" value="夫妻过日子,常有冷幽默" ></item>
+	<item name="3" value="爆冷的夫妻生活小幽默" ></item>
+	<item name="4" value="蠢媳妇的冷笑话" ></item>
+	<item name="5" value="夫妻生活里的好笑事儿" ></item>
+	<item name="6" value="搞笑冷人的夫妻趣事" ></item>
+	<item name="7" value="夫妻小日子里的开心爆笑" ></item>
+	<item name="8" value="夫妻雷人爆笑冷幽默" ></item>
+	<item name="9" value="爆笑的一对小夫妻。" ></item>
+	<item name="10" value="夫妻之间的搞笑冷幽默" ></item>
+	<item name="11" value=" 逗人的夫妻生活冷幽默" ></item>
+</property>
+
+</p-property> 
+
+<p-property name="fanyan" value="方言幽默" icon="iv_5" >
+  
+   <property name="fanyan1"  value="方言幽默系列一" >
+   <item name="1" value="厉害,用一句话教会你全国方言" ></item>
+	<item name="2" value="超恶整,五分钟教你学会东北话" ></item>
+	<item name="3" value="搞笑方言,闽南话语的超级语录" ></item>
+	<item name="4" value="你小时候一定有玩过的顺口溜" ></item>
+	
+	<item name="5" value="东北两口子的对话,你能懂几句" ></item>
+	<item name="6" value="强悍,网上流传的南京装逼指南" ></item>
+	<item name="7" value="有点搞笑的青岛方言,你看懂没" ></item>
+	
+	<item name="8" value="四川方言笑话,不知你看懂了没" ></item>
+	<item name="9" value="嘿,生动形象客家话你能学会吗" ></item>
+	<item name="10" value="嘿,又收集到的方言幽默小段子" ></item>
+	<item name="11" value="找很久终于找到唐诗东北话版" ></item>
+    <item name="12" value="史上超级爆笑诗词混搭加" ></item>
+</property>
+
+</p-property>
+
+<p-property name="exin" value="恶心笑话集" icon="iv_6" >
+	<property name="exin1"  value="恶心笑话系列一" > 
+		<item name="1" value="1.手中奇怪的东西" />
+		<item name="2" value="2.经典笑话：胖脸" />
+		<item name="3" value="3.雷人的厨师 " />
+		<item name="4" value="4.外婆的花生" /> 
+		<item name="5" value="5.探险家" />
+		<item name="6" value="6.交谈" />
+		<item name="7" value="7.退鬼" />
+		<item name="8" value="8.重复利用 " />
+		<item name="9" value="9.厕所的对话 " />
+		<item name="10" value="10.牛屎 " />
+		
+		<item name="11" value="11.史上最经典的一个恶心笑话 " />
+		<item name="12" value="12.苍蝇喝咖啡" />
+		<item name="13" value="13.一个恶心笑话" />
+		<item name="14" value="14.吃点热的" />
+		<item name="15" value="15.探险家在沙漠迷路 "/>
+		<item name="16" value="16.痰 " />
+		<item name="17" value="17.吃新鲜的" />
+		<item name="18" value="18.最难忘的十个电影镜头" />
+		<item name="19" value="19.以前挺喜欢吃M的" />
+		<item name="20" value="20.便秘的原因 " />
+
+    </property>
+    
+    
+<property name="exin2"  value="恶心笑话系列二" > 
+	<item name="1" value="1.聪明反被聪明误" />
+	<item name="2" value="2.你不爱我 " />
+	<item name="3" value="3.我是有原则的" />
+	<item name="4" value="4.医生和律师" />
+	<item name="5" value="5.二级伤残" />
+	<item name="6" value="6.麻辣粉丝煲" />
+	<item name="7" value="7.乞　讨" />
+	<item name="8" value="8.呕　吐" />
+	<item name="9" value="9.节约粮食 　" />
+	<item name="10" value="10.买东西" />
+	
+	<item name="11" value="11.喝　痰" />
+	<item name="12" value="12.巧克力　" />
+	<item name="13" value="13.手　纸　" />
+	<item name="14" value="14.猪血糕的故事" />
+	<item name="15" value="15.烫粉的故事　"/>
+	<item name="16" value="16.宿舍里的笑话 " />
+	<item name="17" value="17.证明  " />
+	<item name="18" value="18.撩人的性感美女 " />
+	<item name="19" value="19.猪血糕 " />
+	<item name="20" value="20.一模一样 " />
+
+</property>
+
+<property name="exin3"  value="恶心笑话系列三" > 
+	<item name="1" value="1.报复 " />
+	<item name="2" value="2.燕窝" />
+	<item name="3" value="3.预约解手 " />
+	<item name="4" value="4.名牌皮鞋叉（nga）口了 " />
+	<item name="5" value="5.没脱裤子 " />
+	<item name="6" value="6.小样！乐不死你 " />
+	<item name="7" value="7.喝痰" />
+	<item name="8" value="8.一个恶心笑话 " />
+	<item name="9" value="9.有人摸我屁股 " />
+	<item name="10" value="10.猜拳输了以后。。。。 " />
+	
+	<item name="11" value="11.初吻 " />
+	<item name="12" value="12.无所谓 " />
+	<item name="13" value="13.忙中出错 " />
+	<item name="14" value="14.巧克力 " />
+	<item name="15" value="15.幸好没有 "/>
+	<item name="16" value="16.苍蝇好吃吗？ " />
+	<item name="17" value="17.两个吸血鬼" />
+	<item name="18" value="18.游泳池求救" />
+	<item name="19" value="19.人生大便论 " />
+	<item name="20" value="20.你不爱我 " />
+
+</property>
+
+</p-property>
+
+<p-property name="gui" value="鬼笑话集" icon="iv_7" >
+		<property name="gui1"  value="鬼笑话系列一" > 
+			<item name="1" value="1.恐怖的古镜 " />
+			<item name="2" value="2.手背上的女鬼  " />
+			<item name="3" value="3.半夜的敲门声 " />
+			<item name="4" value="4.三个鬼的投诉 " />
+			<item name="5" value="5.一个女孩的求救信" />
+			<item name="6" value="6.血色屏幕 " />
+			<item name="7" value="7.猛鬼电话 " />
+			<item name="8" value="8.石缝里的女尸 " />
+			<item name="9" value="9.你喜欢吃消夜吗？ " />
+			<item name="10" value="10.迷离境界之幼童  " />
+			
+			<item name="11" value="11.那晚是谁睡在我旁边？ " />
+			<item name="12" value="12.说鬼 " />
+			<item name="13" value="13.谈鬼" />
+			<item name="14" value="14.面条 " />
+			<item name="15" value="15.夜遇女鬼  "/>
+		</property>
+		
+<property name="gui2"  value="鬼笑话系列二" > 
+		<item name="1" value="1.是故我知 " />
+		<item name="2" value="2.过年之饿死鬼  " />
+		<item name="3" value="3.讲个海军鬼话吧 " />
+		<item name="4" value="4.你们录过音吗？ " />
+		<item name="5" value="5.20号楼的电梯 " />
+		<item name="6" value="6.恐怖爱情故事 " />
+		<item name="7" value="7.鬼魂索命 " />
+		<item name="8" value="8.一家三口 " />
+		<item name="9" value="9.不能玩的招鬼游戏 " />
+		<item name="10" value="10.睡～  " />
+		
+		<item name="11" value="11.明天我们怎么联络 " />
+		<item name="12" value="12.还我钱来 " />
+		<item name="13" value="13.我不是故意吓唬你的 " />
+		<item name="14" value="14.跳动的人头 " />
+		<item name="15" value="15.神秘的五号病床  "/>
+</property>
+
+<property name="gui3"  value="鬼笑话系列三" > 
+	<item name="1" value="1.吸灵魂的显示器 " />
+	<item name="2" value="2.黑色洋装的女人  " />
+	<item name="3" value="3.完全自杀手册 " />
+	<item name="4" value="4.盖在坟地里的五星际酒店 " />
+	<item name="5" value="5.布娃娃之死 " />
+	<item name="6" value="6.贪玩鬼 " />
+	<item name="7" value="7.解剖课" />
+	<item name="8" value="8.我生前最喜欢吃苹果了 " />
+	<item name="9" value="9.千万不要敲回车键 " />
+	<item name="10" value="10.倒着的女鬼 " />
+	
+	<item name="11" value="11.火烧掉的医院 " />
+	<item name="12" value="12.十八层地狱详解" />
+	<item name="13" value="13.恐怖梯间 " />
+	<item name="14" value="14.月夜鬼敲门〈下〉 " />
+	<item name="15" value="15.经典笑话：月夜鬼敲门〈中〉  "/>
+</property>
+
+
+<property name="gui4"  value="鬼笑话系列四" > 
+	<item name="1" value="1.死亡纸条" />
+	<item name="2" value="2.没人和我抢了  " />
+	<item name="3" value="3.莫回头 " />
+	<item name="4" value="4.午夜幽车 " />
+	<item name="5" value="5.恐怖公园 " />
+	<item name="6" value="6.夜半我等你 " />
+	<item name="7" value="7.我昨天晚上加班时 " />
+	<item name="8" value="8.四岁男孩说出前生是他舅舅 " />
+	<item name="9" value="9.一件带血的睡衣 " />
+	<item name="10" value="10.梦中情人  " />
+	
+	<item name="11" value="11.火蝎遇鬼记" />
+	<item name="12" value="12.医院女尸 " />
+	<item name="13" value="13.恐怖的小镇 " />
+	<item name="14" value="14.昨夜我碰到了鬼 " />
+	<item name="15" value="15.人头气球 "/>
+
+</property>
+
+
+<property name="gui5"  value="鬼笑话系列五" > 
+		<item name="1" value="1.三个鬼的投诉 " />
+		<item name="2" value="2.长发飘飘  " />
+		<item name="3" value="3.几个经典的鬼故事 " />
+		<item name="4" value="4.微笑的护士 " />
+		<item name="5" value="5.荡鞦千的小孩 " />
+		<item name="6" value="6.墓园迎新会 " />
+		<item name="7" value="7.幽灵怪车" />
+		<item name="8" value="8.恐怖的露营 " />
+		<item name="9" value="9.把血擦干 " />
+		<item name="10" value="10.日月潭惊魂记  " />
+		
+		<item name="11" value="11.在网上不要乱叫老公啊！！！ " />
+		<item name="12" value="12.红苹果 " />
+		<item name="13" value="13.幽灵系列——魂断同城约会 " />
+		<item name="14" value="14.约定  " />
+		<item name="15" value="15.师大会开门的鬼  "/>
+
+</property>
+
+ 
+
+ </p-property>
+
+</root>

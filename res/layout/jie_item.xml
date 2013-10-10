@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="2.0dip" android:paddingTop="4.0dip" android:paddingBottom="2.0dip"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+
+                xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<ImageView android:id="@+id/jieImageView" android:background="@drawable/iv_2" android:layout_width="wrap_content"
+               android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+               android:layout_centerInParent="true"/>-->
+    <TextView android:textSize="17.0dip" android:textColor="#ffffff" android:gravity="left|center"
+              android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="50.0dip"
+              android:drawableLeft="@drawable/iv_2"
+              android:singleLine="true" />
+</RelativeLayout>
