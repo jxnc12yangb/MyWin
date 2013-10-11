@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="library">
+    <CLASSES>
+      <root url="file://$USER_HOME$/IconicDroid/library" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/IconicDroid/library/gen" />
+      <root url="file://$USER_HOME$/IconicDroid/library/src" />
+      <root url="file://$USER_HOME$/IconicDroid/library/target/generated-sources/r" />
+    </SOURCES>
+  </library>
+</component>

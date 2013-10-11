@@ -12,7 +12,7 @@
         android:name="com.yangbang.MainApp"
             >
         <activity
-            android:name="com.yangbang.MiLaucherActivity" android:theme="@android:style/Theme.NoTitleBar">
+            android:name="com.yangbang.MiLaucherActivity" android:theme="@android:style/Theme.Black.NoTitleBar">
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

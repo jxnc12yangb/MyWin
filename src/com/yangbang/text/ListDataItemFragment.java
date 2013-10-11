@@ -1,5 +1,6 @@
 package com.yangbang.text;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
 import android.util.Log;
@@ -39,6 +40,16 @@ public class ListDataItemFragment extends ListFragment{
 
          setListAdapter(new ArrayAdapter<String>(getActivity(),R.layout.jie_item,R.id.title,mValues));
 
+         getListView().setBackgroundResource(R.drawable.btn_menu_normal);
+        getListView().setCacheColorHint(Color.argb(0,0,0,0));
+        /*getListView().setSelector(R.drawable.grouplist_item_bg_normal);*/
+        getListView().setDivider(getResources().getDrawable(R.drawable.spinner_divider));
+
+        /**
+         *   android:cacheColorHint="#00000000"
+         android:listSelector="@drawable/grouplist_item_bg_normal"
+         android:divider="@drawable/spinner_divider"
+         */
      }
 
      @Override

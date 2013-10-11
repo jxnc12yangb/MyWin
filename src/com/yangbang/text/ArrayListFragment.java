@@ -1,12 +1,15 @@
 package com.yangbang.text;
 
+import android.annotation.SuppressLint;
+import android.content.Context;
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
-import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
+import android.view.ViewGroup;
+import android.widget.*;
 import com.yangbang.Constant;
+import com.yangbang.FragmentDemo;
+import com.yangbang.MainApp;
 import com.yangbang.text.item.DataProperty;
 import com.yangbang.text.item.ItemParser;
 import com.yangbang.xiaohua.R;
@@ -15,47 +18,66 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ArrayListFragment extends ListFragment{
+public class ArrayListFragment extends FragmentDemo implements AdapterView.OnItemClickListener {
 
     private List<DataProperty> mDatas;
     private List<String> mValues = new ArrayList<String>();
     private int position ;
+    private ListView listView;
 
-	 @Override
+    @Override
      public void onActivityCreated(Bundle savedInstanceState) {
 
          super.onActivityCreated(savedInstanceState);
-
-         position = getArguments().getInt(Constant.position);
-
-         mDatas = ItemParser.homeDatalist.get(position).getDataProperties();
-
-         for(DataProperty dataProperty:mDatas){
-             mValues.add(dataProperty.getValue());
-         }
-
-         setListAdapter(new ArrayAdapter<String>(getActivity(),R.layout.jie_item,R.id.title,mValues));
+         //setListAdapter(new ArrayAdapter<String>(getActivity(),R.layout.jie_item,R.id.title,mValues));
 
      }
 
-     @Override
-     public void onListItemClick(ListView l, View v, int position, long id) {
-         Log.i("FragmentList", "Item clicked: " + id);
-         ListDataItemFragment listDataItemFragment = new ListDataItemFragment();
-         Bundle bundle = new Bundle();
-         bundle.putInt(Constant.position,this.position);
-         bundle.putInt(Constant.position2,position);
-         listDataItemFragment.setArguments(bundle);
-         getFragmentManager().beginTransaction().addToBackStack("ArrayListFragment").add(android.R.id.content,listDataItemFragment,"ListDataItemFragment").commit();
-     }
-     
+    @Override
+    protected View initViews(LayoutInflater inflater, ViewGroup container) {
+        View view = inflater.inflate(R.layout.single_listview,container,false);
+        listView = (ListView) view.findViewById(R.id.listview);
+        listView.setOnItemClickListener(this);
+        return view;
+    }
+
+    @Override
+    protected void initData() {
+        position = getArguments().getInt(Constant.position);
+
+        mDatas = ItemParser.homeDatalist.get(position).getDataProperties();
+
+        for(DataProperty dataProperty:mDatas){
+            mValues.add(dataProperty.getValue());
+        }
+
+        listView.setAdapter(new MyAdater());
+    }
+
+
+    @Override
+    protected void initEvents() {
+
+    }
+
      @Override
     public void onCreate(Bundle savedInstanceState) {
     	// TODO Auto-generated method stub
     	super.onCreate(savedInstanceState);
+
     }
 
-   /* public class MyAdater extends BaseAdapter{
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+        ListDataItemFragment listDataItemFragment = new ListDataItemFragment();
+        Bundle bundle = new Bundle();
+        bundle.putInt(Constant.position,this.position);
+        bundle.putInt(Constant.position2,position);
+        listDataItemFragment.setArguments(bundle);
+        getFragmentManager().beginTransaction().addToBackStack("ArrayListFragment").add(android.R.id.content,listDataItemFragment,"ListDataItemFragment").commit();
+    }
+
+    public class MyAdater extends BaseAdapter {
 
         private Context context;
 
@@ -85,13 +107,11 @@ public class ArrayListFragment extends ListFragment{
             if(convertView == null){
                 viewHolder = new ViewHolder();
 
-                convertView = LayoutInflater.from(MainApp.getInstance()).inflate(R.layout.jie_item,null);
 
-                ImageView selectIV = (ImageView)convertView.findViewById(R.id.jieImageView);
+                convertView = LayoutInflater.from(MainApp.getInstance()).inflate(R.layout.jie_item,null);
 
                 TextView title = (TextView)convertView.findViewById(R.id.title);
 
-                viewHolder.selectIV = selectIV;
                 viewHolder.textView = title;
 
                 convertView.setTag(viewHolder);
@@ -101,10 +121,9 @@ public class ArrayListFragment extends ListFragment{
 
             viewHolder.textView.setText(mDatas.get(position).getValue());
 
-
             //
 
-            return null;
+            return convertView;
         }
 
         private class ViewHolder {
@@ -115,5 +134,5 @@ public class ArrayListFragment extends ListFragment{
         }
 
 
-    }*/
+    }
 }
