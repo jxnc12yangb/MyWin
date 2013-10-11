@@ -1,4 +1,4 @@
-package com.yangbang.fragments;
+package com.yangbang.text;
 
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import com.yangbang.Constant;
-import com.yangbang.text.item.DataProperty;
+import com.yangbang.text.item.DataItem;
 import com.yangbang.text.item.ItemParser;
 import com.yangbang.xiaohua.R;
 
@@ -15,22 +15,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ArrayListFragment extends ListFragment{
+public class ListDataItemFragment extends ListFragment{
 
-    private List<DataProperty> mDatas;
+    private List<DataItem> mDatas;
     private List<String> mValues = new ArrayList<String>();
-    private int position ;
+    private int position;
+    private int position2;
 
-	 @Override
+
+    @Override
      public void onActivityCreated(Bundle savedInstanceState) {
 
          super.onActivityCreated(savedInstanceState);
 
          position = getArguments().getInt(Constant.position);
+        position2 = getArguments().getInt(Constant.position2);
 
-         mDatas = ItemParser.homeDatalist.get(position).getDataProperties();
+         mDatas = ItemParser.homeDatalist.get(position).getDataProperties().get(position2).getDataItems();
 
-         for(DataProperty dataProperty:mDatas){
+         for(DataItem dataProperty:mDatas){
              mValues.add(dataProperty.getValue());
          }
 
@@ -41,12 +44,13 @@ public class ArrayListFragment extends ListFragment{
      @Override
      public void onListItemClick(ListView l, View v, int position, long id) {
          Log.i("FragmentList", "Item clicked: " + id);
-         ListDataItemFragment listDataItemFragment = new ListDataItemFragment();
+         TextDetailFragment listDataItemFragment = new TextDetailFragment();
          Bundle bundle = new Bundle();
+         bundle.putInt(Constant.position3,position);
+         bundle.putInt(Constant.position2,this.position2);
          bundle.putInt(Constant.position,this.position);
-         bundle.putInt(Constant.position2,position);
          listDataItemFragment.setArguments(bundle);
-         getFragmentManager().beginTransaction().addToBackStack("ArrayListFragment").add(android.R.id.content,listDataItemFragment,"ListDataItemFragment").commit();
+        getFragmentManager().beginTransaction().addToBackStack("ListDataItemFragment").add(android.R.id.content,listDataItemFragment,"TextDetailFragment").commit();
      }
      
      @Override

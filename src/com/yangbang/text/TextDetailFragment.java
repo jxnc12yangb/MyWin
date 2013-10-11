@@ -1,4 +1,4 @@
-package com.yangbang.fragments;
+package com.yangbang.text;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

@@ -6,7 +6,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import com.yangbang.Constant;
 import com.yangbang.FragmentActivityDemo;
-import com.yangbang.fragments.ArrayListFragment;
 
 public class TextActivity extends FragmentActivityDemo{
 
