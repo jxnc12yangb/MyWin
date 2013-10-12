@@ -25,29 +25,29 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:orientation="horizontal"
-            android:background="#f0f0f0"
+
             >
 
-            <View
+            <ImageView
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:id="@+id/left"
-                    ></View>
+                    ></ImageView>
 
-        <View
+        <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:id="@+id/middle"
-                ></View>
+                ></ImageView>
 
-        <View
+        <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:id="@+id/right"
-                ></View>
+                ></ImageView>
 
 
     </LinearLayout>
