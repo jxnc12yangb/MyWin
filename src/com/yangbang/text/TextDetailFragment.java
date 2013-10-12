@@ -1,6 +1,10 @@
 package com.yangbang.text;
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -11,6 +15,7 @@ import android.widget.TextView;
 
 import com.atermenji.android.iconicdroid.IconicFontDrawable;
 import com.atermenji.android.iconicdroid.icon.EntypoIcon;
+import com.atermenji.android.iconicdroid.icon.Icon;
 import com.yangbang.Constant;
 import com.yangbang.FragmentDemo;
 import com.yangbang.text.item.DataItem;
@@ -18,8 +23,12 @@ import com.yangbang.text.item.DataPProperty;
 import com.yangbang.text.item.DataProperty;
 import com.yangbang.text.item.ItemParser;
 import com.yangbang.xiaohua.R;
+/*import com.atermenji.android.iconicdroid.IconicFontDrawable;
+import com.atermenji.android.iconicdroid.icon.EntypoIcon;
+import com.atermenji.android.iconicdroid.icon.Icon;*/
 
-/**
+/**10-12 15:24:26.895: E/AndroidRuntime(14711): Caused by: java.lang.ClassNotFoundException: com.yangbang.MiLaucherActivity
+
  * Created by yangbang on 13-10-9.
  */
 public class TextDetailFragment extends FragmentDemo{
@@ -71,9 +80,21 @@ public class TextDetailFragment extends FragmentDemo{
 
         textView.setText(content);
 
+
+        List<Icon> icons = new ArrayList<Icon>();
+        icons.addAll(Arrays.asList(EntypoIcon.values()));
+
+
+
+
+
         IconicFontDrawable iconicFontDrawable = new IconicFontDrawable(getActivity());
-        iconicFontDrawable.setIcon(EntypoIcon.LEFT);
+        iconicFontDrawable.setIcon(icons.get(0));
         iconicFontDrawable.setIconColor(Color.rgb(80,80,80));
+
+        iconicFontDrawable.setIntrinsicWidth(70);
+
+
 
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
             left.setBackgroundDrawable(iconicFontDrawable);

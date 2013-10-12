@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MiLaucher.iml" filepath="$PROJECT_DIR$/MiLaucher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyWin.iml" filepath="$PROJECT_DIR$/MyWin.iml" />
+      <module fileurl="file://$USER_HOME$/IconicDroid/library/target/generated-sources/generated-sources.iml" filepath="$USER_HOME$/IconicDroid/library/target/generated-sources/generated-sources.iml" />
+      <module fileurl="file://$USER_HOME$/IconicDroid/library/library.iml" filepath="$USER_HOME$/IconicDroid/library/library.iml" />
     </modules>
   </component>
 </project>
