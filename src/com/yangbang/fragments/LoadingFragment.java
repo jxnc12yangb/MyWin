@@ -2,10 +2,11 @@ package com.yangbang.fragments;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.yangbang.FragmentDemo;
+
 import com.yangbang.views.LoadingView;
 import com.yangbang.xiaohua.R;
 
@@ -13,7 +14,7 @@ import com.yangbang.xiaohua.R;
  * Created by yangbang on 13-10-9.
  * 启动界面
  */
-public class LoadingFragment extends FragmentDemo{
+public class LoadingFragment extends Fragment {
     private View mLoadview;
     private LoadingView main_imageview;
     private Handler mHandler;
@@ -24,8 +25,24 @@ public class LoadingFragment extends FragmentDemo{
         public boolean getLoadingState();
     }
 
+
+
     @Override
-    protected View initViews(LayoutInflater inflater, ViewGroup container) {
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        initLoadingImages();
+
+        mILoadingState = (ILoadingState)getActivity();
+
+        mHandler = new Handler();
+        mHandler.postDelayed(runnable,1000);
+        main_imageview.startAnim();
+
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.loading,container,false);
 
@@ -34,17 +51,6 @@ public class LoadingFragment extends FragmentDemo{
         main_imageview = (LoadingView) view.findViewById(R.id.main_imageview);
 
         return view;
-    }
-
-    @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-
-        mILoadingState = (ILoadingState)getActivity();
-
-        mHandler = new Handler();
-        mHandler.postDelayed(runnable,1000);
-        main_imageview.startAnim();
 
     }
 
@@ -67,15 +73,6 @@ public class LoadingFragment extends FragmentDemo{
         }
     };
 
-    @Override
-    protected void initData() {
-        initLoadingImages();
-    }
-
-    @Override
-    protected void initEvents() {
-
-    }
 
     private void initLoadingImages() {
         int[] imageIds = new int[6];

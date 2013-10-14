@@ -1,7 +1,6 @@
 package com.yangbang;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,13 +8,13 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.yangbang.xiaohua.R;
+import com.actionbarsherlock.app.SherlockFragment;
 
 /**
  * Created by yangbang on 13-7-23.
  * Fragment 样版 抽象类
  */
-public abstract class FragmentDemo extends Fragment{
+public abstract class FragmentDemo extends SherlockFragment {
 
     protected Button mBack;
     protected Button mTitle;

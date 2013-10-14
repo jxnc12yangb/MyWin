@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyWin.iml" filepath="$PROJECT_DIR$/MyWin.iml" />
+      <module fileurl="file://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/actionbarsherlock.iml" filepath="$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/actionbarsherlock.iml" />
       <module fileurl="file://$USER_HOME$/IconicDroid/library/target/generated-sources/generated-sources.iml" filepath="$USER_HOME$/IconicDroid/library/target/generated-sources/generated-sources.iml" />
       <module fileurl="file://$USER_HOME$/IconicDroid/library/library.iml" filepath="$USER_HOME$/IconicDroid/library/library.iml" />
+      <module fileurl="file://$USER_HOME$/github_project/FadingActionBar/library/library1.iml" filepath="$USER_HOME$/github_project/FadingActionBar/library/library1.iml" />
     </modules>
   </component>
 </project>

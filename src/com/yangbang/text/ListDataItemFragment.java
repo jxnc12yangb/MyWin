@@ -2,11 +2,16 @@ package com.yangbang.text;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
+import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.actionbarsherlock.app.SherlockListFragment;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.view.MenuItem;
 import com.yangbang.Constant;
 import com.yangbang.text.item.DataItem;
 import com.yangbang.text.item.ItemParser;
@@ -16,12 +21,40 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ListDataItemFragment extends ListFragment{
+public class ListDataItemFragment extends SherlockListFragment{
 
     private List<DataItem> mDatas;
     private List<String> mValues = new ArrayList<String>();
     private int position;
     private int position2;
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+
+        getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        Log.e("text6","ListDataItemFragment");
+
+        if (item.getItemId() == android.R.id.home || item.getItemId() == 0) {
+            FragmentManager fm = getSherlockActivity().getSupportFragmentManager();
+
+            if (fm.getBackStackEntryCount() > 0) {
+
+                fm.popBackStack(fm.getBackStackEntryAt(fm.getBackStackEntryCount()-1).getId(),
+                        FragmentManager.POP_BACK_STACK_INCLUSIVE);
+            }
+
+            return true;
+        }
+
+        return false;
+    }
+
 
 
     @Override
@@ -54,20 +87,26 @@ public class ListDataItemFragment extends ListFragment{
 
      @Override
      public void onListItemClick(ListView l, View v, int position, long id) {
-         Log.i("FragmentList", "Item clicked: " + id);
+
+         Log.e("text6","ListDataItemFragment"+position);
+
          TextDetailFragment listDataItemFragment = new TextDetailFragment();
          Bundle bundle = new Bundle();
          bundle.putInt(Constant.position3,position);
          bundle.putInt(Constant.position2,this.position2);
          bundle.putInt(Constant.position,this.position);
          listDataItemFragment.setArguments(bundle);
-        getFragmentManager().beginTransaction().addToBackStack("ListDataItemFragment").add(android.R.id.content,listDataItemFragment,"TextDetailFragment").commit();
+        getFragmentManager().beginTransaction().setCustomAnimations(R.anim.fragment_slide_left_enter,
+                R.anim.fragment_slide_left_exit,
+                R.anim.fragment_slide_right_enter,
+                R.anim.fragment_slide_right_exit).addToBackStack("ListDataItemFragment").add(android.R.id.content,listDataItemFragment,"TextDetailFragment").commit();
      }
      
      @Override
     public void onCreate(Bundle savedInstanceState) {
     	// TODO Auto-generated method stub
     	super.onCreate(savedInstanceState);
+         setHasOptionsMenu(true);
     }
 
    /* public class MyAdater extends BaseAdapter{

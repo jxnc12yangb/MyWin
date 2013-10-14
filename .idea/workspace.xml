@@ -23,13 +23,68 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java" line="151" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="239ad4b6-53c4-4011-b884-6e81b7338b4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/yangbang.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ab_background.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ab_background_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/drawer_shadow.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/activity_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_scrollview.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/decelerate_quint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/fragment_slide_left_enter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/fragment_slide_left_exit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/fragment_slide_right_enter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/fragment_slide_right_exit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/header.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/header_light.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/nyc_sites.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/themes.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4__2_.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MiLaucher.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/MiLaucher.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/ActivityDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/FragmentActivityDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/FragmentDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/MiLaucherActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/text/TextActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/text/item/DataItem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/text/item/DataPProperty.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/text/item/DataProperty.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/text/item/ItemParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/xiaohua/Animations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/xiaohua/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/xiaohua/Configure.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/xiaohua/DateAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/xiaohua/DragGrid$G_ItemChangeListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/xiaohua/DragGrid$G_PageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/xiaohua/DragGrid.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/xiaohua/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/xiaohua/ScrollLayout$PageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/yangbang/xiaohua/ScrollLayout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/jarlist.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/resources.ap_" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/android-support-v4.jar" afterPath="$PROJECT_DIR$/libs/android-support-v4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java" afterPath="$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/FragmentDemo.java" afterPath="$PROJECT_DIR$/src/com/yangbang/FragmentDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/text/ListDataItemFragment.java" afterPath="$PROJECT_DIR$/src/com/yangbang/text/ListDataItemFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/fragments/LoadingFragment.java" afterPath="$PROJECT_DIR$/src/com/yangbang/fragments/LoadingFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java" afterPath="$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" afterPath="$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/text_detail.xml" afterPath="$PROJECT_DIR$/res/layout/text_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/single_listview.xml" afterPath="$PROJECT_DIR$/res/layout/single_listview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MiLaucher.iws" />
@@ -51,68 +106,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/item/ItemParser.java" line="2" class="ItemParser.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="44" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="133" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="154" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -150,6 +143,83 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/item/ItemParser.java" line="2" class="ItemParser.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="174" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="199" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="86" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/src/com/actionbarsherlock/app/SherlockFragmentActivity.java" line="2" class="SherlockFragmentActivity.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -286,54 +356,165 @@
           <favorite_root url="file://$USER_HOME$/IconicDroid/library/AndroidManifest.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
         </favorite_root>
       </favorite_root>
+      <favorite_root url="actionbarsherlock" type="namedLibrary" klass="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode">
+        <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/app" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/app/ActionBar.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/app/SherlockActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/app/SherlockFragment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/app/SherlockListActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/app/SherlockListFragment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/app/SherlockDialogFragment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/app/SherlockFragmentActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/app/SherlockPreferenceActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/app/SherlockExpandableListActivity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/view" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/view/Menu.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/view/Window.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/view/SubMenu.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/view/MenuItem.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/view/ActionMode.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/view/MenuInflater.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/view/ActionProvider.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/view/CollapsibleActionView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/widget" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/widget/SearchView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/widget/SuggestionsAdapter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/widget/ActivityChooserView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/widget/ShareActionProvider.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/widget/ActivityChooserModel.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/app" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/app/ActionBarImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/app/ActionBarWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/MenuView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/ActionMenu.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/MenuBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/MenuWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/MenuItemImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/MenuPresenter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/ActionMenuItem.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/ActionMenuView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/SubMenuBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/SubMenuWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/MenuPopupHelper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/ListMenuItemView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/BaseMenuPresenter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/ActionMenuItemView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/menu/ActionMenuPresenter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/StandaloneActionMode.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/ActionProviderWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/View_HasStateListenerSupport.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/view/View_OnAttachStateChangeListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/IcsView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/IcsToast.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/IcsSpinner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/ActionBarView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/IcsAbsSpinner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/IcsAdapterView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/IcsProgressBar.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/IcsLinearLayout.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/AbsActionBarView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/IcsColorDrawable.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/TabsLinearLayout.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/PopupWindowCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/ActionBarContainer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/CapitalizingButton.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/IcsListPopupWindow.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/ActionBarContextView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/CapitalizingTextView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/ScrollingTabContainerView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/widget/CollapsibleActionViewWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/view" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/view/animation" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/view/animation/AnimatorProxy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/view/NineViewGroup.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/widget" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/widget/NineFrameLayout.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/widget/NineLinearLayout.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/widget/NineHorizontalScrollView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/Animator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/Keyframe.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/KeyframeSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/IntEvaluator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/TypeEvaluator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/FloatEvaluator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/IntKeyframeSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/ObjectAnimator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/FloatKeyframeSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/PropertyValuesHolder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorListenerAdapter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/ResourcesCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/ActionBarSherlockCompat.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/internal/ActionBarSherlockNative.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/com/actionbarsherlock/ActionBarSherlock.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/android" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/android/support" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/android/support/v4" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/android/support/v4/app" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/android/support/v4/app/Watson.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/META-INF" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/bin/actionbarsherlock.jar!/META-INF/MANIFEST.MF" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+      </favorite_root>
     </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TextDetailFragment.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java">
+      <file leaf-file-name="activity_scrollview.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_scrollview.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.5492958" vertical-offset="342" max-vertical-offset="3042">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FragmentDemo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangbang/FragmentDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0" vertical-offset="588" max-vertical-offset="1440">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TypefaceManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/IconicDroid/library/src/com/atermenji/android/iconicdroid/util/TypefaceManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="13" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1692">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="486">
               <folding>
-                <element signature="e#0#3513#0" expanded="false" />
-                <element signature="imports" expanded="false" />
+                <element signature="e#442#463#0" expanded="false" />
+                <element signature="e#693#714#0" expanded="false" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IconicFontDrawable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/IconicDroid/library/src/com/atermenji/android/iconicdroid/IconicFontDrawable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4554">
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivityDemo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangbang/ActivityDemo.java">
+      <file leaf-file-name="ArrayListFragment.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="1080">
-              <folding />
+            <state line="60" column="16" selection-start="2099" selection-end="2099" vertical-scroll-proportion="0.39835164" vertical-offset="790" max-vertical-offset="3996">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3254#3262#0" expanded="true" />
+                <element signature="e#3631#3639#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -341,20 +522,32 @@
       <file leaf-file-name="ListDataItemFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/ListDataItemFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="2286">
+            <state line="23" column="13" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2898">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text_detail.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/text_detail.xml">
+      <file leaf-file-name="activity_listview.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_listview.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="43" selection-start="293" selection-end="293" vertical-scroll-proportion="-2.7272727" vertical-offset="0" max-vertical-offset="216">
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="android-designer">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiLaucherActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yangbang/MiLaucherActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="602" selection-end="602" vertical-scroll-proportion="-2.090909" vertical-offset="237" max-vertical-offset="1062">
-              <folding />
+            <state line="309" column="83" selection-start="10326" selection-end="10338" vertical-scroll-proportion="0.0" vertical-offset="4083" max-vertical-offset="7974">
+              <folding>
+                <element signature="e#7550#10585#0" expanded="true" />
+                <element signature="e#10580#10581#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -362,7 +555,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+            <state line="25" column="0" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
               <folding>
                 <element signature="e#333#351#0" expanded="true" />
               </folding>
@@ -370,22 +563,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TextActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1044">
+            <state line="20" column="56" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
@@ -406,25 +587,82 @@
       <MyDateState />
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="library" />
+              <option name="path" value="$USER_HOME$/IconicDroid/library" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="library" />
+                <option name="path" value="$USER_HOME$/IconicDroid/library" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$USER_HOME$/IconicDroid/library">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates a Gradle build from a Maven POM. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/IconicDroid/library" />
+                <option name="name" value="maven2Gradle" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/IconicDroid/library" />
+                <option name="name" value="setupBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/IconicDroid/library" />
+                <option name="name" value="setupWrapper" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/IconicDroid/library" value="1381460748716" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yangbang/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/text/item/ItemParser.java" />
+        <option value="$USER_HOME$/github_project/FadingActionBar/library/project.properties" />
+        <option value="$PROJECT_DIR$/project.properties" />
+        <option value="$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/project.properties" />
+        <option value="$USER_HOME$/IconicDroid/library/project.properties" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" />
+        <option value="$USER_HOME$/IconicDroid/library/src/com/atermenji/android/iconicdroid/icon/EntypoIcon.java" />
+        <option value="$PROJECT_DIR$/res/menu/activity_menu.xml" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/text/SampleFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/single_listview.xml" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/text/item/SampleFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/text/item/CopyOfSampleFragment.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/yangbang/MiLaucherActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/Constant.java" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/fragments/TextDetailFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/fragments/ListDataItemFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/fragments/ArrayListFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/text/item/SampleFragment.java" />
         <option value="$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java" />
         <option value="$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/text/ListDataItemFragment.java" />
-        <option value="$PROJECT_DIR$/res/layout/single_listview.xml" />
-        <option value="$PROJECT_DIR$/res/layout/jie_item.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/text_detail.xml" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" />
       </list>
     </option>
   </component>
@@ -460,6 +698,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -468,37 +707,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyWin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyWin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyWin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyWin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -507,30 +721,30 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="appearance" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="809" />
-    <property name="last_opened_file_path" value="$USER_HOME$/github_project/FadingActionBar/library" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="406" />
+    <property name="last_opened_file_path" value="$USER_HOME$/miwo" />
+    <property name="project.structure.side.proportion" value="0.26583335" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yangbang.fragments" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/libs" />
-      <recent name="$PROJECT_DIR$/res/drawable" />
-      <recent name="$PROJECT_DIR$/src/com/yangbang" />
-      <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
       <recent name="$PROJECT_DIR$/res/layout" />
+      <recent name="$PROJECT_DIR$/src/com/yangbang/text/item" />
+      <recent name="$PROJECT_DIR$/res" />
+      <recent name="$PROJECT_DIR$/res/values" />
+      <recent name="$PROJECT_DIR$/res/menu" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.MyWin">
@@ -659,9 +873,26 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="sample" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="sample" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android Application.MiLaucher" />
       <item index="1" class="java.lang.String" itemvalue="Android Application.MyWin" />
+      <item index="2" class="java.lang.String" itemvalue="Android Application.sample" />
     </list>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -716,7 +947,10 @@
       <workItem from="1381563285032" duration="1688000" />
       <workItem from="1381565233747" duration="2560000" />
       <workItem from="1381567803472" duration="138000" />
-      <workItem from="1381568006125" duration="4850000" />
+      <workItem from="1381568006125" duration="4965000" />
+      <workItem from="1381716996089" duration="15744000" />
+      <workItem from="1381740124608" duration="476000" />
+      <workItem from="1381740635907" duration="8084000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1381397929337</created>
@@ -754,11 +988,15 @@
       <created>1381566606909</created>
       <updated>1381566606910</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="little change">
+      <created>1381573205582</created>
+      <updated>1381573205582</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53962000" />
+    <option name="totallyTimeSpent" value="78381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1922" height="1057" extended-state="0" />
@@ -767,28 +1005,28 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.83461964" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972497" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.83461964" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17542918" sideWeight="0.99327356" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17542918" sideWeight="0.8946188" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5504484" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15695067" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2746637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12679163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2679372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2679372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10762332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14573991" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.9767184" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.0" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20708154" sideWeight="0.99327356" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0067264573" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20976394" sideWeight="0.8542601" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40470853" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="86" y="157" width="1720" height="856" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13105726" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5722161" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -834,7 +1072,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new library" />
+    <option name="LAST_COMMIT_MESSAGE" value="little change" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -852,125 +1090,127 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="change file" />
     <MESSAGE value="add new library" />
+    <MESSAGE value="little change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/IconicDroid/library/src/com/atermenji/android/iconicdroid/icon/FontAwesomeIcon.java">
+    <entry file="file:///usr/local/android-sdk-linux/platforms/android-16/data/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="839" selection-end="839" vertical-scroll-proportion="0.19917013" vertical-offset="0" max-vertical-offset="5076" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="58" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2322">
+        <state line="39" column="17" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.33293697" vertical-offset="422" max-vertical-offset="3492">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/IconicDroid/library/src/com/atermenji/android/iconicdroid/icon/EntypoIcon.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/single_listview.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4878">
+        <state line="7" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="-3.8181818" vertical-offset="0" max-vertical-offset="234">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/IconicDroid/library/src/com/atermenji/android/iconicdroid/icon/Icon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/FragmentActivityDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/jie_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/android-sdk-linux/platforms/android-16/android.jar!/android/R.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="600" column="32" selection-start="42055" selection-end="42055" vertical-scroll-proportion="0.0" vertical-offset="10496" max-vertical-offset="34740">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/ActivityDemo.java">
+    <entry file="file://$PROJECT_DIR$/res/raw/nyc_sites.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+        <state line="25" column="0" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <folding>
             <element signature="e#333#351#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/IconicDroid/library/src/com/atermenji/android/iconicdroid/IconicFontDrawable.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_scrollview.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4554">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
+          <folding>
+            <element signature="e#442#463#0" expanded="false" />
+            <element signature="e#693#714#0" expanded="false" />
+          </folding>
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$USER_HOME$/IconicDroid/library/src/com/atermenji/android/iconicdroid/util/TypefaceManager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangbang/MiLaucherActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1692">
+        <state line="309" column="83" selection-start="10326" selection-end="10338" vertical-scroll-proportion="0.0" vertical-offset="4083" max-vertical-offset="7974">
           <folding>
-            <element signature="e#0#3513#0" expanded="false" />
-            <element signature="imports" expanded="false" />
+            <element signature="e#7550#10585#0" expanded="true" />
+            <element signature="e#10580#10581#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/ListDataItemFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="2286">
+    <entry file="file://$PROJECT_DIR$/res/layout/header_light.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/text_detail.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_listview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="43" selection-start="293" selection-end="293" vertical-scroll-proportion="-2.7272727" vertical-offset="0" max-vertical-offset="216">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/ListDataItemFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="602" selection-end="602" vertical-scroll-proportion="-2.090909" vertical-offset="237" max-vertical-offset="1062">
+        <state line="23" column="13" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2898">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/FragmentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0" vertical-offset="758" max-vertical-offset="1440">
+        <state line="20" column="56" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.5492958" vertical-offset="342" max-vertical-offset="3042">
-          <folding />
+        <state line="60" column="16" selection-start="2099" selection-end="2099" vertical-scroll-proportion="0.39835164" vertical-offset="790" max-vertical-offset="3996">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3254#3262#0" expanded="true" />
+            <element signature="e#3631#3639#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -983,7 +1223,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.26583335" />
               </list>
             </option>
           </splitter-proportions>
@@ -991,11 +1231,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>Android (MyWin)|Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4120983" />
               </list>
             </option>
           </splitter-proportions>
@@ -1003,11 +1243,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>library</last-edited>
+          <last-edited>android-support-v4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.26583335" />
               </list>
             </option>
           </splitter-proportions>
@@ -1019,7 +1259,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4120983" />
               </list>
             </option>
           </splitter-proportions>
@@ -1031,7 +1271,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.26583335" />
               </list>
             </option>
           </splitter-proportions>
@@ -1051,11 +1291,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android-support-v4 (2)</last-edited>
+          <last-edited>android-support-v41</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.26583335" />
               </list>
             </option>
           </splitter-proportions>

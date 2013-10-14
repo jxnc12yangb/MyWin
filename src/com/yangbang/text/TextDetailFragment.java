@@ -4,16 +4,17 @@ package com.yangbang.text;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.view.MenuItemCompat;
+import android.support.v4.app.FragmentManager;
+import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.view.MenuItem;
 import com.atermenji.android.iconicdroid.IconicFontDrawable;
 import com.atermenji.android.iconicdroid.icon.EntypoIcon;
 import com.yangbang.Constant;
@@ -38,6 +39,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
     private ImageView left;
     private ImageView middle;
     private ImageView right;
+    private MenuItem itemPage;
 
     @Override
     protected View initViews(LayoutInflater inflater, ViewGroup container) {
@@ -66,15 +68,44 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 
+        getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        MenuItem item;
-        item = menu.add("Menu 1a");
-        MenuItemCompat.setShowAsAction(item, MenuItemCompat.SHOW_AS_ACTION_IF_ROOM);
-        item = menu.add("Menu 1b");
-        MenuItemCompat.setShowAsAction(item, MenuItemCompat.SHOW_AS_ACTION_IF_ROOM);
+
+        itemPage = menu.add("Menu 1a");
+        itemPage.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+
+
 
     }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+
+
+        if (item.getItemId() == android.R.id.home || item.getItemId() == 0) {
+            FragmentManager fm = getSherlockActivity().getSupportFragmentManager();
+
+            if (fm.getBackStackEntryCount() > 0) {
+                fm.popBackStack(fm.getBackStackEntryAt(fm.getBackStackEntryCount()-1).getId(),
+                        FragmentManager.POP_BACK_STACK_INCLUSIVE);
+
+                /*fmsetCustomAnimations(R.anim.fragment_slide_left_enter,
+                        R.anim.fragment_slide_left_exit,
+                        R.anim.fragment_slide_right_enter,
+                        R.anim.fragment_slide_right_exit)*/
+            }
+
+            return true;
+
+        }else if(item.getItemId()==itemPage.getItemId()){
+
+        }
+
+        return false;
+    }
+
 
     @Override
     protected void initEvents() {
@@ -93,12 +124,18 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         position2 = getArguments().getInt(Constant.position2);
         position3 = getArguments().getInt(Constant.position3);
 
+
+
+        Log.e("text6", "onActivityCreated" +position+","+position2+","+position3);
+
         DataPProperty dataPProperty = ItemParser.homeDatalist.get(position);
         DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
         DataItem dataItem = dataProperty.getDataItems().get(position3);
         String content = dataItem.getContent();
 
         textView.setText(content);
+
+        itemPage.setTitle((position3+1)+"/"+dataProperty.getDataItems().size());
 
         Random random = new Random();
         IconicFontDrawable iconicFontDrawable = new IconicFontDrawable(getActivity());
@@ -127,9 +164,13 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
             right.setBackground(iconicFontDrawable3);
         }
 
+
+
     }
 
     public void previous(){
+
+        Log.e("text6", "TextDetailFragment" +position+","+position2+","+position3);
 
         DataPProperty dataPProperty = ItemParser.homeDatalist.get(position);
         DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
@@ -142,9 +183,11 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
             String content = dataItem.getContent();
 
             textView.setText(content);
+
+            itemPage.setTitle((position3+1)+"/"+dataProperty.getDataItems().size());
         }else{
 
-            ToastS("已经是第一页");
+          //  ToastS("已经是第一页");
 
         }
 
@@ -152,10 +195,14 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
 
     public void next(){
 
+
+
         DataPProperty dataPProperty = ItemParser.homeDatalist.get(position);
         DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
 
-        if((position3)<dataPProperty.getDataProperties().size()-1){
+        Log.e("text6", "TextDetailFragment" +position+","+position2+","+position3);
+
+        if((position3)<dataProperty.getDataItems().size()-1){
 
             position3 += 1;
 
@@ -163,9 +210,11 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
             String content = dataItem.getContent();
 
             textView.setText(content);
+
+            itemPage.setTitle((position3+1)+"/"+dataProperty.getDataItems().size());
         }else{
 
-            ToastS("已经是最后一页");
+         //   ToastS("已经是最后一页");
         }
 
     }

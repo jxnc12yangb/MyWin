@@ -5,6 +5,10 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/gen" includeSubdirectories="true" />
       <directory url="file://$USER_HOME$/IconicDroid/library/gen" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/gen" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github_project/FadingActionBar/library/gen" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/github_project/FadingActionBar/sample/gen" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/IconicDroid/library/target/generated-sources/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
