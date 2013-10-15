@@ -13,7 +13,7 @@ import com.yangbang.Constant;
 import com.yangbang.MainApp;
 import com.yangbang.xiaohua.R;
 
-public class TextActivity extends SherlockFragmentActivity {
+public class TextDetailActivity extends SherlockFragmentActivity {
 
     private FadingActionBarHelper mFadingHelper;
 
@@ -26,12 +26,15 @@ public class TextActivity extends SherlockFragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
         if (getSupportFragmentManager().findFragmentById(android.R.id.content) == null) {
 
             int position = getIntent().getIntExtra(Constant.position,0);
-            ArrayListFragment list = new ArrayListFragment();
+            TextDetailFragment list = new TextDetailFragment();
             Bundle bundle = new Bundle();
             bundle.putInt(Constant.position,position);
+            bundle.putInt(Constant.position2,position);
+            bundle.putInt(Constant.position3,position);
             list.setArguments(bundle);
 
             getSupportFragmentManager().beginTransaction().add(android.R.id.content,list,"ArrayListFragment").commit();
@@ -55,6 +58,6 @@ public class TextActivity extends SherlockFragmentActivity {
     }
 
 
-	
-	
+
+
 }

@@ -1,6 +1,7 @@
 package com.yangbang.text;
 
 
+import android.app.Activity;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -17,6 +18,7 @@ import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
 import com.atermenji.android.iconicdroid.IconicFontDrawable;
 import com.atermenji.android.iconicdroid.icon.EntypoIcon;
+import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
 import com.yangbang.FragmentDemo;
 import com.yangbang.text.item.DataItem;
@@ -25,7 +27,8 @@ import com.yangbang.text.item.DataProperty;
 import com.yangbang.text.item.ItemParser;
 import com.yangbang.xiaohua.R;
 
-import java.util.Random;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**10-12 15:24:26.895: E/AndroidRuntime(14711): Caused by: java.lang.ClassNotFoundException: com.yangbang.MiLaucherActivity
 
@@ -40,11 +43,13 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
     private ImageView middle;
     private ImageView right;
     private MenuItem itemPage;
+    private Bundle mArguments;
+    private FadingActionBarHelper mFadingHelper;
 
     @Override
     protected View initViews(LayoutInflater inflater, ViewGroup container) {
 
-        View view = inflater.inflate(R.layout.text_detail, container, false);
+        View view =  inflater.inflate(R.layout.text_detail,container,false);
         textView = (TextView) view.findViewById(R.id.textView);
 
         left = (ImageView)view.findViewById(R.id.left);
@@ -59,29 +64,71 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
     }
+    public String replaceBlank(String str) {
+                String dest = "";
+               if (str!=null) {
+                       Pattern p = Pattern.compile("\\s*|\t|\r|\n");
+                       Matcher m = p.matcher(str);
+                        dest = m.replaceAll("");
+                    }
+                return dest;
+            }
 
     @Override
     protected void initData() {
+        Log.e("text6", "onActivityCreated" +position+","+position2+","+position3);
 
+        DataPProperty dataPProperty = ItemParser.homeDatalist.get(position);
+        DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
+        DataItem dataItem = dataProperty.getDataItems().get(position3);
+        String content = dataItem.getContent();
+
+        textView.setText(content);
+
+       // itemPage.setTitle((position3+1)+"/"+dataProperty.getDataItems().size());
+
+
+        IconicFontDrawable iconicFontDrawable = new IconicFontDrawable(getActivity());
+        iconicFontDrawable.setIcon(EntypoIcon.LEFT);
+        iconicFontDrawable.setIconColor(Color.GREEN);
+
+        iconicFontDrawable.setIntrinsicWidth(10);
+
+        IconicFontDrawable iconicFontDrawable2 = new IconicFontDrawable(getActivity());
+        iconicFontDrawable2.setIcon(EntypoIcon.SHARE);
+        iconicFontDrawable2.setIconColor(Color.GREEN);
+
+        IconicFontDrawable iconicFontDrawable3 = new IconicFontDrawable(getActivity());
+        iconicFontDrawable3.setIcon(EntypoIcon.RIGHT);
+        iconicFontDrawable3.setIconColor(Color.GREEN);
+
+        iconicFontDrawable2.setIntrinsicWidth(10);
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
+            left.setBackgroundDrawable(iconicFontDrawable);
+            middle.setBackgroundDrawable(iconicFontDrawable2);
+            right.setBackgroundDrawable(iconicFontDrawable3);
+        } else {
+            left.setBackground(iconicFontDrawable);
+            middle.setBackground(iconicFontDrawable2);
+            right.setBackground(iconicFontDrawable3);
+        }
     }
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-
+        super.onCreateOptionsMenu(menu, inflater);
         getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-
-        itemPage = menu.add("Menu 1a");
+       /* itemPage = menu.add("Menu 1a");
         itemPage.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
-
-
+        getSherlockActivity().getActionBar().setTitle(ItemParser.homeDatalist.get(position).getDataProperties().get(position2).getDataItems().get(position3).getValue());*/
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
 
 
         if (item.getItemId() == android.R.id.home || item.getItemId() == 0) {
@@ -115,58 +162,28 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
     }
 
     @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
 
-
+        mArguments = getArguments();
+      //  int actionBarBg = mArguments != null ? R.drawable.ab_background_light : R.drawable.ab_background_light;
 
         position = getArguments().getInt(Constant.position);
         position2 = getArguments().getInt(Constant.position2);
         position3 = getArguments().getInt(Constant.position3);
 
+     /*   mFadingHelper = new FadingActionBarHelper()
+                .actionBarBackground(actionBarBg)
+                .headerLayout(R.layout.header_light)
+                .contentLayout(R.layout.text_detail)
+                .lightActionBar(actionBarBg == R.drawable.ab_background_light);
+        getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        Log.e("text6", "onActivityCreated" +position+","+position2+","+position3);
-
-        DataPProperty dataPProperty = ItemParser.homeDatalist.get(position);
-        DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
-        DataItem dataItem = dataProperty.getDataItems().get(position3);
-        String content = dataItem.getContent();
-
-        textView.setText(content);
-
-        itemPage.setTitle((position3+1)+"/"+dataProperty.getDataItems().size());
-
-        Random random = new Random();
-        IconicFontDrawable iconicFontDrawable = new IconicFontDrawable(getActivity());
-        iconicFontDrawable.setIcon(EntypoIcon.LEFT);
-        iconicFontDrawable.setIconColor(Color.GREEN);
-
-        iconicFontDrawable.setIntrinsicWidth(10);
-
-        IconicFontDrawable iconicFontDrawable2 = new IconicFontDrawable(getActivity());
-        iconicFontDrawable2.setIcon(EntypoIcon.SHARE);
-        iconicFontDrawable2.setIconColor(Color.GREEN);
-
-        IconicFontDrawable iconicFontDrawable3 = new IconicFontDrawable(getActivity());
-        iconicFontDrawable3.setIcon(EntypoIcon.RIGHT);
-        iconicFontDrawable3.setIconColor(Color.GREEN);
-
-        iconicFontDrawable2.setIntrinsicWidth(10);
-
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
-            left.setBackgroundDrawable(iconicFontDrawable);
-            middle.setBackgroundDrawable(iconicFontDrawable2);
-            right.setBackgroundDrawable(iconicFontDrawable3);
-        } else {
-            left.setBackground(iconicFontDrawable);
-            middle.setBackground(iconicFontDrawable2);
-            right.setBackground(iconicFontDrawable3);
-        }
-
-
+        mFadingHelper.initActionBar(activity);*/
 
     }
+
 
     public void previous(){
 

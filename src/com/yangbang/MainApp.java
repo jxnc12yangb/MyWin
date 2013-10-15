@@ -9,6 +9,8 @@ public class MainApp extends Application{
 
     private static MainApp globalContext;
 
+    public static boolean Debug = true;
+
     @Override
     public void onCreate() {
         super.onCreate();

@@ -4,7 +4,7 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk android:minSdkVersion="13" />
+    <uses-sdk android:minSdkVersion="14" />
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -21,8 +21,9 @@
         </activity>
 
         <activity
-                android:name="com.yangbang.text.TextActivity" android:theme="@android:style/Theme.Holo.Light">
+                android:name="com.yangbang.text.TextActivity"  android:theme="@style/AppTheme.Light.TranslucentActionBar">
         </activity>
+
 
     </application>
     <uses-permission android:name="android.permission.VIBRATE" />

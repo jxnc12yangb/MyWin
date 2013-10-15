@@ -4,7 +4,7 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk android:minSdkVersion="13" />
+    <uses-sdk android:minSdkVersion="14" />
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -22,6 +22,10 @@
 
         <activity
                 android:name="com.yangbang.text.TextActivity"  android:theme="@style/AppTheme.Light.TranslucentActionBar">
+        </activity>
+
+        <activity
+                android:name="com.yangbang.text.TextDetailActivity"  android:theme="@style/AppTheme.Light.TranslucentActionBar">
         </activity>
 
 

@@ -1,18 +1,32 @@
 package com.yangbang.text;
 
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.ArrayAdapter;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
-import com.actionbarsherlock.app.SherlockListFragment;
+import com.actionbarsherlock.app.SherlockFragment;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
+import com.atermenji.android.iconicdroid.IconicFontDrawable;
+import com.atermenji.android.iconicdroid.icon.EntypoIcon;
+import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
+import com.yangbang.MainApp;
 import com.yangbang.text.item.DataItem;
 import com.yangbang.text.item.ItemParser;
 import com.yangbang.xiaohua.R;
@@ -21,19 +35,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ListDataItemFragment extends SherlockListFragment{
+public class ListDataItemFragment extends SherlockFragment implements AdapterView.OnItemClickListener {
 
     private List<DataItem> mDatas;
     private List<String> mValues = new ArrayList<String>();
     private int position;
     private int position2;
+    private Bundle mArguments;
+    private FadingActionBarHelper mFadingHelper;
+    private ListView listView;
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-
-        getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
-
-    }
+    public static final String ARG_IMAGE_RES = "image_source";
+    public static final String ARG_ACTION_BG_RES = "image_action_bs_res";
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -55,53 +68,83 @@ public class ListDataItemFragment extends SherlockListFragment{
         return false;
     }
 
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 
+        super.onCreateOptionsMenu(menu, inflater);
+        getSherlockActivity().getActionBar().setTitle(ItemParser.homeDatalist.get(position).getDataProperties().get(position2).getValue());
+    }
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+
+        mArguments = getArguments();
+        int actionBarBg = mArguments != null ? R.drawable.ab_background_light : R.drawable.ab_background_light;
+
+        position = getArguments().getInt(Constant.position);
+        position2 = getArguments().getInt(Constant.position2);
+
+
+        mFadingHelper = new FadingActionBarHelper()
+                .actionBarBackground(actionBarBg)
+                .headerLayout(R.layout.header_light)
+                .contentLayout(R.layout.activity_listview)
+                .lightActionBar(actionBarBg == R.drawable.ab_background_light);
+        getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+
+
+        mFadingHelper.initActionBar(activity);
+
+
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        View view = mFadingHelper.createView(inflater);
+        listView = (ListView) view.findViewById(android.R.id.list);
+
+
+        if (mArguments != null){
+            ImageView img = (ImageView) view.findViewById(R.id.image_header);
+            img.setImageResource(mArguments.getInt(ARG_IMAGE_RES));
+        }
+
+        return view;
+    }
 
     @Override
      public void onActivityCreated(Bundle savedInstanceState) {
 
          super.onActivityCreated(savedInstanceState);
 
-         position = getArguments().getInt(Constant.position);
-        position2 = getArguments().getInt(Constant.position2);
+        initData();
 
-         mDatas = ItemParser.homeDatalist.get(position).getDataProperties().get(position2).getDataItems();
-
-         for(DataItem dataProperty:mDatas){
-             mValues.add(dataProperty.getValue());
-         }
-
-         setListAdapter(new ArrayAdapter<String>(getActivity(),R.layout.jie_item,R.id.title,mValues));
-
-         getListView().setBackgroundResource(R.drawable.btn_menu_normal);
-        getListView().setCacheColorHint(Color.argb(0,0,0,0));
-        /*getListView().setSelector(R.drawable.grouplist_item_bg_normal);*/
-        getListView().setDivider(getResources().getDrawable(R.drawable.spinner_divider));
-
-        /**
-         *   android:cacheColorHint="#00000000"
-         android:listSelector="@drawable/grouplist_item_bg_normal"
-         android:divider="@drawable/spinner_divider"
-         */
      }
 
-     @Override
-     public void onListItemClick(ListView l, View v, int position, long id) {
+    private void initData() {
 
-         Log.e("text6","ListDataItemFragment"+position);
+        mDatas = ItemParser.homeDatalist.get(position).getDataProperties().get(position2).getDataItems();
 
-         TextDetailFragment listDataItemFragment = new TextDetailFragment();
-         Bundle bundle = new Bundle();
-         bundle.putInt(Constant.position3,position);
-         bundle.putInt(Constant.position2,this.position2);
-         bundle.putInt(Constant.position,this.position);
-         listDataItemFragment.setArguments(bundle);
-        getFragmentManager().beginTransaction().setCustomAnimations(R.anim.fragment_slide_left_enter,
-                R.anim.fragment_slide_left_exit,
-                R.anim.fragment_slide_right_enter,
-                R.anim.fragment_slide_right_exit).addToBackStack("ListDataItemFragment").add(android.R.id.content,listDataItemFragment,"TextDetailFragment").commit();
-     }
-     
+        for(DataItem dataProperty:mDatas){
+            mValues.add(dataProperty.getValue());
+        }
+
+/*        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1, mValues);
+        listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(this);*/
+
+        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.activity_list_item,, mValues);
+        listView.setAdapter(new MyAdater());
+
+        listView.setOnItemClickListener(this);
+    }
+
+
      @Override
     public void onCreate(Bundle savedInstanceState) {
     	// TODO Auto-generated method stub
@@ -109,10 +152,40 @@ public class ListDataItemFragment extends SherlockListFragment{
          setHasOptionsMenu(true);
     }
 
-   /* public class MyAdater extends BaseAdapter{
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Log.e("text6","ListDataItemFragment"+position);
 
+      /*  TextDetailFragment listDataItemFragment = new TextDetailFragment();
+        Bundle bundle = new Bundle();
+        bundle.putInt(Constant.position3,position-1);
+        bundle.putInt(Constant.position2,this.position2);
+        bundle.putInt(Constant.position,this.position);
+        listDataItemFragment.setArguments(bundle);
+        getFragmentManager().beginTransaction().setCustomAnimations(R.anim.fragment_slide_left_enter,
+                R.anim.fragment_slide_left_exit,
+                R.anim.fragment_slide_right_enter,
+                R.anim.fragment_slide_right_exit).addToBackStack("ListDataItemFragment").add(android.R.id.content,listDataItemFragment,"TextDetailFragment").commit();*/
+
+        Intent intent = new Intent(getActivity(),TextDetailActivity.class);
+
+        getActivity().startActivity(intent);
+
+    }
+
+    public class MyAdater extends BaseAdapter {
+
+        private final IconicFontDrawable iconicFontDrawable;
         private Context context;
 
+        public MyAdater(){
+            iconicFontDrawable = new IconicFontDrawable(getActivity());
+            iconicFontDrawable.setIcon(EntypoIcon.LEFT);
+            iconicFontDrawable.setIconColor(Color.GREEN);
+
+            iconicFontDrawable.setIntrinsicWidth(10);
+
+        }
 
         @Override
         public int getCount() {
@@ -139,14 +212,14 @@ public class ListDataItemFragment extends SherlockListFragment{
             if(convertView == null){
                 viewHolder = new ViewHolder();
 
+
                 convertView = LayoutInflater.from(MainApp.getInstance()).inflate(R.layout.jie_item,null);
 
-                ImageView selectIV = (ImageView)convertView.findViewById(R.id.jieImageView);
+                TextView title = (TextView)convertView.findViewById(android.R.id.text1);
+                ImageView selectIV = (ImageView) convertView.findViewById(R.id.icon);
 
-                TextView title = (TextView)convertView.findViewById(R.id.title);
-
-                viewHolder.selectIV = selectIV;
                 viewHolder.textView = title;
+                viewHolder.selectIV = selectIV;
 
                 convertView.setTag(viewHolder);
             }else {
@@ -155,10 +228,13 @@ public class ListDataItemFragment extends SherlockListFragment{
 
             viewHolder.textView.setText(mDatas.get(position).getValue());
 
+            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
+                viewHolder.selectIV.setBackgroundDrawable(iconicFontDrawable);
+            } else {
+                viewHolder.selectIV.setBackground(iconicFontDrawable);
+            }
 
-            //
-
-            return null;
+            return convertView;
         }
 
         private class ViewHolder {
@@ -169,5 +245,5 @@ public class ListDataItemFragment extends SherlockListFragment{
         }
 
 
-    }*/
+    }
 }

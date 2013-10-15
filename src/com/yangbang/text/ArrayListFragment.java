@@ -3,20 +3,25 @@ package com.yangbang.text;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
+import com.atermenji.android.iconicdroid.IconicFontDrawable;
+import com.atermenji.android.iconicdroid.icon.EntypoIcon;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
 import com.yangbang.MainApp;
@@ -24,10 +29,6 @@ import com.yangbang.text.item.DataProperty;
 import com.yangbang.text.item.ItemParser;
 import com.yangbang.xiaohua.R;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,11 +46,20 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
     public static final String ARG_ACTION_BG_RES = "image_action_bs_res";
 
     @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+    }
+
+    @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
 
+        position = getArguments().getInt(Constant.position);
         mArguments = getArguments();
         int actionBarBg = mArguments != null ? R.drawable.ab_background_light : R.drawable.ab_background_light;
+
+
 
         mFadingHelper = new FadingActionBarHelper()
                 .actionBarBackground(actionBarBg)
@@ -58,8 +68,15 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
                 .lightActionBar(actionBarBg == R.drawable.ab_background_light);
         getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
 
-        mFadingHelper.initActionBar(activity);
 
+        mFadingHelper.initActionBar(getActivity());
+
+    }
+
+
+    @Override
+    public void onResume() {
+        super.onResume();
 
     }
 
@@ -83,7 +100,11 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        position = getArguments().getInt(Constant.position);
+        initData();
+
+    }
+
+    private void initData() {
 
         mDatas = ItemParser.homeDatalist.get(position).getDataProperties();
 
@@ -96,40 +117,25 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
 
         listView.setOnItemClickListener(this);*/
 
-
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, mValues);
-        listView.setAdapter(adapter);
+        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.activity_list_item,, mValues);
+        listView.setAdapter(new MyAdater());
 
         listView.setOnItemClickListener(this);
-
     }
 
-    /**
-     * @return A list of Strings read from the specified resource
-     */
-    private ArrayList<String> loadItems(int rawResourceId) {
-        try {
-            ArrayList<String> countries = new ArrayList<String>();
-            InputStream inputStream = getResources().openRawResource(rawResourceId);
-            BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-            String line;
-            while ((line = reader.readLine()) != null) {
-                countries.add(line);
-            }
-            reader.close();
-            return countries;
-        } catch (IOException e) {
-            return null;
-        }
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+
+        getSherlockActivity().getActionBar().setTitle(ItemParser.homeDatalist.get(position).getValue());
+        super.onCreateOptionsMenu(menu, inflater);
     }
+
 
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
         Log.e("text6","onOptionsItemSelecteddfdfdfd"+"");
-
 
         if ((item.getItemId() == android.R.id.home || item.getItemId() == 0) && getFragmentManager().getBackStackEntryCount()==0) {
 
@@ -146,7 +152,7 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
         ListDataItemFragment listDataItemFragment = new ListDataItemFragment();
         Bundle bundle = new Bundle();
         bundle.putInt(Constant.position,this.position);
-        bundle.putInt(Constant.position2,position);
+        bundle.putInt(Constant.position2,position-1);
         listDataItemFragment.setArguments(bundle);
 
         getFragmentManager().beginTransaction().setCustomAnimations(R.anim.fragment_slide_left_enter,
@@ -157,8 +163,17 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
 
     public class MyAdater extends BaseAdapter {
 
+        private final IconicFontDrawable iconicFontDrawable;
         private Context context;
 
+        public MyAdater(){
+            iconicFontDrawable = new IconicFontDrawable(getActivity());
+            iconicFontDrawable.setIcon(EntypoIcon.LEFT);
+            iconicFontDrawable.setIconColor(Color.GREEN);
+
+            iconicFontDrawable.setIntrinsicWidth(10);
+
+        }
 
         @Override
         public int getCount() {
@@ -188,9 +203,11 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
 
                 convertView = LayoutInflater.from(MainApp.getInstance()).inflate(R.layout.jie_item,null);
 
-                TextView title = (TextView)convertView.findViewById(R.id.title);
+                TextView title = (TextView)convertView.findViewById(android.R.id.text1);
+                ImageView selectIV = (ImageView) convertView.findViewById(R.id.icon);
 
                 viewHolder.textView = title;
+                viewHolder.selectIV = selectIV;
 
                 convertView.setTag(viewHolder);
             }else {
@@ -199,7 +216,11 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
 
             viewHolder.textView.setText(mDatas.get(position).getValue());
 
-            //
+            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
+                viewHolder.selectIV.setBackgroundDrawable(iconicFontDrawable);
+            } else {
+                viewHolder.selectIV.setBackground(iconicFontDrawable);
+            }
 
             return convertView;
         }
