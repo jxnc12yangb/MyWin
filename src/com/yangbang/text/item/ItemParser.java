@@ -2,6 +2,9 @@ package com.yangbang.text.item;
 
 import android.content.Context;
 import android.util.Xml;
+
+import com.yangbang.MainApp;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -14,9 +17,10 @@ import java.util.List;
 
 public class ItemParser {
 	private static final String TAG = "ItemParser";
-	public static List<DataPProperty> homeDatalist = new ArrayList();
+    private List<DataPProperty> homeDatalist;
 
-	private void loadHomePropertys(Context paramContext) {
+
+    private void loadHomePropertys(Context paramContext) {
 			homeDatalist = null;
 	        XmlPullParser parser = Xml.newPullParser();  
 	        DataPProperty pp = null;
@@ -30,7 +34,7 @@ public class ItemParser {
             while(event!=XmlPullParser.END_DOCUMENT){
                 switch(event){
                     case XmlPullParser.START_DOCUMENT://判断当前事件是否是文档开始事件
-                        homeDatalist = new ArrayList<DataPProperty>();//初始化books集合
+                        homeDatalist = MainApp.homeDatalist;//初始化books集合
                         break;
                     case XmlPullParser.START_TAG://判断当前事件是否是标签元素开始事件
                         if("p-property".equals(parser.getName())){//判断开始标签元素是否是book

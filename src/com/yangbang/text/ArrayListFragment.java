@@ -26,7 +26,6 @@ import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
 import com.yangbang.MainApp;
 import com.yangbang.text.item.DataProperty;
-import com.yangbang.text.item.ItemParser;
 import com.yangbang.xiaohua.R;
 
 import java.util.ArrayList;
@@ -106,7 +105,7 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
 
     private void initData() {
 
-        mDatas = ItemParser.homeDatalist.get(position).getDataProperties();
+        mDatas = MainApp.homeDatalist.get(position).getDataProperties();
 
         for(DataProperty dataProperty:mDatas){
             mValues.add(dataProperty.getValue());
@@ -126,7 +125,7 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 
-        getSherlockActivity().getActionBar().setTitle(ItemParser.homeDatalist.get(position).getValue());
+        getSherlockActivity().getActionBar().setTitle(MainApp.homeDatalist.get(position).getValue());
         super.onCreateOptionsMenu(menu, inflater);
     }
 

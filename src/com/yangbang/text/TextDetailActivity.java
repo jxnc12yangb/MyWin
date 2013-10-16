@@ -26,15 +26,15 @@ public class TextDetailActivity extends SherlockFragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
+        if(MainApp.Debug)Log.e("TextDetailActivity","onCreate");
         if (getSupportFragmentManager().findFragmentById(android.R.id.content) == null) {
 
-            int position = getIntent().getIntExtra(Constant.position,0);
+            if(MainApp.Debug)Log.e("TextDetailActivity","android.R.id.content==null");
             TextDetailFragment list = new TextDetailFragment();
             Bundle bundle = new Bundle();
-            bundle.putInt(Constant.position,position);
-            bundle.putInt(Constant.position2,position);
-            bundle.putInt(Constant.position3,position);
+            bundle.putInt(Constant.position, getIntent().getIntExtra(Constant.position, 0));
+            bundle.putInt(Constant.position2,getIntent().getIntExtra(Constant.position2,0));
+            bundle.putInt(Constant.position3,getIntent().getIntExtra(Constant.position3,0));
             list.setArguments(bundle);
 
             getSupportFragmentManager().beginTransaction().add(android.R.id.content,list,"ArrayListFragment").commit();

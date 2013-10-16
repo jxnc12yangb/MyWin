@@ -28,7 +28,6 @@ import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
 import com.yangbang.MainApp;
 import com.yangbang.text.item.DataItem;
-import com.yangbang.text.item.ItemParser;
 import com.yangbang.xiaohua.R;
 
 import java.util.ArrayList;
@@ -72,7 +71,7 @@ public class ListDataItemFragment extends SherlockFragment implements AdapterVie
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 
         super.onCreateOptionsMenu(menu, inflater);
-        getSherlockActivity().getActionBar().setTitle(ItemParser.homeDatalist.get(position).getDataProperties().get(position2).getValue());
+        getSherlockActivity().getActionBar().setTitle(MainApp.homeDatalist.get(position).getDataProperties().get(position2).getValue());
     }
 
     @Override
@@ -127,7 +126,7 @@ public class ListDataItemFragment extends SherlockFragment implements AdapterVie
 
     private void initData() {
 
-        mDatas = ItemParser.homeDatalist.get(position).getDataProperties().get(position2).getDataItems();
+        mDatas = MainApp.homeDatalist.get(position).getDataProperties().get(position2).getDataItems();
 
         for(DataItem dataProperty:mDatas){
             mValues.add(dataProperty.getValue());
@@ -167,9 +166,13 @@ public class ListDataItemFragment extends SherlockFragment implements AdapterVie
                 R.anim.fragment_slide_right_enter,
                 R.anim.fragment_slide_right_exit).addToBackStack("ListDataItemFragment").add(android.R.id.content,listDataItemFragment,"TextDetailFragment").commit();*/
 
-        Intent intent = new Intent(getActivity(),TextDetailActivity.class);
+        Intent bundle = new Intent(getActivity(),TextDetailActivity.class);
 
-        getActivity().startActivity(intent);
+        bundle.putExtra(Constant.position3,position-1);
+        bundle.putExtra(Constant.position2,this.position2);
+        bundle.putExtra(Constant.position,this.position);
+
+        getActivity().startActivity(bundle);
 
     }
 

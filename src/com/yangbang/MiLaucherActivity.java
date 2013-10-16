@@ -154,7 +154,7 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
 	public void initData(){
 
         //如果数据为空的话 就加载数据
-        if(ItemParser.homeDatalist.size()>0){
+        if(MainApp.homeDatalist.size()>0){
             //
             mHandler.sendEmptyMessage(INITDATA);
 
@@ -184,7 +184,7 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
 
             switch (msg.what){
                 case INITDATA:
-                    for(DataPProperty dataPProperty:ItemParser.homeDatalist){
+                    for(DataPProperty dataPProperty:MainApp.homeDatalist){
                         lstDate.add(dataPProperty.getValue());
                     }
 

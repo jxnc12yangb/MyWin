@@ -18,5 +18,11 @@
         <item name="actionBarStyle">@style/Widget.Light.ActionBar.Transparent</item>
         <item name="windowActionBarOverlay">true</item>
     </style>
+
+    <style name="AppTheme.Light" parent="Theme.Sherlock.Light">
+        <item name="android:actionBarStyle">@style/Widget.Light.ActionBar.Light</item>
+        <item name="actionBarStyle">@style/Widget.Light.ActionBar.Light</item>
+
+    </style>
     
 </resources>

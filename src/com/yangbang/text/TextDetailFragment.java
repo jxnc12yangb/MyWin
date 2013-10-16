@@ -2,10 +2,10 @@ package com.yangbang.text;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,10 +21,10 @@ import com.atermenji.android.iconicdroid.icon.EntypoIcon;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
 import com.yangbang.FragmentDemo;
+import com.yangbang.MainApp;
 import com.yangbang.text.item.DataItem;
 import com.yangbang.text.item.DataPProperty;
 import com.yangbang.text.item.DataProperty;
-import com.yangbang.text.item.ItemParser;
 import com.yangbang.xiaohua.R;
 
 import java.util.regex.Matcher;
@@ -76,14 +76,21 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
 
     @Override
     protected void initData() {
-        Log.e("text6", "onActivityCreated" +position+","+position2+","+position3);
 
-        DataPProperty dataPProperty = ItemParser.homeDatalist.get(position);
+
+        position = getArguments().getInt(Constant.position);
+        position2 = getArguments().getInt(Constant.position2);
+        position3 = getArguments().getInt(Constant.position3);
+
+        if(MainApp.Debug)Log.e("TextDetailFragment", "onActivityCreated" +position+","+position2+","+position3);
+
+        DataPProperty dataPProperty = MainApp.getData().get(position);
         DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
         DataItem dataItem = dataProperty.getDataItems().get(position3);
         String content = dataItem.getContent();
 
         textView.setText(content);
+
 
        // itemPage.setTitle((position3+1)+"/"+dataProperty.getDataItems().size());
 
@@ -113,6 +120,8 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
             middle.setBackground(iconicFontDrawable2);
             right.setBackground(iconicFontDrawable3);
         }
+
+
     }
 
     @Override
@@ -121,10 +130,17 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-       /* itemPage = menu.add("Menu 1a");
+        itemPage = menu.add("Menu 1a");
         itemPage.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
-        getSherlockActivity().getActionBar().setTitle(ItemParser.homeDatalist.get(position).getDataProperties().get(position2).getDataItems().get(position3).getValue());*/
+        DataPProperty dataPProperty = MainApp.homeDatalist.get(position);
+        DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
+
+        itemPage.setTitle((position3+1)+"/"+dataProperty.getDataItems().size());
+
+        getSherlockActivity().getActionBar().setTitle(MainApp.homeDatalist.get(position).getDataProperties().get(position2).getDataItems().get(position3).getValue());
+
+
     }
 
     @Override
@@ -132,17 +148,19 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
 
 
         if (item.getItemId() == android.R.id.home || item.getItemId() == 0) {
-            FragmentManager fm = getSherlockActivity().getSupportFragmentManager();
+            /*FragmentManager fm = getSherlockActivity().getSupportFragmentManager();
 
             if (fm.getBackStackEntryCount() > 0) {
                 fm.popBackStack(fm.getBackStackEntryAt(fm.getBackStackEntryCount()-1).getId(),
                         FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
-                /*fmsetCustomAnimations(R.anim.fragment_slide_left_enter,
+                *//*fmsetCustomAnimations(R.anim.fragment_slide_left_enter,
                         R.anim.fragment_slide_left_exit,
                         R.anim.fragment_slide_right_enter,
-                        R.anim.fragment_slide_right_exit)*/
-            }
+                        R.anim.fragment_slide_right_exit)*//*
+            }*/
+
+            getActivity().finish();
 
             return true;
 
@@ -151,6 +169,14 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         }
 
         return false;
+    }
+
+    public void shareText(String title, String text) {
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_SUBJECT, title);
+        intent.putExtra(Intent.EXTRA_TEXT, text);
+        startActivity(Intent.createChooser(intent, title));
     }
 
 
@@ -168,9 +194,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         mArguments = getArguments();
       //  int actionBarBg = mArguments != null ? R.drawable.ab_background_light : R.drawable.ab_background_light;
 
-        position = getArguments().getInt(Constant.position);
-        position2 = getArguments().getInt(Constant.position2);
-        position3 = getArguments().getInt(Constant.position3);
+
 
      /*   mFadingHelper = new FadingActionBarHelper()
                 .actionBarBackground(actionBarBg)
@@ -189,7 +213,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
 
         Log.e("text6", "TextDetailFragment" +position+","+position2+","+position3);
 
-        DataPProperty dataPProperty = ItemParser.homeDatalist.get(position);
+        DataPProperty dataPProperty = MainApp.homeDatalist.get(position);
         DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
 
         if(position3>0){
@@ -214,7 +238,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
 
 
 
-        DataPProperty dataPProperty = ItemParser.homeDatalist.get(position);
+        DataPProperty dataPProperty = MainApp.homeDatalist.get(position);
         DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
 
         Log.e("text6", "TextDetailFragment" +position+","+position2+","+position3);
@@ -246,6 +270,8 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
                 next();
                 break;
             case R.id.middle:
+                shareText("dd","dfsf");
+
                 break;
         }
     }

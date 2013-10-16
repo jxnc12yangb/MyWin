@@ -25,7 +25,7 @@
         </activity>
 
         <activity
-                android:name="com.yangbang.text.TextDetailActivity"  android:theme="@style/AppTheme.Light.TranslucentActionBar">
+                android:name="com.yangbang.text.TextDetailActivity" android:theme="@style/AppTheme.Light">
         </activity>
 
 
