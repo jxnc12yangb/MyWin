@@ -21,13 +21,14 @@ import android.view.animation.TranslateAnimation;
 import android.widget.*;
 import com.yangbang.fragments.LoadingFragment;
 import com.yangbang.text.TextActivity;
+import com.yangbang.text.TextFav;
 import com.yangbang.text.item.DataPProperty;
 import com.yangbang.text.item.ItemParser;
 import com.yangbang.xiaohua.*;
 
 import java.util.ArrayList;
 
-public class MiLaucherActivity extends FragmentActivity implements LoadingFragment.ILoadingState{
+public class MiLaucherActivity extends FragmentActivity implements LoadingFragment.ILoadingState, View.OnClickListener {
 
 	/** GridView. */
 	private LinearLayout linear;private RelativeLayout relate;
@@ -47,8 +48,9 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
 	ArrayList<String> lstDate = new ArrayList<String>();//每一页的数据
 	
 	SensorManager sm;SensorEventListener lsn;boolean isClean =false;Vibrator vibrator;int rockCount=0;
+    private ImageButton favIB;
 
-	@Override
+    @Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
@@ -121,6 +123,9 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
 		relate = (RelativeLayout) findViewById(R.id.relate);
 		lst_views = (ScrollLayout) findViewById(R.id.views);
 		tv_page = (TextView) findViewById(R.id.tv_page);
+        favIB = (ImageButton) findViewById(R.id.favIB);
+        favIB.setOnClickListener(this);
+
 		tv_page.setText("1");
 		com.yangbang.xiaohua.Configure.init(MiLaucherActivity.this);
 		param = new LinearLayout.LayoutParams(
@@ -154,7 +159,7 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
 	public void initData(){
 
         //如果数据为空的话 就加载数据
-        if(MainApp.homeDatalist.size()>0){
+        if(MainApp.getDatas().size()>0){
             //
             mHandler.sendEmptyMessage(INITDATA);
 
@@ -184,7 +189,7 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
 
             switch (msg.what){
                 case INITDATA:
-                    for(DataPProperty dataPProperty:MainApp.homeDatalist){
+                    for(DataPProperty dataPProperty:MainApp.getDatas()){
                         lstDate.add(dataPProperty.getValue());
                     }
 
@@ -485,6 +490,16 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
         return hasFinish;
     }
 
+    @Override
+    public void onClick(View v) {
+
+        switch(v.getId()){
+            case R.id.favIB:
+                Intent intent = new Intent(this, TextFav.class);
+                startActivity(intent);
+                break;
+        }
+    }
 }
 
 

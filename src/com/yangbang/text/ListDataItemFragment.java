@@ -71,7 +71,7 @@ public class ListDataItemFragment extends SherlockFragment implements AdapterVie
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 
         super.onCreateOptionsMenu(menu, inflater);
-        getSherlockActivity().getActionBar().setTitle(MainApp.homeDatalist.get(position).getDataProperties().get(position2).getValue());
+        getSherlockActivity().getActionBar().setTitle(MainApp.getData().get(position).getDataProperties().get(position2).getValue());
     }
 
     @Override
@@ -126,7 +126,7 @@ public class ListDataItemFragment extends SherlockFragment implements AdapterVie
 
     private void initData() {
 
-        mDatas = MainApp.homeDatalist.get(position).getDataProperties().get(position2).getDataItems();
+        mDatas = MainApp.getData().get(position).getDataProperties().get(position2).getDataItems();
 
         for(DataItem dataProperty:mDatas){
             mValues.add(dataProperty.getValue());

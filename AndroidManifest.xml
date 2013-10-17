@@ -28,6 +28,10 @@
                 android:name="com.yangbang.text.TextDetailActivity" android:theme="@style/AppTheme.Light">
         </activity>
 
+        <activity
+                android:name="com.yangbang.text.TextFav" android:theme="@style/AppTheme.Light">
+        </activity>
+
 
     </application>
     <uses-permission android:name="android.permission.VIBRATE" />

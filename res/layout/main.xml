@@ -45,6 +45,7 @@
             android:layout_height="wrap_content"	android:layout_marginBottom="18dip"
             android:background="@drawable/icon_download"/>
              <ImageButton android:layout_width="wrap_content"
+                          android:id="@+id/favIB"
             android:layout_height="wrap_content"		android:layout_marginBottom="18dip"
             android:background="@drawable/icon_fav"/>
               <ImageButton android:layout_width="wrap_content"

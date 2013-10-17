@@ -24,21 +24,34 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java" line="156" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java" line="148" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="239ad4b6-53c4-4011-b884-6e81b7338b4c" name="Default" comment="">
+    <list default="true" id="239ad4b6-53c4-4011-b884-6e81b7338b4c" name="Default" comment="left">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/delete_x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/yangbang/text/item/DataItemPosition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/yangbang/text/FavFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/yangbang/utils/SharedPreferencesUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/yangbang/adapter/SimpleAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/yangbang/text/TextFav.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/header_footer.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/list_item_click_remove.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/test_bed_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java" afterPath="$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/Constant.java" afterPath="$PROJECT_DIR$/src/com/yangbang/Constant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/text/item/ItemParser.java" afterPath="$PROJECT_DIR$/src/com/yangbang/text/item/ItemParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/text/ListDataItemFragment.java" afterPath="$PROJECT_DIR$/src/com/yangbang/text/ListDataItemFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/MainApp.java" afterPath="$PROJECT_DIR$/src/com/yangbang/MainApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/MiLaucherActivity.java" afterPath="$PROJECT_DIR$/src/com/yangbang/MiLaucherActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java" afterPath="$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/text/TextDetailActivity.java" afterPath="$PROJECT_DIR$/src/com/yangbang/text/TextDetailActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" afterPath="$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/jie_item.xml" afterPath="$PROJECT_DIR$/res/layout/jie_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/text_detail.xml" afterPath="$PROJECT_DIR$/res/layout/text_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/themes.xml" afterPath="$PROJECT_DIR$/res/values/themes.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MiLaucher.iws" />
@@ -65,98 +78,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/item/ItemParser.java" line="2" class="ItemParser.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="215" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="240" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="149" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/src/com/actionbarsherlock/app/SherlockFragmentActivity.java" line="2" class="SherlockFragmentActivity.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/MiLaucherActivity.java" line="186" class="com.yangbang.MiLaucherActivity$5" package="com.yangbang">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -194,6 +115,113 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/item/ItemParser.java" line="2" class="ItemParser.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="238" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="263" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" line="171" class="com.yangbang.text.TextDetailFragment" package="com.yangbang.text">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/src/com/actionbarsherlock/app/SherlockFragmentActivity.java" line="2" class="SherlockFragmentActivity.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/text/FavFragment.java" line="88" class="com.yangbang.text.FavFragment" package="com.yangbang.text">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yangbang/adapter/SimpleAdapter.java" line="126" class="com.yangbang.adapter.SimpleAdapter.MyClick" package="com.yangbang.adapter">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -465,19 +493,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TextDetailFragment.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="29" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.1097561" vertical-offset="1125" max-vertical-offset="4626">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ArrayListFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="57" selection-start="4102" selection-end="4102" vertical-scroll-proportion="0.0" vertical-offset="2104" max-vertical-offset="4356">
+            <state line="55" column="33" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3690">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="12" selection-start="4438" selection-end="4438" vertical-scroll-proportion="0.31746033" vertical-offset="0" max-vertical-offset="567">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="53" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yangbang/adapter/SimpleAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="0" selection-start="4701" selection-end="4701" vertical-scroll-proportion="0.0" vertical-offset="1921" max-vertical-offset="2808">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -485,89 +531,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataItem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/item/DataItem.java">
+      <file leaf-file-name="FadingActionBarHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/github_project/FadingActionBar/library/src/com/manuelpeinado/fadingactionbar/FadingActionBarHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
+            <state line="117" column="0" selection-start="3803" selection-end="3803" vertical-scroll-proportion="0.0" vertical-offset="1373" max-vertical-offset="5166">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextDetailActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailActivity.java">
+      <file leaf-file-name="activity_listview.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_listview.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="89" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1242">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/item/ItemParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="57" selection-start="1095" selection-end="1113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3636">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListDataItemFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/ListDataItemFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="0" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="4086">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MiLaucherActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangbang/MiLaucherActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="61" selection-start="5176" selection-end="5279" vertical-scroll-proportion="-7.21875" vertical-offset="2163" max-vertical-offset="8010">
-              <folding>
-                <element signature="e#5080#5439#0" expanded="true" />
-                <element signature="e#5424#5425#0" expanded="true" />
-                <element signature="e#5538#6123#0" expanded="true" />
-                <element signature="e#6116#6117#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangbang/MainApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1026">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="974" selection-end="1118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-              <folding>
-                <element signature="e#333#351#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text_detail.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/text_detail.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="633" selection-end="641" vertical-scroll-proportion="-0.54545456" vertical-offset="378" max-vertical-offset="1314">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="216">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_bed_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/test_bed_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="17" selection-start="365" selection-end="365" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FragmentManagerImpl.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentManagerImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="188" column="0" selection-start="9392" selection-end="9392" vertical-scroll-proportion="-2.96" vertical-offset="3292" max-vertical-offset="3474">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FavFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/FavFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="0" selection-start="3295" selection-end="3295" vertical-scroll-proportion="0.0" vertical-offset="1629" max-vertical-offset="2898">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1101#1109#0" expanded="true" />
+                <element signature="e#1338#1356#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -646,22 +661,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yangbang/text/item/CopyOfSampleFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/text/item/SampleFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/jie_item.xml" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/single_listview.xml" />
-        <option value="$PROJECT_DIR$/res/values/themes.xml" />
-        <option value="$PROJECT_DIR$/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/text/TextDetailActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/text/TextFav.java" />
+        <option value="$PROJECT_DIR$/res/layout/list_item_click_remove.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/text_detail.xml" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java" />
         <option value="$PROJECT_DIR$/src/com/yangbang/text/ListDataItemFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/MiLaucherActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/text/FavFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/text/TextDetailActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/text_detail.xml" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" />
         <option value="$PROJECT_DIR$/src/com/yangbang/text/item/ItemParser.java" />
         <option value="$PROJECT_DIR$/src/com/yangbang/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/MiLaucherActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/adapter/SimpleAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -697,7 +712,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -706,8 +720,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyWin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyWin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyWin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyWin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyWin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyWin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyWin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyWin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -721,29 +796,32 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="appearance" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="406" />
-    <property name="last_opened_file_path" value="$USER_HOME$/miwo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.26583335" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yangbang.text" />
+      <recent name="com.yangbang.adapter" />
+      <recent name="com.yangbang.utils" />
       <recent name="com.yangbang.fragments" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/res/layout" />
-      <recent name="$PROJECT_DIR$/src/com/yangbang/text/item" />
-      <recent name="$PROJECT_DIR$/res" />
-      <recent name="$PROJECT_DIR$/res/values" />
+      <recent name="$PROJECT_DIR$/res/drawable" />
+      <recent name="$PROJECT_DIR$/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/res/menu" />
+      <recent name="$PROJECT_DIR$/res/values" />
+      <recent name="$PROJECT_DIR$/res/layout" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.MyWin">
@@ -859,7 +937,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -952,7 +1030,8 @@
       <workItem from="1381740635907" duration="8320000" />
       <workItem from="1381824243096" duration="1913000" />
       <workItem from="1381826171352" duration="8658000" />
-      <workItem from="1381886249215" duration="14876000" />
+      <workItem from="1381886249215" duration="15089000" />
+      <workItem from="1381973025324" duration="23333000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1381397929337</created>
@@ -1002,11 +1081,15 @@
       <created>1381834722023</created>
       <updated>1381834722023</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add share">
+      <created>1381919220857</created>
+      <updated>1381919220857</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104064000" />
+    <option name="totallyTimeSpent" value="127610000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1035,43 +1118,43 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.83461964" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972497" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.83461964" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17489271" sideWeight="0.32899022" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17489271" sideWeight="0.558089" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2746637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.567861" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27361563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12679163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.67752445" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45059717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.057546146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44191095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.9767184" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.0" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18079399" sideWeight="0.87296414" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12703583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2054721" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42996743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="200" y="224" width="1720" height="856" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15695067" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5722161" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="86" y="157" width="1720" height="856" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.83461964" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="86" y="157" width="1720" height="856" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972497" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12679163" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12679163" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.9767184" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18079399" sideWeight="0.84256244" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15743756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.83461964" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1130,7 +1213,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add actionbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="add share" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1151,66 +1234,89 @@
     <MESSAGE value="little change" />
     <MESSAGE value="add fading action bar library" />
     <MESSAGE value="add actionbar" />
+    <MESSAGE value="add share" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/github_project/ActionBarSherlock/actionbarsherlock/res/values/abs__styles.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="37" selection-start="3548" selection-end="3565" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="7524">
+        <state line="153" column="16" selection-start="5388" selection-end="5388" vertical-scroll-proportion="0.0" vertical-offset="1820" max-vertical-offset="5256">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/themes.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/item/ItemParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="12" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+        <state line="35" column="59" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="3636">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/yangbang/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+        <state line="24" column="45" selection-start="618" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="1098">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/ab_background_light.9.png">
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+    <entry file="file:///usr/local/android-sdk-linux/sources/android-16/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="47" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+        <state line="392" column="25" selection-start="15698" selection-end="15698" vertical-scroll-proportion="0.3322785" vertical-offset="6540" max-vertical-offset="10998">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangbang/MiLaucherActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="974" selection-end="1118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+        <state line="172" column="61" selection-start="5360" selection-end="5465" vertical-scroll-proportion="0.0" vertical-offset="2448" max-vertical-offset="8262">
           <folding>
-            <element signature="e#333#351#0" expanded="true" />
+            <element signature="e#5266#5625#0" expanded="true" />
+            <element signature="e#5610#5611#0" expanded="true" />
+            <element signature="e#5724#6307#0" expanded="true" />
+            <element signature="e#6300#6301#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/text_detail.xml">
+    <entry file="file:///usr/local/android-sdk-linux/sources/android-16/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="633" selection-end="641" vertical-scroll-proportion="-0.54545456" vertical-offset="378" max-vertical-offset="1314">
+        <state line="4094" column="0" selection-start="154267" selection-end="154267" vertical-scroll-proportion="0.0" vertical-offset="71915" max-vertical-offset="321552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/FavFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="3295" selection-end="3295" vertical-scroll-proportion="0.0" vertical-offset="1629" max-vertical-offset="2898">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1101#1109#0" expanded="true" />
+            <element signature="e#1338#1356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangbang/adapter/SimpleAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="0" selection-start="4701" selection-end="4701" vertical-scroll-proportion="0.0" vertical-offset="1921" max-vertical-offset="2808">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="0" selection-start="9392" selection-end="9392" vertical-scroll-proportion="-2.96" vertical-offset="3292" max-vertical-offset="3474">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_listview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="711">
           <folding />
         </state>
       </provider>
@@ -1218,69 +1324,40 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/item/DataItem.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/test_bed_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
+        <state line="11" column="17" selection-start="365" selection-end="365" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="53" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/github_project/FadingActionBar/library/src/com/manuelpeinado/fadingactionbar/FadingActionBarHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="0" selection-start="3803" selection-end="3803" vertical-scroll-proportion="0.0" vertical-offset="1390" max-vertical-offset="5166">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/ArrayListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="57" selection-start="4102" selection-end="4102" vertical-scroll-proportion="0.0" vertical-offset="2104" max-vertical-offset="4356">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/ListDataItemFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="4086">
+        <state line="55" column="33" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3690">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/item/ItemParser.java">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="57" selection-start="1095" selection-end="1113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3636">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/MiLaucherActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="61" selection-start="5176" selection-end="5279" vertical-scroll-proportion="-7.21875" vertical-offset="2163" max-vertical-offset="8010">
-          <folding>
-            <element signature="e#5080#5439#0" expanded="true" />
-            <element signature="e#5424#5425#0" expanded="true" />
-            <element signature="e#5538#6123#0" expanded="true" />
-            <element signature="e#6116#6117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1026">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="89" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="1242">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangbang/text/TextDetailFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="29" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.1097561" vertical-offset="1125" max-vertical-offset="4626">
+        <state line="10" column="12" selection-start="4438" selection-end="4438" vertical-scroll-proportion="0.31746033" vertical-offset="0" max-vertical-offset="567">
           <folding />
         </state>
       </provider>

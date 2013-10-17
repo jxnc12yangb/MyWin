@@ -18,6 +18,7 @@ import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
 import com.atermenji.android.iconicdroid.IconicFontDrawable;
 import com.atermenji.android.iconicdroid.icon.EntypoIcon;
+import com.atermenji.android.iconicdroid.icon.FontAwesomeIcon;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
 import com.yangbang.FragmentDemo;
@@ -25,8 +26,11 @@ import com.yangbang.MainApp;
 import com.yangbang.text.item.DataItem;
 import com.yangbang.text.item.DataPProperty;
 import com.yangbang.text.item.DataProperty;
+import com.yangbang.utils.SharedPreferencesUtil;
 import com.yangbang.xiaohua.R;
 
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -45,6 +49,9 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
     private MenuItem itemPage;
     private Bundle mArguments;
     private FadingActionBarHelper mFadingHelper;
+    private ImageView middle2;
+    private String type;
+    private View actionL;
 
     @Override
     protected View initViews(LayoutInflater inflater, ViewGroup container) {
@@ -55,6 +62,9 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         left = (ImageView)view.findViewById(R.id.left);
         middle = (ImageView)view.findViewById(R.id.middle);
         right = (ImageView)view.findViewById(R.id.right);
+        middle2 = (ImageView)view.findViewById(R.id.middle2);
+
+        actionL = view.findViewById(R.id.actionL);
 
         return view;
     }
@@ -81,6 +91,11 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         position = getArguments().getInt(Constant.position);
         position2 = getArguments().getInt(Constant.position2);
         position3 = getArguments().getInt(Constant.position3);
+        type = getArguments().getString(Constant.type);
+
+        if(type!=null){
+            actionL.setVisibility(View.GONE);
+        }
 
         if(MainApp.Debug)Log.e("TextDetailFragment", "onActivityCreated" +position+","+position2+","+position3);
 
@@ -109,16 +124,21 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         iconicFontDrawable3.setIcon(EntypoIcon.RIGHT);
         iconicFontDrawable3.setIconColor(Color.GREEN);
 
-        iconicFontDrawable2.setIntrinsicWidth(10);
+        IconicFontDrawable iconicFontDrawable4 = new IconicFontDrawable(getActivity());
+        iconicFontDrawable4.setIcon(FontAwesomeIcon.HEART_EMPTY);
+        iconicFontDrawable4.setIconColor(Color.GREEN);
+
 
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
             left.setBackgroundDrawable(iconicFontDrawable);
             middle.setBackgroundDrawable(iconicFontDrawable2);
             right.setBackgroundDrawable(iconicFontDrawable3);
+            middle2.setBackgroundDrawable(iconicFontDrawable4);
         } else {
             left.setBackground(iconicFontDrawable);
             middle.setBackground(iconicFontDrawable2);
             right.setBackground(iconicFontDrawable3);
+            middle2.setBackground(iconicFontDrawable4);
         }
 
 
@@ -130,17 +150,19 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        itemPage = menu.add("Menu 1a");
-        itemPage.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
-        DataPProperty dataPProperty = MainApp.homeDatalist.get(position);
-        DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
+        if(type==null){
+            itemPage = menu.add("Menu 1a");
+            itemPage.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
-        itemPage.setTitle((position3+1)+"/"+dataProperty.getDataItems().size());
+            DataPProperty dataPProperty = MainApp.getData().get(position);
+            DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
 
-        getSherlockActivity().getActionBar().setTitle(MainApp.homeDatalist.get(position).getDataProperties().get(position2).getDataItems().get(position3).getValue());
+            itemPage.setTitle((position3+1)+"/"+dataProperty.getDataItems().size());
 
+            getSherlockActivity().getActionBar().setTitle(MainApp.getData().get(position).getDataProperties().get(position2).getDataItems().get(position3).getValue());
 
+        }
     }
 
     @Override
@@ -185,6 +207,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         left.setOnClickListener(this);
         middle.setOnClickListener(this);
         right.setOnClickListener(this);
+        middle2.setOnClickListener(this);
     }
 
     @Override
@@ -213,7 +236,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
 
         Log.e("text6", "TextDetailFragment" +position+","+position2+","+position3);
 
-        DataPProperty dataPProperty = MainApp.homeDatalist.get(position);
+        DataPProperty dataPProperty = MainApp.getData().get(position);
         DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
 
         if(position3>0){
@@ -238,7 +261,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
 
 
 
-        DataPProperty dataPProperty = MainApp.homeDatalist.get(position);
+        DataPProperty dataPProperty = MainApp.getData().get(position);
         DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
 
         Log.e("text6", "TextDetailFragment" +position+","+position2+","+position3);
@@ -271,7 +294,23 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
                 break;
             case R.id.middle:
                 shareText("dd","dfsf");
+                break;
+            case R.id.middle2:
+                Set<String> sets = SharedPreferencesUtil.getSetSharedPreferences(Constant.favs,null);
+                StringBuilder builder = new StringBuilder();
+                builder.append(position+","+position2+","+position3);
 
+                if(sets==null){
+
+                    sets = new HashSet<String>();
+                }else{
+                }
+
+                sets.add(builder.toString());
+
+                SharedPreferencesUtil.commitResult(Constant.favs,sets);
+
+                ToastS("添加成功");
                 break;
         }
     }

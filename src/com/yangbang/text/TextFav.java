@@ -13,9 +13,9 @@ import com.yangbang.Constant;
 import com.yangbang.MainApp;
 import com.yangbang.xiaohua.R;
 
-public class TextActivity extends SherlockFragmentActivity {
+public class TextFav extends SherlockFragmentActivity {
 
-    public FadingActionBarHelper mFadingHelper;
+    private FadingActionBarHelper mFadingHelper;
 
     @Override
     public View onCreateView(String name, Context context, AttributeSet attrs) {
@@ -26,31 +26,18 @@ public class TextActivity extends SherlockFragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        int actionBarBg =  R.drawable.ab_background_light;
-
-
-        mFadingHelper = new FadingActionBarHelper()
-                .actionBarBackground(actionBarBg)
-                .headerLayout(R.layout.header_light)
-                .contentLayout(R.layout.activity_listview)
-                .lightActionBar(actionBarBg == R.drawable.ab_background_light);
-        this.getActionBar().setDisplayHomeAsUpEnabled(true);
-
-        mFadingHelper.initActionBar(this);
-
-
         if (getSupportFragmentManager().findFragmentById(android.R.id.content) == null) {
 
             int position = getIntent().getIntExtra(Constant.position,0);
-            ArrayListFragment list = new ArrayListFragment();
-            Bundle bundle = new Bundle();
+            FavFragment list = new FavFragment();
+          /*  Bundle bundle = new Bundle();
             bundle.putInt(Constant.position,position);
-            list.setArguments(bundle);
+            list.setArguments(bundle);*/
 
             getSupportFragmentManager().beginTransaction().add(android.R.id.content,list,"ArrayListFragment").commit();
         }
 
-     //   int actionBarBg = R.drawable.ab_background_light;
+        int actionBarBg = R.drawable.ab_background_light;
 
      /*   mFadingHelper = new FadingActionBarHelper()
                 .actionBarBackground(actionBarBg)
@@ -68,6 +55,6 @@ public class TextActivity extends SherlockFragmentActivity {
     }
 
 
-	
-	
+
+
 }

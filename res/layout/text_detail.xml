@@ -39,6 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:orientation="horizontal"
+            android:id="@+id/actionL"
             >
         <ImageView
                 android:layout_width="0dp"
@@ -58,8 +59,17 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="40dp"
+                android:id="@+id/middle2"
+                ></ImageView>
+
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
                 android:id="@+id/right"
                 ></ImageView>
+
+
 
 
     </LinearLayout>

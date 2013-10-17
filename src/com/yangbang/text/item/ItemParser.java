@@ -34,7 +34,7 @@ public class ItemParser {
             while(event!=XmlPullParser.END_DOCUMENT){
                 switch(event){
                     case XmlPullParser.START_DOCUMENT://判断当前事件是否是文档开始事件
-                        homeDatalist = MainApp.homeDatalist;//初始化books集合
+                        homeDatalist = MainApp.getDatas();//初始化books集合
                         break;
                     case XmlPullParser.START_TAG://判断当前事件是否是标签元素开始事件
                         if("p-property".equals(parser.getName())){//判断开始标签元素是否是book

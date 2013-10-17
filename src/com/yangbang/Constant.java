@@ -63,6 +63,8 @@ public final class Constant {
     public static final String position2 = "position2";
     public static final String position3 = "position3";
 
+    public static final String favs = "favs";
+
     public static final String power = "power";
 
     public static final String Data = "data";

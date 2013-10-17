@@ -41,6 +41,7 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
     private Bundle mArguments;
     private FadingActionBarHelper mFadingHelper;
 
+
     public static final String ARG_IMAGE_RES = "image_source";
     public static final String ARG_ACTION_BG_RES = "image_action_bs_res";
 
@@ -54,21 +55,10 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
     public void onAttach(Activity activity) {
         super.onAttach(activity);
 
-        position = getArguments().getInt(Constant.position);
+        TextActivity dd = (TextActivity)activity;
+        mFadingHelper = dd.mFadingHelper;
         mArguments = getArguments();
-        int actionBarBg = mArguments != null ? R.drawable.ab_background_light : R.drawable.ab_background_light;
 
-
-
-        mFadingHelper = new FadingActionBarHelper()
-                .actionBarBackground(actionBarBg)
-                .headerLayout(R.layout.header_light)
-                .contentLayout(R.layout.activity_listview)
-                .lightActionBar(actionBarBg == R.drawable.ab_background_light);
-        getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
-
-
-        mFadingHelper.initActionBar(getActivity());
 
     }
 
@@ -105,11 +95,13 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
 
     private void initData() {
 
-        mDatas = MainApp.homeDatalist.get(position).getDataProperties();
+        mDatas = MainApp.getData().get(position).getDataProperties();
 
+        if(mArguments!=null)
         for(DataProperty dataProperty:mDatas){
             mValues.add(dataProperty.getValue());
         }
+
 
 /*        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1, mValues);
         listView.setAdapter(adapter);
@@ -125,7 +117,7 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 
-        getSherlockActivity().getActionBar().setTitle(MainApp.homeDatalist.get(position).getValue());
+        getSherlockActivity().getActionBar().setTitle(MainApp.getData().get(position).getValue());
         super.onCreateOptionsMenu(menu, inflater);
     }
 

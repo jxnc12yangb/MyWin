@@ -35,6 +35,15 @@ public class TextDetailActivity extends SherlockFragmentActivity {
             bundle.putInt(Constant.position, getIntent().getIntExtra(Constant.position, 0));
             bundle.putInt(Constant.position2,getIntent().getIntExtra(Constant.position2,0));
             bundle.putInt(Constant.position3,getIntent().getIntExtra(Constant.position3,0));
+
+            String type = getIntent().getStringExtra(Constant.type);
+
+            if(type==null){
+
+            }else{
+                bundle.putString(Constant.type,"");
+            }
+
             list.setArguments(bundle);
 
             getSupportFragmentManager().beginTransaction().add(android.R.id.content,list,"ArrayListFragment").commit();
