@@ -11,7 +11,6 @@ import com.actionbarsherlock.view.Menu;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
 import com.yangbang.MainApp;
-import com.yangbang.xiaohua.R;
 
 public class TextActivity extends SherlockFragmentActivity {
 
@@ -26,7 +25,7 @@ public class TextActivity extends SherlockFragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        int actionBarBg =  R.drawable.ab_background_light;
+        /*int actionBarBg =  R.drawable.ab_background_light;
 
 
         mFadingHelper = new FadingActionBarHelper()
@@ -36,7 +35,7 @@ public class TextActivity extends SherlockFragmentActivity {
                 .lightActionBar(actionBarBg == R.drawable.ab_background_light);
         this.getActionBar().setDisplayHomeAsUpEnabled(true);
 
-        mFadingHelper.initActionBar(this);
+        mFadingHelper.initActionBar(this);*/
 
 
         if (getSupportFragmentManager().findFragmentById(android.R.id.content) == null) {

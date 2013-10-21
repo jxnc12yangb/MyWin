@@ -3,8 +3,6 @@ package com.yangbang.utils;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
-import java.util.Set;
-
 public class SharedPreferencesUtil {
 	
 	public static String SharedPreferenceName = "miwo";
@@ -21,11 +19,7 @@ public class SharedPreferencesUtil {
 		return string;
 	}
 
-    public static Set<String> getSetSharedPreferences(String settingName,Set<String> defalut){
-        Set<String> string = sp.getStringSet(settingName,defalut);
-        return string;
-    }
-	
+
 	public static long getLongSharedPreferences(String settingName){
 		
 		long id = sp.getLong(settingName,0);
@@ -101,12 +95,7 @@ public class SharedPreferencesUtil {
 		editor.commit();
 	};
 
-    public static void commitResult(String name,Set<String> values){
 
-        Editor editor = sp.edit();
-        editor.putStringSet(name,values);
-        editor.commit();
-    };
 	
 	public static void commitResult(String name,long value){
 		Editor editor = sp.edit();

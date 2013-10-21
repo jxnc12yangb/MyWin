@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Build;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,25 +24,22 @@ import com.yangbang.utils.SharedPreferencesUtil;
 import com.yangbang.xiaohua.R;
 
 import java.util.List;
-import java.util.Set;
 
 /**
  * Created by yangbang on 13-10-17.
  */
-public class SimpleAdapter extends BaseAdapter{  private final IconicFontDrawable iconicFontDrawable;
+public class SimpleAdapter extends BaseAdapter{
+
     private Context context;
 
-    private Icon[] icons = {EntypoIcon.ADDRESS,EntypoIcon.USER,EntypoIcon.USERS,EntypoIcon.MAP,EntypoIcon.TOOLS,EntypoIcon.NEW,EntypoIcon.LANGUAGE, FontAwesomeIcon.GITHUB};
+    private Icon[] icons = {EntypoIcon.ADDRESS,EntypoIcon.MAP,EntypoIcon.TOOLS,EntypoIcon.LANGUAGE,EntypoIcon.USERS,EntypoIcon.NEW,EntypoIcon.USER, FontAwesomeIcon.GITHUB};
+
     private List<DataItemPosition> mDatas;
 
 
     public SimpleAdapter(Context context,List<DataItemPosition> dataItemPositionList){
-        iconicFontDrawable = new IconicFontDrawable(context);
 
-        iconicFontDrawable.setIconColor(Color.GREEN);
-
-        iconicFontDrawable.setIntrinsicWidth(10);
-
+        this.context = context;
         this.mDatas = dataItemPositionList;
 
     }
@@ -57,7 +55,16 @@ public class SimpleAdapter extends BaseAdapter{  private final IconicFontDrawabl
     }
 
     private IconicFontDrawable getDrawable(int position){
-        iconicFontDrawable.setIcon(EntypoIcon.LEFT);
+        IconicFontDrawable iconicFontDrawable = new IconicFontDrawable(context);
+
+        iconicFontDrawable.setIconColor(Color.GREEN);
+
+        iconicFontDrawable.setIntrinsicWidth(10);
+
+        iconicFontDrawable.setIcon(icons[position]);
+
+        Log.e("text6",position+"getDrawable");
+
         return iconicFontDrawable;
     }
 
@@ -126,17 +133,43 @@ public class SimpleAdapter extends BaseAdapter{  private final IconicFontDrawabl
         public void onClick(View v) {
             remove(dataItemPosition);
 
-            Set<String> sets = SharedPreferencesUtil.getSetSharedPreferences(Constant.favs, null);
+            String sets = SharedPreferencesUtil.getSharedPreferences(Constant.favs,null);
 
             List<DataPProperty> data = MainApp.getData();
+            if(sets!=null&&!sets.equals("")){
+                String[] favs = sets.split(",");
+                StringBuilder builder = new StringBuilder();
+                String compale = dataItemPosition.getPosition1()+":"+dataItemPosition.getPosition2()+":"+dataItemPosition.getPosition3();
+                String result = null;
 
-            StringBuilder builder = new StringBuilder();
-            builder.append(dataItemPosition.getPosition1()+","+dataItemPosition.getPosition2()+","+dataItemPosition.getPosition3());
-            sets.remove(builder.toString());
+                if(favs!=null){
 
-            SharedPreferencesUtil.commitResult(Constant.favs,sets);
+                    for(String fav:favs){
 
-            Set<String> setss = SharedPreferencesUtil.getSetSharedPreferences(Constant.favs, null);
+                        if(compale.equals(fav)){
+
+                        }else{
+                            builder.append(fav).append(",");
+                        }
+                    };
+
+                    if(builder.length()>0){
+                        result = builder.subSequence(0,builder.length()-1).toString();
+                    }else{
+                        result = builder.toString();
+                    }
+
+                    SharedPreferencesUtil.commitResult(Constant.favs,result);
+                }
+            }
+
+
+
+
+
+
+
+
         }
     }
 

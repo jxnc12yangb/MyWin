@@ -7,6 +7,7 @@
       <module fileurl="file://$USER_HOME$/IconicDroid/library/target/generated-sources/generated-sources.iml" filepath="$USER_HOME$/IconicDroid/library/target/generated-sources/generated-sources.iml" />
       <module fileurl="file://$USER_HOME$/IconicDroid/library/library.iml" filepath="$USER_HOME$/IconicDroid/library/library.iml" />
       <module fileurl="file://$USER_HOME$/github_project/FadingActionBar/library/library1.iml" filepath="$USER_HOME$/github_project/FadingActionBar/library/library1.iml" />
+      <module fileurl="file://$USER_HOME$/github_project/FadingActionBar/sample/sample.iml" filepath="$USER_HOME$/github_project/FadingActionBar/sample/sample.iml" />
     </modules>
   </component>
 </project>

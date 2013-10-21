@@ -26,7 +26,6 @@ import com.yangbang.xiaohua.R;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 
 public class FavFragment extends SherlockFragment implements AdapterView.OnItemClickListener {
@@ -39,6 +38,8 @@ public class FavFragment extends SherlockFragment implements AdapterView.OnItemC
     public static final String ARG_ACTION_BG_RES = "image_action_bs_res";
     private List<DataItemPosition> mdata = new ArrayList<DataItemPosition>();
     private SimpleAdapter adapter;
+
+    private String TAG = "FavFragment";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -86,31 +87,45 @@ public class FavFragment extends SherlockFragment implements AdapterView.OnItemC
         listView.setOnItemClickListener(this);*/
 
         //ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.activity_list_item,, mValues);
-        Set<String> sets = SharedPreferencesUtil.getSetSharedPreferences(Constant.favs, null);
+        String sets = SharedPreferencesUtil.getSharedPreferences(Constant.favs, null);
 
         List<DataPProperty> data = MainApp.getData();
 
-        if(sets!=null){
-            for(String string:sets){
 
-                DataItemPosition dataItemPosition = new DataItemPosition();
+        if(sets!=null&&!sets.equals("")){
 
-                String[] positions = string.split(",");
-                DataItem item = data.get(Integer.valueOf(positions[0])).getDataProperties().get(Integer.valueOf(positions[1])).getDataItems().get(Integer.valueOf(positions[2]));
-                dataItemPosition.setDataItem(item);
-                dataItemPosition.setPosition1(Integer.valueOf(positions[0]));
-                dataItemPosition.setPosition2(Integer.valueOf(positions[1]));
-                dataItemPosition.setPosition3(Integer.valueOf(positions[2]));
+            String[] lists = sets.split(",");
 
-                mdata.add(dataItemPosition);
+            if(MainApp.Debug)
+                Log.e(TAG,"FavFragment:lists:"+lists.toString()+"---");
+
+            if(lists!=null&&lists.length>0){
+                for(String string:lists){
+
+                    DataItemPosition dataItemPosition = new DataItemPosition();
+
+                    if(MainApp.Debug)
+                        Log.e(TAG,"FavFragment:initData:"+string);
+
+                    String[] positions = string.split(":");
+                    DataItem item = data.get(Integer.valueOf(positions[0])).getDataProperties().get(Integer.valueOf(positions[1])).getDataItems().get(Integer.valueOf(positions[2]));
+                    dataItemPosition.setDataItem(item);
+                    dataItemPosition.setPosition1(Integer.valueOf(positions[0]));
+                    dataItemPosition.setPosition2(Integer.valueOf(positions[1]));
+                    dataItemPosition.setPosition3(Integer.valueOf(positions[2]));
+
+
+
+                    mdata.add(dataItemPosition);
+                }
             }
+
         }
 
         if(mdata!=null&&mdata.size()>0){
             adapter = new SimpleAdapter(getActivity(),mdata);
             listView.setAdapter(adapter);
         }
-
 
         listView.setOnItemClickListener(this);
     }

@@ -18,13 +18,23 @@ import android.view.View.OnLongClickListener;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.view.animation.TranslateAnimation;
-import android.widget.*;
+import android.widget.AdapterView;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
 import com.yangbang.fragments.LoadingFragment;
 import com.yangbang.text.TextActivity;
 import com.yangbang.text.TextFav;
 import com.yangbang.text.item.DataPProperty;
 import com.yangbang.text.item.ItemParser;
-import com.yangbang.xiaohua.*;
+import com.yangbang.xiaohua.Configure;
+import com.yangbang.xiaohua.DateAdapter;
+import com.yangbang.xiaohua.DragGrid;
+import com.yangbang.xiaohua.R;
+import com.yangbang.xiaohua.ScrollLayout;
 
 import java.util.ArrayList;
 
@@ -315,6 +325,7 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
                     Intent intent = new Intent(MiLaucherActivity.this, TextActivity.class);
                     intent.putExtra(Constant.position,arg2);
                     startActivity(intent);
+
                     //Toast.makeText(MiLaucherActivity.this,"onitemclick:"+arg2,Toast.LENGTH_SHORT).show();
                 }
 			}

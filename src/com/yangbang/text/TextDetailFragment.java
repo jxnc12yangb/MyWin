@@ -1,6 +1,8 @@
 package com.yangbang.text;
 
 
+import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
@@ -29,8 +31,6 @@ import com.yangbang.text.item.DataProperty;
 import com.yangbang.utils.SharedPreferencesUtil;
 import com.yangbang.xiaohua.R;
 
-import java.util.HashSet;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -38,6 +38,8 @@ import java.util.regex.Pattern;
 
  * Created by yangbang on 13-10-9.
  */
+@SuppressLint("NewApi")
+@TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class TextDetailFragment extends FragmentDemo implements View.OnClickListener {
     private TextView textView;
     private int position;
@@ -52,6 +54,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
     private ImageView middle2;
     private String type;
     private View actionL;
+    private String TAG = "TextDetailFragment";
 
     @Override
     protected View initViews(LayoutInflater inflater, ViewGroup container) {
@@ -84,7 +87,9 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
                 return dest;
             }
 
-    @Override
+    @SuppressLint("NewApi")
+	@TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+	@Override
     protected void initData() {
 
 
@@ -296,19 +301,21 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
                 shareText("dd","dfsf");
                 break;
             case R.id.middle2:
-                Set<String> sets = SharedPreferencesUtil.getSetSharedPreferences(Constant.favs,null);
+                String sets = SharedPreferencesUtil.getSharedPreferences(Constant.favs,null);
                 StringBuilder builder = new StringBuilder();
-                builder.append(position+","+position2+","+position3);
 
-                if(sets==null){
 
-                    sets = new HashSet<String>();
+                if(sets==null|| sets.equals("")){
+                    builder.append(position+":"+position2+":"+position3);
                 }else{
+                    builder.append(sets);
+
+                    builder.append(",");
+                    builder.append(position+":"+position2+":"+position3);
                 }
 
-                sets.add(builder.toString());
 
-                SharedPreferencesUtil.commitResult(Constant.favs,sets);
+                SharedPreferencesUtil.commitResult(Constant.favs,builder.toString());
 
                 ToastS("添加成功");
                 break;

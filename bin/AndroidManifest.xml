@@ -4,7 +4,7 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk android:minSdkVersion="14" />
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16" />
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -13,8 +13,8 @@
         android:name="com.yangbang.MainApp"
             >
         <activity
-            android:name="com.yangbang.MiLaucherActivity" android:theme="@android:style/Theme.Holo.Light.NoActionBar">
-            <intent-filter >
+            android:name="com.yangbang.MiLaucherActivity" >
+              <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -23,6 +23,22 @@
         <activity
                 android:name="com.yangbang.text.TextActivity"  android:theme="@style/AppTheme.Light.TranslucentActionBar">
         </activity>
+
+        <activity
+                android:name="com.yangbang.text.TextDetailActivity" android:theme="@style/AppTheme.Light">
+        </activity>
+
+        <activity
+                android:name="com.yangbang.text.TextFav" android:theme="@style/AppTheme.Light">
+        </activity>
+        
+        <activity
+            android:name="com.yangbang.text.SampleFragmentActivity"
+            
+            android:theme="@style/AppTheme.Light.TranslucentActionBar" >
+          
+        </activity>
+        
 
 
     </application>

@@ -55,10 +55,22 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
     public void onAttach(Activity activity) {
         super.onAttach(activity);
 
-        TextActivity dd = (TextActivity)activity;
-        mFadingHelper = dd.mFadingHelper;
+        /*TextActivity dd = (TextActivity)activity;
+        mFadingHelper = dd.mFadingHelper;*/
         mArguments = getArguments();
 
+        position = mArguments.getInt(Constant.position);
+        int actionBarBg =  R.drawable.ab_background_light;
+
+
+        mFadingHelper = new FadingActionBarHelper()
+                .actionBarBackground(actionBarBg)
+                .headerLayout(R.layout.header_light)
+                .contentLayout(R.layout.activity_listview)
+                .lightActionBar(actionBarBg == R.drawable.ab_background_light);
+       // this.getActionBar().setDisplayHomeAsUpEnabled(true);
+
+        mFadingHelper.initActionBar(activity);
 
     }
 
@@ -118,6 +130,7 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 
         getSherlockActivity().getActionBar().setTitle(MainApp.getData().get(position).getValue());
+        getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
         super.onCreateOptionsMenu(menu, inflater);
     }
 
