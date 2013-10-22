@@ -11,6 +11,7 @@ import com.actionbarsherlock.view.Menu;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
 import com.yangbang.MainApp;
+import com.yangbang.xiaohua.R;
 
 public class TextActivity extends SherlockFragmentActivity {
 
@@ -25,6 +26,8 @@ public class TextActivity extends SherlockFragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
+        setContentView(R.layout.text_main);
         /*int actionBarBg =  R.drawable.ab_background_light;
 
 
@@ -38,7 +41,7 @@ public class TextActivity extends SherlockFragmentActivity {
         mFadingHelper.initActionBar(this);*/
 
 
-        if (getSupportFragmentManager().findFragmentById(android.R.id.content) == null) {
+        if (getSupportFragmentManager().findFragmentById(R.id.content) == null) {
 
             int position = getIntent().getIntExtra(Constant.position,0);
             ArrayListFragment list = new ArrayListFragment();
@@ -46,7 +49,7 @@ public class TextActivity extends SherlockFragmentActivity {
             bundle.putInt(Constant.position,position);
             list.setArguments(bundle);
 
-            getSupportFragmentManager().beginTransaction().add(android.R.id.content,list,"ArrayListFragment").commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.content,list,"ArrayListFragment").commit();
         }
 
      //   int actionBarBg = R.drawable.ab_background_light;

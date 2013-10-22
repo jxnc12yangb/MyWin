@@ -22,6 +22,8 @@ import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
 import com.atermenji.android.iconicdroid.IconicFontDrawable;
 import com.atermenji.android.iconicdroid.icon.EntypoIcon;
+import com.atermenji.android.iconicdroid.icon.FontAwesomeIcon;
+import com.atermenji.android.iconicdroid.icon.Icon;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
 import com.yangbang.MainApp;
@@ -65,10 +67,13 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
 
         mFadingHelper = new FadingActionBarHelper()
                 .actionBarBackground(actionBarBg)
-                .headerLayout(R.layout.header_light)
+                .headerLayout(MainApp.getDrawable())
                 .contentLayout(R.layout.activity_listview)
                 .lightActionBar(actionBarBg == R.drawable.ab_background_light);
        // this.getActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+
 
         mFadingHelper.initActionBar(activity);
 
@@ -96,6 +101,7 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
         return view;
     }
 
+    private Icon[] icons = {EntypoIcon.ADDRESS,EntypoIcon.MAP,EntypoIcon.TOOLS,EntypoIcon.LANGUAGE,EntypoIcon.USERS,EntypoIcon.NEW,EntypoIcon.USER, FontAwesomeIcon.GITHUB};
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -162,7 +168,7 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
         getFragmentManager().beginTransaction().setCustomAnimations(R.anim.fragment_slide_left_enter,
                 R.anim.fragment_slide_left_exit,
                 R.anim.fragment_slide_right_enter,
-                R.anim.fragment_slide_right_exit).addToBackStack(null).add(android.R.id.content,listDataItemFragment,"ListDataItemFragment").commit();
+                R.anim.fragment_slide_right_exit).addToBackStack(null).add(R.id.content,listDataItemFragment,"ListDataItemFragment").commit();
     }
 
     public class MyAdater extends BaseAdapter {
@@ -172,7 +178,7 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
 
         public MyAdater(){
             iconicFontDrawable = new IconicFontDrawable(getActivity());
-            iconicFontDrawable.setIcon(EntypoIcon.LEFT);
+            iconicFontDrawable.setIcon(icons[position]);
             iconicFontDrawable.setIconColor(Color.GREEN);
 
             iconicFontDrawable.setIntrinsicWidth(10);

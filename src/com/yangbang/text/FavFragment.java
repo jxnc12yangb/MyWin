@@ -134,6 +134,7 @@ public class FavFragment extends SherlockFragment implements AdapterView.OnItemC
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 
         getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
+
         super.onCreateOptionsMenu(menu, inflater);
 
     }

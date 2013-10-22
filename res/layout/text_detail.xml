@@ -40,6 +40,7 @@
             android:layout_gravity="bottom"
             android:orientation="horizontal"
             android:id="@+id/actionL"
+            android:layout_marginBottom="5dp"
             >
         <ImageView
                 android:layout_width="0dp"

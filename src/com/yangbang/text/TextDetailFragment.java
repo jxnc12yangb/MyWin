@@ -55,6 +55,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
     private String type;
     private View actionL;
     private String TAG = "TextDetailFragment";
+    private String content;
 
     @Override
     protected View initViews(LayoutInflater inflater, ViewGroup container) {
@@ -107,7 +108,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         DataPProperty dataPProperty = MainApp.getData().get(position);
         DataProperty dataProperty = dataPProperty.getDataProperties().get(position2);
         DataItem dataItem = dataProperty.getDataItems().get(position3);
-        String content = dataItem.getContent();
+        content = dataItem.getContent();
 
         textView.setText(content);
 
@@ -254,6 +255,8 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
             textView.setText(content);
 
             itemPage.setTitle((position3+1)+"/"+dataProperty.getDataItems().size());
+
+            getSherlockActivity().getActionBar().setTitle(MainApp.getData().get(position).getDataProperties().get(position2).getDataItems().get(position3).getValue());
         }else{
 
           //  ToastS("已经是第一页");
@@ -276,11 +279,13 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
             position3 += 1;
 
             DataItem dataItem = dataProperty.getDataItems().get(position3);
-            String content = dataItem.getContent();
+            content = dataItem.getContent();
 
             textView.setText(content);
 
             itemPage.setTitle((position3+1)+"/"+dataProperty.getDataItems().size());
+
+            getSherlockActivity().getActionBar().setTitle(MainApp.getData().get(position).getDataProperties().get(position2).getDataItems().get(position3).getValue());
         }else{
 
          //   ToastS("已经是最后一页");
@@ -298,7 +303,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
                 next();
                 break;
             case R.id.middle:
-                shareText("dd","dfsf");
+                shareText("笑你妹妹","笑你妹妹："+content);
                 break;
             case R.id.middle2:
                 String sets = SharedPreferencesUtil.getSharedPreferences(Constant.favs,null);
@@ -317,7 +322,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
 
                 SharedPreferencesUtil.commitResult(Constant.favs,builder.toString());
 
-                ToastS("添加成功");
+                ToastS("收藏成功");
                 break;
         }
     }

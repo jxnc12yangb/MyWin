@@ -5,15 +5,34 @@
     android:versionName="1.0" >
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<!-- 以下为可选权限 -->
+  	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  	<uses-permission android:name="android.permission.RECORD_AUDIO" /> 
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  	<uses-permission 
+  	    android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" /> 
 
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         android:name="com.yangbang.MainApp"
+        
             >
+            
+            <meta-data android:name="BaiduMobAd_APP_ID" android:value="debug" /> 
+		<meta-data android:name="BaiduMobAd_APP_SEC" android:value="debug" />
         <activity
-            android:name="com.yangbang.MiLaucherActivity" >
+            android:name="com.yangbang.MiLaucherActivity" android:theme="@android:style/Theme.NoTitleBar">
               <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -31,14 +50,6 @@
         <activity
                 android:name="com.yangbang.text.TextFav" android:theme="@style/AppTheme.Light">
         </activity>
-        
-        <activity
-            android:name="com.yangbang.text.SampleFragmentActivity"
-            
-            android:theme="@style/AppTheme.Light.TranslucentActionBar" >
-          
-        </activity>
-        
 
 
     </application>

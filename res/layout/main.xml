@@ -2,7 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"	android:id="@+id/relate"
     android:layout_height="fill_parent"
+    xmlns:baiduadsdk="http://schemas.android.com/apk/res/com.yangbang.xiaohua"
     android:background="#FFFFFF" >
+    
+     <com.baidu.mobads.AdView android:id="@+id/adView"
+                             android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_alignParentBottom="true"
+                             android:layout_alignParentLeft="true"
+                             baiduadsdk:adSize="0"
+                             baiduadsdk:adId = ""  />
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -42,21 +51,24 @@
             android:layout_height="wrap_content"	android:orientation="vertical"
             android:layout_alignParentBottom="true"	>
             <ImageButton android:layout_width="wrap_content"
-            android:layout_height="wrap_content"	android:layout_marginBottom="18dip"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_marginBottom="18dip"
             android:background="@drawable/icon_download"/>
-             <ImageButton android:layout_width="wrap_content"
-                          android:id="@+id/favIB"
-            android:layout_height="wrap_content"		android:layout_marginBottom="18dip"
-            android:background="@drawable/icon_fav"/>
+
               <ImageButton android:layout_width="wrap_content"
-            android:layout_height="wrap_content"		android:layout_marginBottom="18dip"
+            android:layout_height="wrap_content"	android:visibility="invisible"	android:layout_marginBottom="18dip"
             android:background="@drawable/icon_home"/>
                <ImageButton android:layout_width="wrap_content"
-            android:layout_height="wrap_content"		android:layout_marginBottom="18dip"
+            android:layout_height="wrap_content"	android:visibility="invisible"	android:layout_marginBottom="18dip"
             android:background="@drawable/icon_t_chuangyi"/>
                 <ImageButton android:layout_width="wrap_content"
-            android:layout_height="wrap_content"		android:layout_marginBottom="18dip"
+            android:layout_height="wrap_content"	android:visibility="invisible"	android:layout_marginBottom="18dip"
             android:background="@drawable/icon_t_meinv"/>
+            <ImageButton android:layout_width="wrap_content"
+                         android:id="@+id/favIB"
+                         android:layout_height="wrap_content"		android:layout_marginBottom="18dip"
+                         android:background="@drawable/icon_fav"/>
         </LinearLayout>
     </RelativeLayout>
 	<ImageView android:id="@+id/dels"	android:layout_height="wrap_content"	android:layout_width="wrap_content"

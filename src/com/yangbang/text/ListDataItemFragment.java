@@ -24,6 +24,8 @@ import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
 import com.atermenji.android.iconicdroid.IconicFontDrawable;
 import com.atermenji.android.iconicdroid.icon.EntypoIcon;
+import com.atermenji.android.iconicdroid.icon.FontAwesomeIcon;
+import com.atermenji.android.iconicdroid.icon.Icon;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
 import com.yangbang.MainApp;
@@ -46,6 +48,8 @@ public class ListDataItemFragment extends SherlockFragment implements AdapterVie
 
     public static final String ARG_IMAGE_RES = "image_source";
     public static final String ARG_ACTION_BG_RES = "image_action_bs_res";
+
+    private Icon[] icons = {EntypoIcon.ADDRESS,EntypoIcon.MAP,EntypoIcon.TOOLS,EntypoIcon.LANGUAGE,EntypoIcon.USERS,EntypoIcon.NEW,EntypoIcon.USER, FontAwesomeIcon.GITHUB};
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -87,7 +91,7 @@ public class ListDataItemFragment extends SherlockFragment implements AdapterVie
 
         mFadingHelper = new FadingActionBarHelper()
                 .actionBarBackground(actionBarBg)
-                .headerLayout(R.layout.header_light)
+                .headerLayout(MainApp.getDrawableNotAdd())
                 .contentLayout(R.layout.activity_listview)
                 .lightActionBar(actionBarBg == R.drawable.ab_background_light);
         getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -105,6 +109,7 @@ public class ListDataItemFragment extends SherlockFragment implements AdapterVie
 
         View view = mFadingHelper.createView(inflater);
         listView = (ListView) view.findViewById(android.R.id.list);
+
 
 
         if (mArguments != null){
@@ -183,7 +188,7 @@ public class ListDataItemFragment extends SherlockFragment implements AdapterVie
 
         public MyAdater(){
             iconicFontDrawable = new IconicFontDrawable(getActivity());
-            iconicFontDrawable.setIcon(EntypoIcon.LEFT);
+            iconicFontDrawable.setIcon(icons[position]);
             iconicFontDrawable.setIconColor(Color.GREEN);
 
             iconicFontDrawable.setIntrinsicWidth(10);
