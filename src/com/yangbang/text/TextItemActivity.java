@@ -6,14 +6,19 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
+import com.actionbarsherlock.app.SherlockFragment;
 import com.actionbarsherlock.view.Menu;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.ActivityDemo;
 import com.yangbang.Constant;
 import com.yangbang.MainApp;
-import com.yangbang.xiaohua.R;
 
-public class TextActivity extends ActivityDemo {
+/**
+ * Created by yangbang on 13-10-23.
+ */
+public class TextItemActivity extends ActivityDemo {
+
+
 
     public FadingActionBarHelper mFadingHelper;
 
@@ -26,10 +31,7 @@ public class TextActivity extends ActivityDemo {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
-        setContentView(R.layout.text_main);
         /*int actionBarBg =  R.drawable.ab_background_light;
-
 
         mFadingHelper = new FadingActionBarHelper()
                 .actionBarBackground(actionBarBg)
@@ -41,18 +43,24 @@ public class TextActivity extends ActivityDemo {
         mFadingHelper.initActionBar(this);*/
 
 
-        if (getSupportFragmentManager().findFragmentById(R.id.content) == null) {
+        if (getSupportFragmentManager().findFragmentById(android.R.id.content) == null) {
 
             int position = getIntent().getIntExtra(Constant.position,0);
-            ArrayListFragment list = new ArrayListFragment();
+            int position2 = getIntent().getIntExtra(Constant.position2,0);
+
+            SherlockFragment list = null;
             Bundle bundle = new Bundle();
+
+            list = new ListDataItemFragment();
             bundle.putInt(Constant.position,position);
+            bundle.putInt(Constant.position2,position2);
+
             list.setArguments(bundle);
 
-            getSupportFragmentManager().beginTransaction().add(R.id.content,list,"ArrayListFragment").commit();
-        }
+            getSupportFragmentManager().beginTransaction().add(android.R.id.content,list,"ListDataItemFragment").commit();
 
-     //   int actionBarBg = R.drawable.ab_background_light;
+        }
+        //   int actionBarBg = R.drawable.ab_background_light;
 
      /*   mFadingHelper = new FadingActionBarHelper()
                 .actionBarBackground(actionBarBg)
@@ -65,11 +73,13 @@ public class TextActivity extends ActivityDemo {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
-        if(MainApp.Debug) Log.e("text6","onCreateOptionsMenu TextActivity");
+        if(MainApp.Debug) Log.e("text6", "onCreateOptionsMenu TextActivity");
         return false;
     }
 
 
-	
-	
+
+
+
+
 }

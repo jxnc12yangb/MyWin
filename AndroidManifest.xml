@@ -2,9 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yangbang.xiaohua"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0"
+        >
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16" />
+
+    <supports-screens  android:smallScreens="true"
+                       android:anyDensity="true"
+                       android:normalScreens="true"
+                       android:largeScreens="true"
+
+            ></supports-screens>
     
     <uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -19,7 +27,8 @@
 	<uses-permission android:name="android.permission.CAMERA" />
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   	<uses-permission 
-  	    android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" /> 
+  	    android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -28,11 +37,17 @@
         android:name="com.yangbang.MainApp"
         
             >
-            
-            <meta-data android:name="BaiduMobAd_APP_ID" android:value="debug" /> 
-		<meta-data android:name="BaiduMobAd_APP_SEC" android:value="debug" />
+        <activity android:name="com.baidu.mobads.AppActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation"
+                  android:screenOrientation="portrait"
+                />
+            <meta-data android:name="BaiduMobAd_APP_ID" android:value="a07263e8" />
+		<meta-data android:name="BaiduMobAd_APP_SEC" android:value="a07263e8" />
         <activity
-            android:name="com.yangbang.MiLaucherActivity" android:theme="@android:style/Theme.NoTitleBar">
+            android:name="com.yangbang.MiLaucherActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
               <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -40,18 +55,46 @@
         </activity>
 
         <activity
+                android:configChanges="keyboard|keyboardHidden|orientation"
+                android:screenOrientation="portrait"
                 android:name="com.yangbang.text.TextActivity"  android:theme="@style/AppTheme.Light.TranslucentActionBar">
         </activity>
 
         <activity
+                android:configChanges="keyboard|keyboardHidden|orientation"
+                android:screenOrientation="portrait"
                 android:name="com.yangbang.text.TextDetailActivity" android:theme="@style/AppTheme.Light">
         </activity>
 
         <activity
+                android:configChanges="keyboard|keyboardHidden|orientation"
+                android:screenOrientation="portrait"
                 android:name="com.yangbang.text.TextFav" android:theme="@style/AppTheme.Light">
         </activity>
 
+        <activity
+                android:configChanges="keyboard|keyboardHidden|orientation"
+                android:screenOrientation="portrait"
+                android:name="com.yangbang.text.TextItemActivity"  android:theme="@style/AppTheme.Light.TranslucentActionBar"></activity>
+        
+            <receiver   
+        android:name="com.yangbang.service.BootBroadcast"  
+        android:permission="android.permission.RECEIVE_BOOT_COMPLETED">  
+        <intent-filter>  
+            <action android:name="android.intent.action.BOOT_COMPLETED" />  
+        </intent-filter>  
+    </receiver>
+    
+    <receiver android:name="com.yangbang.service.Alarmreceiver" >
+            <intent-filter>
+                <action android:name="arui.alarm.action" />
+            </intent-filter>
+        </receiver>
 
-    </application>
+        <service android:name="com.yangbang.service.DaemonService" >
+        </service>
+        
+        
+</application>
     <uses-permission android:name="android.permission.VIBRATE" />
 </manifest>

@@ -6,16 +6,19 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
+import com.baidu.mobads.InterstitialAd;
+import com.baidu.mobads.InterstitialAdListener;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
+import com.yangbang.ActivityDemo;
 import com.yangbang.Constant;
 import com.yangbang.MainApp;
 import com.yangbang.xiaohua.R;
 
-public class TextDetailActivity extends SherlockFragmentActivity {
+public class TextDetailActivity extends ActivityDemo {
 
     private FadingActionBarHelper mFadingHelper;
+    public InterstitialAd interAd;
 
     @Override
     public View onCreateView(String name, Context context, AttributeSet attrs) {
@@ -50,6 +53,39 @@ public class TextDetailActivity extends SherlockFragmentActivity {
         }
 
         int actionBarBg = R.drawable.ab_background_light;
+
+        interAd=new InterstitialAd(this);
+        interAd.setListener(new InterstitialAdListener(){
+
+            @Override
+            public void onAdClick(InterstitialAd arg0) {
+                Log.i("InterstitialAd","onAdClick");
+            }
+
+            @Override
+            public void onAdDismissed() {
+                Log.i("InterstitialAd","onAdDismissed");
+                interAd.loadAd();
+            }
+
+            @Override
+            public void onAdFailed(String arg0) {
+                Log.i("InterstitialAd","onAdFailed");
+            }
+
+            @Override
+            public void onAdPresent() {
+                Log.i("InterstitialAd","onAdPresent");
+            }
+
+            @Override
+            public void onAdReady() {
+                Log.i("InterstitialAd","onAdReady");
+            }
+
+        });
+        interAd.loadAd();
+
 
      /*   mFadingHelper = new FadingActionBarHelper()
                 .actionBarBackground(actionBarBg)

@@ -16,8 +16,12 @@
 
 <set xmlns:android="http://schemas.android.com/apk/res/android"
         android:interpolator="@anim/decelerate_quint">
-    <translate android:fromXDelta="50%" android:toXDelta="0%p"
-            android:duration="1000"/>
+    <translate
+    	    android:duration="1000"
+    	    android:fromXDelta="102%p"
+    	    android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+    	    android:startOffset="200"
+    	    android:toXDelta="0%p"/>
     <alpha android:fromAlpha="0.0" android:toAlpha="1.0"
             android:duration="1000" />
 </set>

@@ -21,6 +21,7 @@ import com.actionbarsherlock.view.MenuItem;
 import com.atermenji.android.iconicdroid.IconicFontDrawable;
 import com.atermenji.android.iconicdroid.icon.EntypoIcon;
 import com.atermenji.android.iconicdroid.icon.FontAwesomeIcon;
+import com.baidu.mobads.InterstitialAd;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelper;
 import com.yangbang.Constant;
 import com.yangbang.FragmentDemo;
@@ -56,6 +57,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
     private View actionL;
     private String TAG = "TextDetailFragment";
     private String content;
+    private InterstitialAd interAd;
 
     @Override
     protected View initViews(LayoutInflater inflater, ViewGroup container) {
@@ -216,12 +218,34 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         middle2.setOnClickListener(this);
     }
 
+    public void showAd(){
+
+        MainApp.count++;
+
+        if(interAd!=null&&getActivity()!=null){
+            if(MainApp.count>=30){
+                if(interAd.isAdReady()){
+                    interAd.showAd(getActivity());
+                    MainApp.count=0;
+                }else{
+                    interAd.loadAd();
+                }
+            }
+        }
+
+    }
+
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
 
         mArguments = getArguments();
-      //  int actionBarBg = mArguments != null ? R.drawable.ab_background_light : R.drawable.ab_background_light;
+
+        TextDetailActivity activity1 = (TextDetailActivity) activity;
+        interAd = activity1.interAd;
+
+        showAd();
+        //  int actionBarBg = mArguments != null ? R.drawable.ab_background_light : R.drawable.ab_background_light;
 
 
 
@@ -240,6 +264,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
 
     public void previous(){
 
+
         Log.e("text6", "TextDetailFragment" +position+","+position2+","+position3);
 
         DataPProperty dataPProperty = MainApp.getData().get(position);
@@ -247,6 +272,7 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
 
         if(position3>0){
 
+            showAd();
             position3 -= 1;
 
             DataItem dataItem = dataProperty.getDataItems().get(position3);
@@ -275,6 +301,8 @@ public class TextDetailFragment extends FragmentDemo implements View.OnClickList
         Log.e("text6", "TextDetailFragment" +position+","+position2+","+position3);
 
         if((position3)<dataProperty.getDataItems().size()-1){
+
+            showAd();
 
             position3 += 1;
 

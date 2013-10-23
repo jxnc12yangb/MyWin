@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -12,7 +13,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.Vibrator;
-import android.support.v4.app.FragmentActivity;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnLongClickListener;
 import android.view.animation.Animation;
@@ -38,7 +39,16 @@ import com.yangbang.xiaohua.ScrollLayout;
 
 import java.util.ArrayList;
 
-public class MiLaucherActivity extends FragmentActivity implements LoadingFragment.ILoadingState, View.OnClickListener {
+public class MiLaucherActivity extends ActivityDemo implements LoadingFragment.ILoadingState, View.OnClickListener {
+
+    static {
+        System.loadLibrary("hello-jni");
+    }
+
+    public native boolean stringFromJNI(String str);
+
+    public native String temp1();
+
 
 	/** GridView. */
 	private LinearLayout linear;private RelativeLayout relate;
@@ -63,7 +73,10 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
     @Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
+
+
+
+        setContentView(R.layout.main);
 
 		init();
 
@@ -123,13 +136,20 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
 
 		sm.registerListener(lsn, sensor, SensorManager.SENSOR_DELAY_GAME);
 
+        try {
 
-
+            String temp = this.getPackageManager().getPackageInfo(getPackageName(), 64).signatures[0].toCharsString();
+            Log.e("text6", temp);
+            stringFromJNI(temp);
+        } catch (PackageManager.NameNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
 	}
 
 
-	public void init() {
+    public void init() {
 		relate = (RelativeLayout) findViewById(R.id.relate);
 		lst_views = (ScrollLayout) findViewById(R.id.views);
 		tv_page = (TextView) findViewById(R.id.tv_page);
@@ -147,6 +167,8 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
 			lst_views.removeAllViews();
 		}
 	}
+
+
 
     public void initpage(){
         Configure.countPages = (int) Math.ceil(lstDate.size()
@@ -174,6 +196,7 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
             mHandler.sendEmptyMessage(INITDATA);
 
         }else{
+
             getSupportFragmentManager().beginTransaction().add(R.id.fragment,new LoadingFragment()).commit();
 
             new Thread(){
@@ -189,6 +212,9 @@ public class MiLaucherActivity extends FragmentActivity implements LoadingFragme
 
         }
 	}
+
+
+
 
     public static final int INITDATA = 1;
 

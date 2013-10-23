@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -57,15 +56,10 @@ public class ListDataItemFragment extends SherlockFragment implements AdapterVie
         Log.e("text6","ListDataItemFragment");
 
         if (item.getItemId() == android.R.id.home || item.getItemId() == 0) {
-            FragmentManager fm = getSherlockActivity().getSupportFragmentManager();
-
-            if (fm.getBackStackEntryCount() > 0) {
-
-                fm.popBackStack(fm.getBackStackEntryAt(fm.getBackStackEntryCount()-1).getId(),
-                        FragmentManager.POP_BACK_STACK_INCLUSIVE);
-            }
+            getActivity().finish();
 
             return true;
+
         }
 
         return false;
@@ -177,7 +171,9 @@ public class ListDataItemFragment extends SherlockFragment implements AdapterVie
         bundle.putExtra(Constant.position2,this.position2);
         bundle.putExtra(Constant.position,this.position);
 
+
         getActivity().startActivity(bundle);
+
 
     }
 

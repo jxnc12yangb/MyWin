@@ -3,6 +3,7 @@ package com.yangbang.text;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -74,7 +75,6 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
 
 
 
-
         mFadingHelper.initActionBar(activity);
 
     }
@@ -137,6 +137,8 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
 
         getSherlockActivity().getActionBar().setTitle(MainApp.getData().get(position).getValue());
         getSherlockActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
+
+
         super.onCreateOptionsMenu(menu, inflater);
     }
 
@@ -159,16 +161,27 @@ public class ArrayListFragment extends SherlockFragment implements AdapterView.O
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-        ListDataItemFragment listDataItemFragment = new ListDataItemFragment();
+      /*  ListDataItemFragment listDataItemFragment = new ListDataItemFragment();
         Bundle bundle = new Bundle();
         bundle.putInt(Constant.position,this.position);
         bundle.putInt(Constant.position2,position-1);
-        listDataItemFragment.setArguments(bundle);
+        listDataItemFragment.setArguments(bundle);*/
 
-        getFragmentManager().beginTransaction().setCustomAnimations(R.anim.fragment_slide_left_enter,
+        Intent intent = new Intent(getActivity(),TextItemActivity.class);
+
+
+
+        intent.putExtra(Constant.position,this.position);
+        intent.putExtra(Constant.position2,position-1);
+
+        startActivity(intent);
+
+        //overridePendingTransition(int enterAnim,int exitAnim);
+
+     /*   getFragmentManager().beginTransaction().setCustomAnimations(R.anim.fragment_slide_left_enter,
                 R.anim.fragment_slide_left_exit,
                 R.anim.fragment_slide_right_enter,
-                R.anim.fragment_slide_right_exit).addToBackStack(null).add(R.id.content,listDataItemFragment,"ListDataItemFragment").commit();
+                R.anim.fragment_slide_right_exit).addToBackStack(null).add(R.id.content,listDataItemFragment,"ListDataItemFragment").commit();*/
     }
 
     public class MyAdater extends BaseAdapter {
