@@ -41,9 +41,8 @@
                   android:configChanges="keyboard|keyboardHidden|orientation"
                   android:screenOrientation="portrait"
                 />
-            <!--//a07263e8-->
-            <meta-data android:name="BaiduMobAd_APP_ID" android:value="debug" />
-		<meta-data android:name="BaiduMobAd_APP_SEC" android:value="debug" />
+            <meta-data android:name="BaiduMobAd_APP_ID" android:value="a07263e8" />
+		<meta-data android:name="BaiduMobAd_APP_SEC" android:value="a07263e8" />
         <activity
             android:name="com.yangbang.MiLaucherActivity"
             android:configChanges="keyboard|keyboardHidden|orientation"

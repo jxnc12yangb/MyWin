@@ -71,6 +71,8 @@ public class DateAdapter extends BaseAdapter {
         return iconicFontDrawable;
     }
 
+
+
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 		convertView = LayoutInflater.from(context).inflate(R.layout.item, null);

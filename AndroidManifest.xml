@@ -89,6 +89,10 @@
             <intent-filter>
                 <action android:name="arui.alarm.action" />
             </intent-filter>
+
+        <intent-filter>
+            <action android:name="arui.alarm.action2" />
+        </intent-filter>
         </receiver>
 
         <service android:name="com.yangbang.service.DaemonService" >

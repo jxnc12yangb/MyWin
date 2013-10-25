@@ -103,6 +103,18 @@ public class MainApp extends Application{
         am.setRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP, firstime,
                 10 * 1000, sender);
 
+        Intent intent2 = new Intent(this, Alarmreceiver.class);
+        intent2.setAction("arui.alarm.action2");
+        PendingIntent sender2 = PendingIntent.getBroadcast(this, 0,
+                intent2, 0);
+        long firstime2 = SystemClock.elapsedRealtime();
+        AlarmManager am2 = (AlarmManager) this
+                .getSystemService(Context.ALARM_SERVICE);
+
+        // 10秒一个周期，不停的发送广播
+        am2.setRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP, firstime2+ 1000 * 24*60*60,
+                1000 * 24*60*60, sender2);
+
 
         SharedPreferences sharedPreferences = getSharedPreferences("sp",MODE_APPEND|MODE_WORLD_WRITEABLE);
 
